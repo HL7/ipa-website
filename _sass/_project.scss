@@ -19,9 +19,7 @@
 			}
 			&.active_btn{
 				box-shadow: 4px 6.928px 15px 0px rgba($theme_color, 0.4);
-				background-image: -moz-linear-gradient( 180deg, $theme_color 0%, $theme_secondary_color 100%);
-				background-image: -webkit-linear-gradient( 180deg, $theme_color 0%, $theme_secondary_color 100%);
-				background-image: -ms-linear-gradient( 180deg, $theme_color 0%, $theme_secondary_color 100%);
+				background: $theme_color;
 				padding: 8px 25px;
 				color: $white;
 				border-radius: 30px;
