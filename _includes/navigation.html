@@ -1,13 +1,18 @@
-<nav>
-  <img src="/assets/images/argonauts-logo.png" alt="Argonauts logo">
-  <ul>
-    <li><a href="{{ site.path }}">Home</a></li>
-    <li><a href="/about">About Us</a></li>
-    <li><a href="/find-my-issuer">Find My Issuer</a></li>
-    <li><a href="/how-they-work">How They Work</a></li>
-    <li><a href="/faq">FAQ</a></li>
-    <li><a href="/blog">Blog</a></li>
-    <li><a href="/contact-us">Contact Us</a></li>
-    <li><a class="button" href="/hire-us">Hire Us</a></li>
-  </ul>
+<nav class="main_menu">
+    <ul>
+	  <li class="menu-item {% if page.url == '/' %} active_link {% endif %}"><a href="{{site.url}}">Home</a>
+    </li>
+      {% for menu in site.data.navigation %}
+      <li class="menu-item {% if page.url contains menu.url %} active_link {% endif %}"><a href="{{menu.url}}">{{menu.text}}</a>
+       {% if menu.submenu %}
+		<ul class="sub-menu">
+			{% for submenu_item in menu.submenu %}
+			<li class="menu-item"><a href="{{submenu_item.url}}">{{submenu_item.text}}</a></li>
+			{% endfor %}
+		</ul>
+		</li>
+       {% endif %}
+      {% endfor %}
+      <li class="menu-item"><a href="/contact/" class="deneb_btn">Hire Us</a></li>
+    </ul>
 </nav>
