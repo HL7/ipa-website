@@ -24,7 +24,6 @@
 	    <link rel="stylesheet" href="{{ "/assets/css/animate.css" | absolute_url }}">
 	    <!--style css-->
 	    <link rel="stylesheet" href="{{ "/assets/css/style.css" | absolute_url }}">
-	    <link rel="stylesheet" href="{{ "/assets/css/custom.css" | absolute_url }}">
 	</head>
 	<body>
 		<!-- Preloader -->
@@ -39,11 +38,11 @@
         {% include header.html %}
 
         {{content}}
-         
-        {% include pre-footer.html %}
+
+        {% include pre-footer-area.html %}
         {% include footer.html %}
 		<!-- jquery  -->
-	    <script src="{{ "/assets/js/vendor/jquery-3.5.1.min.js" | absolute_url }}"></script>
+	    <script src="{{ "/assets/js/vendor/jquery-3.7.1.min.js" | absolute_url }}"></script>
 	    <!--modernizr js-->
 	    <script src="{{ "/assets/js/vendor/modernizr-3.6.0.min.js" | absolute_url }}"></script>
 	    <!-- Bootstrap js  -->
