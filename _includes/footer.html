@@ -1,29 +1,89 @@
-<footer>
-  <div class="footer-columns">
-    <div class="footer-column">
-      <img src="/assets/images/argonauts-logo.png" alt="Argonauts logo">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    </div>
-    <div class="footer-column">
-      <h3>Column Title</h3>
-      <ul>
-        <li><a href="#">Link</a></li>
-        <li><a href="#">Link</a></li>
-        <li><a href="#">Link</a></li>
-        <li><a href="#">Link</a></li>
-      </ul>
-    </div>
-    <div class="footer-column">
-      <h3>Contact Us</h3>
-      <ul>
-        <li><img src="/assets/icons/phone-icon.png" alt="Phone icon">+1 (555) 123-4567</li>
-        <li><img src="/assets/icons/email-icon.png" alt="Email icon">contact@argonauts.com</li>
-        <li><img src="/assets/icons/location-icon.png" alt="Location icon">123 Argonauts St, Atlantis</li>
-      </ul>
-    </div>
-  </div>
-  <p class="copyright">&copy; 2024 Argonauts. All rights reserved.</p>
+<!-- Start footer -->
+<footer class="deneb_footer">
+	<div class="widget_wrapper" style="background-image: url(/assets/images/footer_bg.png);">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-6 col-12">
+					<div class="widget widegt_about mb-md-4 mb-lg-0">
+						<div class="widget_title">
+							<img src="{{site.site_logo}}" class="img-fluid" alt="{{site.title}}"/>
+						</div>
+						<p>Quisque orci nisl, viverra et sem ac, tincidunt egestas massa. Morbi est arcu, hendrerit ac vehicula condimentum, euismod nec tortor praesent consequat urna.</p>
+						<ul class="social">
+							{% if site.facebook_url %}
+							<li><a href="{{site.facebook_url}}" target="__blank"><i class="fab fa-facebook-f"></i></a></li>
+							{% endif %}
+							{% if site.twitter_url %}
+							<li><a href="{{site.twitter_url}}" target="__blank"><i class="fab fa-twitter"></i></a></li>
+							{% endif %}
+							{% if site.instagram_url %}
+							<li><a href="{{site.instagram_url}}" target="__blank"><i class="fab fa-instagram"></i></a></li>
+							{% endif %}
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<div class="widget widget_link">
+						<div class="widget_title">
+							<h4>Essencial Links</h4>
+						</div>
+						<ul>
+							<li><a href="/about">About Us</a></li>
+							<li><a href="/services">Services</a></li>
+							<li><a href="/portfolios">Portfolio</a></li>
+							<li><a href="/blog">Blog</a></li>
+							<li><a href="/contact">Contact Us</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<div class="widget widget_contact">
+						<div class="widget_title">
+							<h4>Contact Us</h4>
+						</div>
+						<div class="contact_info">
+							<div class="single_info">
+								<div class="icon">
+									<i class="fas fa-phone-alt"></i>
+								</div>
+								<div class="info">
+									<p><a href="tel:+919246147999">1800-121-3637</a></p>
+									<p><a href="tel:+919246147999">+91 924-614-7999</a></p>
+								</div>
+							</div>
+							<div class="single_info">
+								<div class="icon">
+									<i class="fas fa-envelope"></i>
+								</div>
+								<div class="info">
+									<p><a href="mailto:info@deneb.com">info@deneb.com</a></p>
+									<p><a href="mailto:services@deneb.com">services@deneb.com</a></p>
+								</div>
+							</div>
+							<div class="single_info">
+								<div class="icon">
+									<i class="fas fa-map-marker-alt"></i>
+								</div>
+								<div class="info">
+									<p>125, Park street aven, Brocklyn,<span>Newyork.</span></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="copyright_area">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="copyright_text">
+						<p>{{ site.copyright }}</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </footer>
-
-<script src="/lib/jQuery/jquery-3.7.1.min.js"></script>
-<script src="/assets/js/main.js"></script>
+<!-- End footer -->
