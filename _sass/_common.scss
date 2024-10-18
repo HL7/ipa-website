@@ -133,7 +133,7 @@ body{
 	@include transition(.5s);
 	&:hover,&:focus{
 		color: $white !important;
-		box-shadow: 2.5px 4.33px 15px 0px rgba(254, 176, 0, 0.4);
+		box-shadow: 2.5px 4.33px 15px 0px rgba($theme_color, 0.4);
 	}
 }
 .link_btn{

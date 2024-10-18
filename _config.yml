@@ -28,7 +28,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 github_username:
-site_logo: "/assets/images/logo_1.png"
+site_logo: "/assets/images/logo.png"
 copyright: "Copyright &copy; 2024 <span>Argonauts</span>. All rights reserved."
 
 permalink: "/:title"
@@ -40,8 +40,8 @@ plugins:
   - jekyll-paginate-v2
   - jekyll-archives
 
-facebook_url: "https://www.facebook.com/tortoiztheme"
-twitter_url: "https://twitter.com/tortoizthemes"
+facebook_url: "https://www.facebook.com/"
+twitter_url: "https://twitter.com/"
 instagram_url: "https://instagram.com/"
 
 hero_image: "/assets/images/breadcrumb_bg.jpg"
@@ -165,7 +165,7 @@ disqus:
   shortname:
 
 # Hire us:
-hire_us:
+pre_footer:
   heading: "Have Any Project in Mind ?"
   description: "Curabitur libero eros, efficitur sit amet sodales tincidunt, aliquet et leo sed ut nibh feugiat, auctor enim quis."
   button:
