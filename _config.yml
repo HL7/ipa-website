@@ -53,6 +53,8 @@ sass:
 site_preloader: true
 
 collections:
+  highlights:
+    output: true
   services:
     output: true
   pages:

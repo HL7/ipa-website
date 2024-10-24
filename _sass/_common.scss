@@ -105,17 +105,6 @@ body{
 			font-size: 32px
 		}
 		margin-bottom: 14px;
-		position: relative;
-		&:after{
-		    position: absolute;
-		    content: '';
-		    top: -20px;
-		    background: url(../images/shape/title.png) no-repeat;
-		    display: inline-block;
-		    width: 96px;
-		    height: 67px;
-		    z-index: -1;
-		}
 	}
 }
 .deneb_btn{
@@ -159,6 +148,11 @@ input.form_control{
 @media #{$laptop}{
 	.container{
 	    max-width: 1200px;
+	}
+}
+@media #{$desktop}{
+	.container{
+	    max-width: 1338px;
 	}
 }
 @media #{$xs}{
