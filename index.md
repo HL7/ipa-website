@@ -55,22 +55,22 @@ about:
 
 # Achivement
 achivement:
-  heading: "Over 500+ Completed work & Still Counting"
-  text: "Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus at orci non risus luctus commodo. Ut nibh tellus, faucibus nec gravida."
-  text2: "Duis quis ipsum leo. Praesent vitae tellus ac ante porta mattis vel non ex. Quisque a finibus justo."
+  heading: "Over 8000+ users worldwide"
+  text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culp."
+  text2: ""
   list:
-    - icon: "/assets/images/icon_7.png"
-      name: "300+"
-      description: "Projects Done"
-    - icon: "/assets/images/icon_8.png"
-      name: "250+"
-      description: "Projects Done"
-    - icon: "/assets/images/icon_9.png"
-      name: "200+"
-      description: "Active Projects"
-    - icon: "/assets/images/icon_10.png"
-      name: "5+"
-      description: "Years Exerience"
+    - icon: "/assets/images/icon_4.svg"
+      name: "4000+"
+      description: "In the US"
+    - icon: "/assets/images/icon_4.svg"
+      name: "2000+"
+      description: "In Canada"
+    - icon: "/assets/images/icon_4.svg"
+      name: "1000+"
+      description: "In Asia"
+    - icon: "/assets/images/icon_4.svg"
+      name: "900+"
+      description: "Others"
 
 # Pricing
 pricing:
