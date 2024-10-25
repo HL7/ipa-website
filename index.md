@@ -25,20 +25,23 @@ slider:
       name: "Hire Me"
       link: "#"
 
-# Services
+# Highlights
 highlights:
   heading: "How Access Works"
   text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.laborum."
   items:
-    - path: "strategy-research.md"
+    - path: "get-your-card.md"
       heading: "Get your certified card"
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.laborum.
-    - path: "web-development.md"
-      heading: "Get your certified card"
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.laborum. 
-    - path: "web-solution.md"
+      icon: "/assets/images/icon_1.svg"
+    - path: "save-your-card.md"
       heading: "Get your certified card"
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.laborum.
+      icon: "/assets/images/icon_2.svg"
+    - path: "share-your-card.md"
+      heading: "Get your certified card"
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.laborum.
+      icon: "/assets/images/icon_3.svg"
 
 # About
 about:
