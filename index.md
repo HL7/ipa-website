@@ -72,6 +72,11 @@ achivement:
       name: "900+"
       description: "Others"
 
+# Blog Posts
+latest_blog_post:
+  heading: "Latest News and Articles"
+  text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.laborum."
+
 # Pricing
 pricing:
   heading: "Afforable Pricing"
@@ -134,11 +139,6 @@ testimonials:
       position: "Freelancer UX Designer"
       image: "/assets/images/testimonial_3.jpg"
       text: "Donec condimentum vehicula iaculis. Maecenas in aliquet neque. Suspendisse viverra, ante eget pellentesque pulvinar, nunc nisi molestie ligula, vitae convallis orci justo vitae sem. Integer vitae imperdiet augue, sed accumsan diam. Etiam non quam commodo dolor convallis cursus. Duis tempus dolor eget gravida fringilla. In ultricies velit eget sem tempus egestas."
-
-# Latest Blog Post
-latest_blog_post:
-  heading: "Latest Blog"
-  description: "When unknow printer took a gallery of type and scramblted it to make a type specimen book"
 
 # Contact Area
 contact_area:
