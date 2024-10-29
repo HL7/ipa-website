@@ -40,9 +40,9 @@ plugins:
   - jekyll-paginate-v2
   - jekyll-archives
 
-facebook_url: "https://www.facebook.com/"
-twitter_url: "https://twitter.com/"
-instagram_url: "https://instagram.com/"
+facebook_url:
+twitter_url:
+instagram_url:
 
 hero_image: "/assets/images/breadcrumb_bg.jpg"
 
