@@ -166,10 +166,10 @@ disqus:
   # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
   shortname:
 
-# Hire us:
+# Pre-Footer CTA:
 pre_footer:
-  heading: "Have Any Project in Mind ?"
-  description: "Curabitur libero eros, efficitur sit amet sodales tincidunt, aliquet et leo sed ut nibh feugiat, auctor enim quis."
+  heading: "Got more questions? Need help?"
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   button:
     link: "/contact/"
-    name: "Hire Us"
+    name: "Contact Us"
