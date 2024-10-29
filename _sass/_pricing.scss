@@ -1,6 +1,7 @@
 // deneb_pricing
 .deneb_pricing{
-	.pircing_box{
+	.pricing_box{
+		font-family: $font2;
 		@media #{$md}{
 			margin-bottom: 60px;
 		}
@@ -30,6 +31,11 @@
 		}
 		.list{
 			margin-bottom: 25px;
+			li {
+				font-size: 20px;
+				line-height: 1.75;
+				letter-spacing: -0.02em;
+			}
 		}
 		.price{
 			margin-bottom: 25px;
