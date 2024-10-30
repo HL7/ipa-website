@@ -8,7 +8,7 @@ slider:
     heading2: "We Are Professional Freelance Web Designer"
     text: "Nulla id euismod massa. Donec accumsan semper lacus, vestibulum gravida ante sed eu lacus et diam lacinia."
     button:
-      name: "Hire Me"
+      name: "Learn More"
       link: "#"
   - image: "/assets/images/banner_02.png"
     heading: "We Are Creative <br><span>Deneb Agency</span>"
