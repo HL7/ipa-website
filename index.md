@@ -45,12 +45,12 @@ highlights:
 
 # About
 about:
-  heading: "Why Argonaut?"
+  heading: "What is IPA?"
   text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   text2: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
   image: "/assets/images/why-argonaut.png"
   button:
-    name: "Hirs Us"
+    name: "Learn More"
     link: "#"
 
 # Achivement
@@ -74,22 +74,21 @@ achivement:
 
 # Blog Posts
 latest_blog_post:
-  heading: "Latest News and Articles"
+  heading: "Patient Access News"
   text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.laborum."
   filters: true
-  limit: "6"
+  limit: "4"
 
-# Pricing
-pricing:
-  heading: "Afforable Pricing"
+# Cards
+cards:
+  heading: "Getting Involved is Easy"
   text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.laborum."
   list:
     - icon: "/assets/images/lightning-icon.svg"
-      name: "Basic"
-      price: "$75 <span>/ Month</span>"
+      name: "Download"
       button:
         link: "#"
-        name: "Start now"
+        name: "Get Involved"
       listitem:
         - name: "Access to all basic features"
         - name: "Basic reporting and analytics"
@@ -97,11 +96,10 @@ pricing:
         - name: "Get your basic health details"
         - name: "Basic chat and email support"
     - icon: "/assets/images/lightning-icon.svg"
-      name: "Advanced"
-      price: "$80 <span>/ Month</span>"
+      name: "Connect"
       button:
         link: "#"
-        name: "Start now"
+        name: "Get Involved"
       listitem:
         - name: "Access to all basic features"
         - name: "Basic reporting and analytics"
@@ -109,11 +107,10 @@ pricing:
         - name: "Your in-depth health details"
         - name: "Basic chat and email support"
     - icon: "/assets/images/lightning-icon.svg"
-      name: "Super"
-      price: "$100 <span>/ Month</span>"
+      name: "Deploy"
       button:
         link: "#"
-        name: "Start now"
+        name: "Get Involved"
       listitem:
         - name: "Access to all basic features"
         - name: "Basic reporting and analytics"
