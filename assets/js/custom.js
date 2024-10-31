@@ -46,7 +46,45 @@
         $('.projects_slider_content').slick('slickFilter', filterValues);
         $(this).addClass('active_btn');
     });
+    $('.blog_button button').on('click', function() {
+        $('.blog_button button').removeClass('active_btn');
+        var filterValues = $(this).data('filter');
+        $('.blogs_slider_content').slick('slickUnfilter');
+        $('.blogs_slider_content').slick('slickFilter', filterValues);
+        $(this).addClass('active_btn');
+    });
     $('.projects_slider_content').slick({
+        arrows: false,
+        dots: true,
+        infinite: true,
+        autoplay: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        responsive: [
+            {
+              breakpoint: 992,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+              }
+            },
+            {
+              breakpoint: 780,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+        ]
+    });
+    $('.blogs_slider_content').slick({
         arrows: false,
         dots: true,
         infinite: true,

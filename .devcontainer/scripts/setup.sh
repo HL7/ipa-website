@@ -20,7 +20,7 @@ fi
 
 # Serve the Jekyll site
 nohup bundle exec jekyll serve --force_polling --trace --host 127.0.0.1 > ~/jekyll_output.log 2>&1 &
-echo "`Jekyll serve` is running in the background"
+echo "'Jekyll serve' is running in the background"
 echo "Build logs are available at ~/jekyll_output.log"
 
 # Mark DOCUMENT_ROOT and WEB_ROOT as Safe Directories for .git to access 🧑‍💻
