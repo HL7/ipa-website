@@ -166,7 +166,7 @@
 							display: inline-block;
 							margin-right: 25px;
 							i{
-								color: #ff8801;
+								color: $theme_secondary_color;
 								margin-right: 10px;
 							}
 							a{
@@ -199,7 +199,7 @@
 					font-size: 15px;
 					color: #a1a1a1;
 					i{
-						color: #ff8801;
+						color: $theme_secondary_color;
 						margin-right: 10px;
 					}
 				}
@@ -226,7 +226,7 @@
 						display: inline-block;
 						margin-right: 25px;
 						i{
-							color: #ff8801;
+							color: $theme_secondary_color;
 							margin-right: 10px;
 						}
 						a{
@@ -306,7 +306,7 @@
 					color: #a1a1a1;
 					i{
 						margin-right: 10px;
-						color: #ff8801;
+						color: $theme_secondary_color;
 					}
 				}
 			}
