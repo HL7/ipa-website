@@ -150,6 +150,17 @@
 		}
 	}
 }
+// deneb_header
+.deneb_header {
+	padding: 215px 0 145px;
+	.header_content {
+		h1{
+			@media #{$xs}{
+				font-size: 36px;
+			}
+		}
+	}
+}
 // deneb_breadcrumb
 .deneb_breadcrumb{
 	padding: 215px 0 145px;
