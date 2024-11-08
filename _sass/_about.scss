@@ -28,20 +28,7 @@
 }
 .deneb_about{
 	.deneb_content_box{
-		h2{
-			position: relative;
-			&:after{
-			    position: absolute;
-			    content: '';
-			    left: -10px;
-			    top: -20px;
-			    background: url(../images/shape/title.png) no-repeat;
-			    display: inline-block;
-			    width: 96px;
-			    height: 67px;
-			    z-index: -1;
-			}
-		}
+		h2{}
 	}
 }
 // about_v1
@@ -165,20 +152,7 @@
 }
 .deneb_skill{
 	.section_title{
-		h2{
-			position: relative;
-			&:after{
-			    position: absolute;
-			    content: '';
-			    left: -20px;
-			    top: -20px;
-			    background: url(../images/shape/title.png) no-repeat;
-			    display: inline-block;
-			    width: 96px;
-			    height: 67px;
-			    z-index: -1;
-			}
-		}
+		h2{}
 	}
 }
 .deneb_experience{

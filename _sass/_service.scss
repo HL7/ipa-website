@@ -39,7 +39,7 @@
 		}
 	}
 }
-.service_v1{
+.highlight_v1{
 	padding-top: 125px;
 	padding-bottom: 90px;
 }
@@ -140,20 +140,7 @@
 }
 .service_wrapper{
 	.deneb_content_box{
-		h2{
-			position: relative;
-			&:after{
-			    position: absolute;
-			    content: '';
-			    left: -30px;
-			    top: -20px;
-			    background: url(../images/shape/title.png) no-repeat;
-			    display: inline-block;
-			    width: 96px;
-			    height: 67px;
-			    z-index: -1;
-			}
-		}
+		h2{}
 	}
 }
 .service_feature{
@@ -213,7 +200,7 @@
 		padding-bottom: 105px;
 	}
 }
-.service_v1{
+.highlight_v1{
 	.section_title{
 		h2{
 			position: relative;

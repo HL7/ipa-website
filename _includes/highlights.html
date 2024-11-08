@@ -1,0 +1,45 @@
+<!-- Start deneb_service section -->
+<section class="deneb_service highlight_v1">
+	<div class="shape_v2">
+		<img src="{{ "/assets/images/shape/shape_7.png" | absolute_url }}" class="shape_7" alt="">
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="section_title text-center">
+					<h2>{{ page.highlights.heading }}</h2>
+					<p>{{ page.highlights.text }}</p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			{% assign highlight_selection = page.highlights.items %}
+			{% for highlight in site.highlights %}
+				{% assign selected = false %}
+				{% for selection in highlight_selection %}
+					{% if highlight.path contains selection.path %}
+						{% assign selected = selection %}
+						{% break %}
+					{% endif %}
+				{% endfor %}
+
+				{% unless selected %}
+					{% continue %}
+				{% endunless %}
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<div class="grid_item wow fadeInUp">
+						<div class="icon">
+							<img src="{{selected.icon}}" class="img-fluid" alt="">
+						</div>
+						<div class="info">
+							<h4><a href="{{highlight.url}}">{{selected.heading}}</a></h4>
+							<p>{{selected.text}}</p>
+							<a href="{{highlight.url}}" class="link_btn">Read More</a>
+						</div>
+					</div>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+</section>
+<!-- End deneb_service section -->
