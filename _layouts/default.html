@@ -62,7 +62,9 @@
 		<!--wow js-->
 		<script src="{{ "/assets/js/vendor/wow.min.js" | absolute_url }}"></script>
 		<!-- Disqus Comments js-->
+		{% if site.disqus.shortname %}
 		<script id="dsq-count-scr" src="//deneb-1.disqus.com/count.js" async></script>
+		{% endif %}
 		<!-- Simple Jekyll Search js-->
 		<script src="{{ "/assets/js/simple-jekyll-search.min.js" | absolute_url }}"></script>
 		<!-- svg-pan-zoom js -->

@@ -1,13 +1,9 @@
 #Please use the main menu items under the "text"
-- text: About Us
-  url: /about
-- text: Find My Issuer
-  url: /find-my-issuer
-- text: How They Work
-  url: /how-they-work
-- text: FAQ
+- text: What is Patient Access?
+  url: /what-is-patient-access
+- text: Participating Organizations
+  url: /participating-organizations
+- text: FAQs
   url: /faq
-- text: Blog
-  url: /blog
-- text: Contact Us
-  url: /contact
+- text: In the News
+  url: /in-the-news
