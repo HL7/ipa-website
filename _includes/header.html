@@ -10,7 +10,9 @@
 				</div>
 				<div class="col-lg-10">
 					<div class="primary_menu" id="menu">
-						{% include navigation.html %}
+						{% unless page.layout == 'maintenance' %}
+							{% include navigation.html %}
+						{% endunless %}
 					</div>
 				</div>
 			</div>
@@ -24,6 +26,7 @@
 						</div>
 					</div>
 					<div class="col-6">
+						{% unless page.layout == 'maintenance' %}
 						<div class="menu_button">
 							<div class="menu_icon">
 								<span></span>
@@ -31,16 +34,18 @@
 								<span></span>
 							</div>
 						</div>
+						{% endunless %}
 					</div>
 				</div>
 			</div>
+			{% unless page.layout == 'maintenance' %}
 			<div class="sidenav_menu">
 				<div class="close_icon">
 					<a href="#" class="close_btn"><i class="fas fa-times"></i></a>
 				</div>
 				<ul class="sidebar-menu">
 					<li class="menu-item"><a href="{{site.url}}">Home</a></li>
-                    {% for menu in site.data.navigation %}
+          {% for menu in site.data.navigation %}
 					<li class="menu-item"><a href="{{menu.url}}">{{menu.text}}</a>
 						{% if menu.submenu %}
 						<ul class="sub-menu">
@@ -54,6 +59,7 @@
 					<li class="menu-item"><a href="{{ '/empower-patients' | absolute_url }}" class="deneb_btn">Empower Patients</a></li>
 				</ul>
 			</div>
+			{% endunless %}
 		</div>
 	</div>
 </header>

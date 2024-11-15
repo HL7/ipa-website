@@ -161,36 +161,13 @@
 		}
 	}
 }
-// deneb_breadcrumb
-.deneb_breadcrumb{
+// deneb_hero-header
+.deneb_hero-header{
 	padding: 215px 0 145px;
-	.breadcrumb_content{
+	.hero-header_content{
 		h1{
 			@media #{$xs}{
 				font-size: 36px;
-			}
-		}
-		ul{
-			li{
-				display: inline-block;
-				color: $theme_color;
-				text-transform: uppercase;
-				&:after{
-					content: '\f105';
-					font-weight: 900;
-					font-family: "Font Awesome 5 Free";
-					margin-left: 10px;
-					margin-right: 10px;
-				}
-				&:last-child{
-					&:after{
-						display: none;
-					}
-				}
-				a{
-					text-transform: uppercase;
-					color: $theme_color;
-				}
 			}
 		}
 	}
