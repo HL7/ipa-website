@@ -33,6 +33,12 @@ copyright: "Copyright &copy; 2024 <span>Argonauts</span>. All rights reserved."
 
 permalink: "/:title"
 
+# Localization/language settings
+languages: ["en", "de"]
+default_lang: "en"
+exclude_from_localization: ["assets"]
+parallel_localization: true
+
 # Build settings
 theme: minima
 plugins:
@@ -49,6 +55,7 @@ hero_image: "/assets/images/breadcrumb_bg.jpg"
 sass:
   sass_dir: _sass
   style: compressed
+  sourcemap: never
 
 site_preloader: true
 
