@@ -38,6 +38,9 @@ languages: ["en", "de"]
 default_lang: "en"
 exclude_from_localization: ["assets"]
 parallel_localization: true
+language_names:
+  en: "English"
+  de: "Deutsch"
 
 # Build settings
 theme: minima
