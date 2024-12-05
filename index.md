@@ -8,8 +8,8 @@ slider:
     heading2: "Your online health card. Anywhere. Everywhere."
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.laborum."
     button:
-      name: "Hire Us"
-      link: "#"
+      name: "Learn More"
+      link: "/page-url"
   - image: "/assets/images/banner_02.png"
     heading: "We Are Creative <br><span>Deneb Agency</span>"
     heading2: "We Are Professional Freelance Web Designer"
