@@ -26,6 +26,6 @@ Participation is currently limited to these issuers because it’s easier for we
 Organizations and Apps must follow the [International Patient Access FHIR Implementation Guide](https://hl7.org/fhir/uv/ipa/). Each production implementation must fully comply with the open standards and specifications noted therein.
 
 ### Getting Listed
-Complete the registration and [attestation form](https://www.commontrustnetwork.org/joinhealth).
+Complete the registration and [attestation form](https://forms.gle/U73qymT4SjMDcF1x6).
 
 The HL7 IPA Project reviews each submission, verifies information contained in the submission, and performs technical validation. In the event that a submission requires subjective evaluation, the HL7 Patient Care Workgroup may be consulted for resolution.
