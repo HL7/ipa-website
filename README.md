@@ -3,12 +3,12 @@ International Patient Access (IPA) is a FHIR implementation guide that attempts 
 # IPA Organization Directory
 
 This repository includes a public directory of organizations that host a FHIR server enabling patient access (among other use-cases) conformant to the [International Patient Access FHIR Implementation Guide](https://hl7.org/fhir/uv/ipa/).
-The directory is represented in the [ipa-organizations.json file](ipa-organizations.json) and [ipa-apps.json file](ipa-apps.json). The organizations file is a simple listing of organization name, website, type, location, FHIR server url, and a reference to a successful Inferno IPA test.  This information is used for purposes of verification and display. Additional information about the fields in the directory file is [available in ipa-organizations-metadata,json](ipa-organizations-metadata,json).
+The directory is represented in the [ipa-organizations.json file](ipa-organizations.json). The organizations file is a simple listing of organization name, website, type, location, FHIR server url, and a reference to a successful Inferno IPA test.  This information is used for purposes of verification and display. Additional information about the fields in the directory file is available in [ipa-organizations-metadata.json](ipa-organizations-metadata,json).
 
 
 # IPA App Directory
 
-This repository includes a public directory of patient-facing software applications ("apps") that adhere to the [International Patient Access FHIR Implementation Guide](https://hl7.org/fhir/uv/ipa/). The directory is represented in the [ipa-apps.json file](ipa-apps.json).The apps file is a simple listing of patient-facing application developers and products. This information is used for purposes of verification and display.  Additional information about the fields in the directory file is [available in ipa-apps-metadata,json](ipa-apps-metadata,json).
+This repository includes a public directory of patient-facing software applications ("apps") that adhere to the [International Patient Access FHIR Implementation Guide](https://hl7.org/fhir/uv/ipa/). The directory is represented in the [ipa-apps.json file](ipa-apps.json).The apps file is a simple listing of patient-facing application developers and products. This information is used for purposes of verification and display.  Additional information about the fields in the directory file is available in [ipa-apps-metadata.json](ipa-apps-metadata,json).
 
 ## Requirements for Organizations
 ### Types of Organizations
