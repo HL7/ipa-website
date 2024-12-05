@@ -1,11 +1,9 @@
 #Please use the main menu items under the "text"
 - text: What is Patient Access?
   url: /what-is-patient-access
-- text: Participating Organizations
-  url: /participating-organizations
+- text: Worldwide Adoption
+  url: /worldwide-adoption
 - text: FAQs
-  url: /faq
+  url: /faqs
 - text: In the News
   url: /in-the-news
-- text: Resources
-  url: /resources

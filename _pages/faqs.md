@@ -1,8 +1,8 @@
 ---
 layout: faq
-permalink: /faq/
+permalink: /faqs/
 page_header_image: "/assets/images/page_header.jpg"
-title: "FAQ"
+title: "FAQs"
 
 # FAQ Accordions
 accordion:
