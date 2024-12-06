@@ -228,4 +228,14 @@
   //     }
   //   }
   // });
+
+  // Language switcher
+  function languageSwitcher() {
+    const lang = document.getElementById('language_select'),
+          selectedLang = lang.options[lang.selectedIndex].value;
+
+    window.location.href = selectedLang;
+  }
+  // Init language switcher
+  document.getElementById('language_select').addEventListener('change', languageSwitcher);
 })(window.jQuery);

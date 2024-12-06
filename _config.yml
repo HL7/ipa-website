@@ -33,6 +33,15 @@ copyright: "Copyright © 2024 International Patient Access. All rights reserved.
 
 permalink: "/:title"
 
+# Localization/language settings
+languages: ["en", "de"]
+default_lang: "en"
+exclude_from_localization: ["assets"]
+parallel_localization: true
+language_names:
+  en: "English"
+  de: "Deutsch"
+
 # Build settings
 theme: minima
 plugins:
@@ -49,6 +58,7 @@ hero_image: "/assets/images/breadcrumb_bg.jpg"
 sass:
   sass_dir: _sass
   style: compressed
+  sourcemap: never
 
 site_preloader: true
 
