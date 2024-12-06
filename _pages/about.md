@@ -39,6 +39,9 @@ about:
   Academic Institutions: Conducting research and providing expert analyses and recommendations.
   Dedicated Individuals: Volunteers from all backgrounds, including doctors, nurses, IT professionals, and policymakers, who bring diverse perspectives and skills to the table.
   The collaboration among these entities exemplifies the commitment to improving global health data interoperability and ensuring patients have greater access and control over their healthcare information."
+  button:
+    name: "Learn More"
+    link: "/resources-for-decision-makers"
   image: "/assets/images/adoption.png"
 
 
