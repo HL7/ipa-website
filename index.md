@@ -4,54 +4,54 @@ layout: home
 # Slider
 slider:
   - image: "/assets/images/sliders/slider-image-1.png"
-    heading: "Access Your <span>Health</span>"
-    heading2: "Your online health card. Anywhere. Everywhere."
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.laborum."
+    heading: "Portable <span>Health Data</span>"
+    heading2: "Health records. Anywhere. Everywhere."
+    text: "Accessing patient health records across borders improves care coordination and patient outcomes."
     button:
-      name: "Hire Us"
-      link: "#"
-  - image: "/assets/images/banner_02.png"
-    heading: "We Are Creative <br><span>Deneb Agency</span>"
-    heading2: "We Are Professional Freelance Web Designer"
-    text: "Nulla id euismod massa. Donec accumsan semper lacus, vestibulum gravida ante sed eu lacus et diam lacinia."
+      name: "Learn More"
+      link: "/resources-for-patients"
+  - image: "/assets/images/sliders/slider-image-2.png"
+    heading: "Empowering <span>Patients</span>"
+    heading2: "One standard to manage access."
+    text: "Give patients control over their health data and facilitate efficient access to care regardless of location."
     button:
-      name: "Hire Me"
-      link: "#"
-  - image: "/assets/images/banner_03.png"
-    heading: "We Are Creative <br><span>Deneb Agency</span>"
-    heading2: "We Are Professional Freelance Web Designer"
-    text: "Nulla id euismod massa. Donec accumsan semper lacus, vestibulum gravida ante sed eu lacus et diam lacinia."
+      name: "Learn More"
+      link: "/empower-patients"
+  - image: "/assets/images/sliders/slider-image-3.png"
+    heading: "Your <span>Health Data!</span>"
+    heading2: "Locations and apps adopting this standard."
+    text: "Discover the growing network using this system for secure and efficient patient data exchange."
     button:
-      name: "Hire Me"
-      link: "#"
+      name: "Learn More"
+      link: "/worldwide-adoption"
 
 # Highlights
 highlights:
   heading: "How Access Works"
-  text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.laborum."
+  text: "This overview outlines three easy steps for patients to connect with their health data, allowing them to gain secure access and take control of their health information."
   items:
     - path: "get-your-card.md"
-      heading: "Get your certified card"
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.laborum.
-      icon: "/assets/images/icon_1.svg"
+      heading: "Connect"
+      text: Securely link patient health records across systems.
+      icon: "/assets/images/highlight-image-1.png"
     - path: "save-your-card.md"
-      heading: "Get your certified card"
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.laborum.
-      icon: "/assets/images/icon_2.svg"
+      heading: "Access"
+      text: Authorize and retrieve necessary patient information.
+      icon: "/assets/images/highlight-image-2.png"
     - path: "share-your-card.md"
-      heading: "Get your certified card"
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.laborum.
-      icon: "/assets/images/icon_3.svg"
+      heading: "Share"
+      text: Facilitate the secure exchange of health data for improved care.
+      icon: "/assets/images/highlight-image-3.png"
 
 # About
 about:
-  heading: "What is IPA?"
+  heading: "What is International Patient Access?"
   text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-  text2: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-  image: "/assets/images/why-argonaut.png"
+  text2:
+  image: "/assets/images/what-is-patient-access.png"
   button:
     name: "Learn More"
-    link: "#"
+    link: "/what-is-patient-access"
 
 # Achivement
 achivement:
@@ -72,52 +72,6 @@ achivement:
       name: "900+"
       description: "Others"
 
-# Blog Posts
-latest_blog_post:
-  heading: "Patient Access News"
-  text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.laborum."
-  filters: true
-  limit: "4"
-
-# Cards
-cards:
-  heading: "Getting Involved is Easy"
-  text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.laborum."
-  list:
-    - icon: "/assets/images/lightning-icon.svg"
-      name: "Download"
-      button:
-        link: "#"
-        name: "Get Involved"
-      listitem:
-        - name: "Access to all basic features"
-        - name: "Basic reporting and analytics"
-        - name: "Claim in-store"
-        - name: "Get your basic health details"
-        - name: "Basic chat and email support"
-    - icon: "/assets/images/lightning-icon.svg"
-      name: "Connect"
-      button:
-        link: "#"
-        name: "Get Involved"
-      listitem:
-        - name: "Access to all basic features"
-        - name: "Basic reporting and analytics"
-        - name: "Claim on designated locations"
-        - name: "Your in-depth health details"
-        - name: "Basic chat and email support"
-    - icon: "/assets/images/lightning-icon.svg"
-      name: "Deploy"
-      button:
-        link: "#"
-        name: "Get Involved"
-      listitem:
-        - name: "Access to all basic features"
-        - name: "Basic reporting and analytics"
-        - name: "Delivered to your front door"
-        - name: "Your advanced health details"
-        - name: "Basic chat and email support"
-
 # Testimonials
 testimonials:
   heading: "What People Say"
@@ -136,8 +90,10 @@ testimonials:
       image: "/assets/images/testimonial_2.jpg"
       text: "Donec condimentum vehicula iaculis. Maecenas in aliquet neque. Suspendisse viverra, ante eget pellentesque pulvinar, nunc nisi molestie ligula, vitae convallis orci justo vitae sem. Integer vitae imperdiet augue, sed accumsan diam. Etiam non quam commodo dolor convallis cursus. Duis tempus dolor eget gravida fringilla. In ultricies velit eget sem tempus egestas."
 
-# Contact Area
-contact_area:
-  heading: "Get In Touch With Us"
-  description: "When unknow printer took a gallery of type and scramblted it to make a type specimen book"
+# Blog Posts
+latest_blog_post:
+  heading: "Patient Access News"
+  text: "A curated collection of articles and press releases on International Patient Access, HL7 FHIR and health data interoperability."
+  filters: false
+  limit: "4"
 ---
