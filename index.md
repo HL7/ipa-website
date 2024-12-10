@@ -91,7 +91,7 @@ achivement:
 # Testimonials
 testimonials:
   heading: "What People Say"
-  description: ""
+  text: ""
   list:
     - name: "Celesto Anderson"
       position: ""

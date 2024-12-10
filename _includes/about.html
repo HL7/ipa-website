@@ -11,7 +11,9 @@
 				<div class="deneb_content_box wow fadeInRight">
 					<h2>{{ page.about.heading }}</h2>
 					{{ page.about.text | markdownify }}
-					<a href="{{ page.about.button.link }}" class="deneb_btn">{{ page.about.button.name }}</a>
+					{% if page.about.button %}
+					<a href="{{ page.about.button.link }}" class="deneb_btn" {% if page.about.button.new_tab %}target="_blank"{% endif %}>{{ page.about.button.name }}</a>
+					{% endif %}
 				</div>
 			</div>
 		</div>
