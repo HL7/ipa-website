@@ -10,8 +10,7 @@
 			<div class="col-lg-7">
 				<div class="deneb_content_box wow fadeInRight">
 					<h2>{{ page.about.heading }}</h2>
-					<p>{{ page.about.text }}</p>
-					<p>{{ page.about.text2 }}</p>
+					{{ page.about.text | markdownify }}
 					<a href="{{ page.about.button.link }}" class="deneb_btn">{{ page.about.button.name }}</a>
 				</div>
 			</div>
