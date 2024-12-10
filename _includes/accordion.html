@@ -17,7 +17,7 @@
           {% for question in section.questions %}
           <details>
             <summary>{{ question.question }}</summary>
-            <p>{{ question.answer }}</p>
+            <span>{{ question.answer | markdownify }}</span>
           </details>
           {% endfor %}
         </div>
@@ -30,7 +30,7 @@
           {% for question in section.questions %}
           <details>
             <summary>{{ question.question }}</summary>
-            <p>{{ question.answer }}</p>
+            <span>{{ question.answer | markdownify }}</span>
           </details>
           {% endfor %}
         </div>
