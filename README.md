@@ -23,7 +23,12 @@ Today, the types of organizations permitted in the IPA Organization Directory ar
 Participation is currently limited to these issuers because it’s easier for website visitors to understand who these organizations are and how they work, to understand where data originate and are held, and to audit if issues arise. 
 
 ### Technical Requirements
-Organizations and Apps must follow the [International Patient Access FHIR Implementation Guide](https://hl7.org/fhir/uv/ipa/). Each production implementation must fully comply with the open standards and specifications noted therein.
+Organizations and Apps must follow the [International Patient Access FHIR Implementation Guide](https://hl7.org/fhir/uv/ipa/). The minimum requirements to comply to the specification are support for: 
+* the [IPA Patient Profile](https://hl7.org/fhir/uv/ipa/StructureDefinition-ipa-patient.html),
+* at least one other [additional IPA Profile](https://hl7.org/fhir/uv/ipa/artifacts.html#profiles-primary-resources),
+* the IPA required (SHALL) [search parameters for the profiles you support](https://hl7.org/fhir/uv/ipa/CapabilityStatement-ipa-server.html#Patient1-9),
+* and the required (SHALL) [SMART on FHIR Capabilities](https://hl7.org/fhir/uv/ipa/access.html#smart-on-fhir-server-capabilities)."
+
 
 ### Getting Listed
 Complete the registration and [attestation form](https://forms.gle/U73qymT4SjMDcF1x6).
