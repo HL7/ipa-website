@@ -48,6 +48,7 @@ accordion:
           - Provide Feedback: Your input is invaluable for improving IPA standards.
           - Ask Questions: See if your Electronic Health Records (EHR) vendor supports IPA."
     - section: "Technical Information"
+      questions:
         - question: "What are the technical requirements for IPA compliance?"
           answer: "At a high-level, to be compliant with IPA, systems must:
           - Implement the FHIR RESTful API framework.
