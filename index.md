@@ -3,13 +3,6 @@ layout: home
 
 # Slider
 slider:
-  - image: "/assets/images/sliders/slider-image-1.png"
-    heading: "Portable <span>Health Data</span>"
-    heading2: "Health records. Anywhere. Everywhere."
-    text: "Accessing patient health records across borders improves care coordination and patient outcomes."
-    button:
-      name: "Learn More"
-      link: "/resources-for-patients"
   - image: "/assets/images/sliders/slider-image-2.png"
     heading: "Empowering <span>Patients</span>"
     heading2: "One standard to manage access."
@@ -17,6 +10,13 @@ slider:
     button:
       name: "Learn More"
       link: "/empower-patients"
+  - image: "/assets/images/sliders/slider-image-1.png"
+    heading: "Portable <span>Health Data</span>"
+    heading2: "Health records. Anywhere. Everywhere."
+    text: "Accessing patient health records across borders improves care coordination and patient outcomes."
+    button:
+      name: "Learn More"
+      link: "/resources-for-patients"
   - image: "/assets/images/sliders/slider-image-3.png"
     heading: "Your <span>Health Data!</span>"
     heading2: "Locations and apps adopting this standard."
@@ -55,8 +55,8 @@ about:
 
 # Achivement
 achivement:
-  heading: "Over 8000+ users worldwide"
-  text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culp."
+  heading: "29 Distinct countries"
+  text: "Reflects the global commitment to interoperability and standardized data sharing. As the number of countries adopting HL7 FHIR continues to grow, it enhances patients' ability to seamlessly access their health information while improving collaboration among healthcare providers for better care delivery worldwide."
   text2: ""
   list:
     - icon: "/assets/images/icon_4.svg"
@@ -77,18 +77,18 @@ testimonials:
   heading: "What People Say"
   description: ""
   list:
-    - name: "Celesto Anderson"
+    - name: "Digital Square"
       position: ""
       image: "/assets/images/testimonial_3.jpg"
-      text: "Donec condimentum vehicula iaculis. Maecenas in aliquet neque. Suspendisse viverra, ante eget pellentesque pulvinar, nunc nisi molestie ligula, vitae convallis orci justo vitae sem. Integer vitae imperdiet augue, sed accumsan diam. Etiam non quam commodo dolor convallis cursus. Duis tempus dolor eget gravida fringilla. In ultricies velit eget sem tempus egestas."
-    - name: "John Doe"
+      text: "Ultimately, we believe data standardization will lead to more equitable health care systems and better health outcomes for all."
+    - name: "UK Government"
       position: ""
       image: "/assets/images/testimonial_1.jpg"
-      text: "Donec condimentum vehicula iaculis. Maecenas in aliquet neque. Suspendisse viverra, ante eget pellentesque pulvinar, nunc nisi molestie ligula, vitae convallis orci justo vitae sem. Integer vitae imperdiet augue, sed accumsan diam. Etiam non quam commodo dolor convallis cursus. Duis tempus dolor eget gravida fringilla. In ultricies velit eget sem tempus egestas."
-    - name: "Jake Johnson"
-      position: ""
+      text: "G7 ministers have committed to developing internationally shared principles for enabling patient access to health data and promoting the use of open standards for health data for public health."
+    - name: "On Connected Care for Canadians Act"
+      position: "The Honourable Mark Holland, Minister of Health of Canada"
       image: "/assets/images/testimonial_2.jpg"
-      text: "Donec condimentum vehicula iaculis. Maecenas in aliquet neque. Suspendisse viverra, ante eget pellentesque pulvinar, nunc nisi molestie ligula, vitae convallis orci justo vitae sem. Integer vitae imperdiet augue, sed accumsan diam. Etiam non quam commodo dolor convallis cursus. Duis tempus dolor eget gravida fringilla. In ultricies velit eget sem tempus egestas."
+      text: "Data saves lives and it's time for us to move past the archaic and siloed approach to managing and sharing patient information.This legislation empowers Canadians to access their health data, enabling better healthcare decisions regardless of location. It will also enhance care quality and coordination among healthcare professionals, ultimately leading to improved health outcomes and a modernized, connected health system for all Canadians."
 
 # Blog Posts
 latest_blog_post:
