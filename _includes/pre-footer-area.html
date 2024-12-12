@@ -6,12 +6,12 @@
 				<div class="col-lg-8">
 					<div class="cta_content">
 						<h3>{{ site.pre_footer.heading }}</h3>
-						<p>{{ site.pre_footer.description }}</p>
+						{{ site.pre_footer.description | markdownify }}
 					</div>
 				</div>
 				<div class="col-lg-4">
 					<div class="button_box">
-						<a href="{{ site.pre_footer.button.link }}" class="deneb_btn">{{ site.pre_footer.button.name }}</a>
+						<a href="{{ site.pre_footer.button.link }}" class="deneb_btn" {% if site.pre_footer.button.new_tab %}target="_blank"{% endif %}>{{ site.pre_footer.button.name }}</a>
 					</div>
 				</div>
 			</div>

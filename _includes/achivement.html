@@ -7,8 +7,7 @@
 					<h2>{{ page.achivement.heading }}</h2>
 				</div>
 				<div class="deneb_content_box">
-					<p>{{ page.achivement.text }}</p>
-					<p>{{ page.achivement.text2 }}</p>
+					{{ page.achivement.text | markdownify }}
 				</div>
 			</div>
 			<div class="col-lg-6">
@@ -19,7 +18,7 @@
 							<img src="{{ list.icon | absolute_url }}" class="img-fluid" alt="">
 						</div>
 						<h3>{{ list.name }}</h3>
-						<p>{{ list.description }}</p>
+						{{ list.description | markdownify }}
 					</div>
 					{% endfor %}
 				</div>

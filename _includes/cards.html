@@ -8,7 +8,7 @@
 			<div class="col-lg-12">
 				<div class="section_title text-center">
 					<h2>{{ page.cards.heading }}</h2>
-					<p>{{ page.cards.text }}</p>
+					{{ page.cards.text | markdownify }}
 				</div>
 			</div>
 		</div>
@@ -30,7 +30,7 @@
 						</ul>
 					</div>
 					<div class="button_box">
-						<a href="{{ list.button.link }}" class="deneb_btn">{{ list.button.name }}</a>
+						<a href="{{ list.button.link }}" class="deneb_btn" {% if list.button.new_tab %}target="_blank"{% endif %}>{{ list.button.name }}</a>
 					</div>
 				</div>
 			</div>

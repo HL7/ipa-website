@@ -5,7 +5,7 @@
 			<div class="col-lg-7">
 				<div class="section_title">
 					<h2>{{ page.our_skill.heading }}</h2>
-					<p>{{ page.our_skill.description }}</p>
+					{{ page.our_skill.description | markdownify }}
 				</div>
 				<div class="skill_wrapper">
 					{% for list in page.our_skill.list %}
