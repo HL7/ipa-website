@@ -31,6 +31,5 @@ Organizations and Apps must follow the [International Patient Access FHIR Implem
 
 
 ### Getting Listed
-Complete the registration and [attestation form](https://forms.gle/U73qymT4SjMDcF1x6).
+The HL7 IPA Project reviews each submission, verifies information contained in the submission, and performs technical validation. In the event that a submission requires subjective evaluation, the HL7 Patient Care Workgroup may be consulted for resolution. Organizations hosting IPA-compliant FHIR servers should complete the registration and [attestation form](https://forms.gle/U73qymT4SjMDcF1x6). Developers offering IPA-compliant apps should complete the registration and [attestation form](https://forms.gle/oWdXck4by1yAFy4FA).
 
-The HL7 IPA Project reviews each submission, verifies information contained in the submission, and performs technical validation. In the event that a submission requires subjective evaluation, the HL7 Patient Care Workgroup may be consulted for resolution.
