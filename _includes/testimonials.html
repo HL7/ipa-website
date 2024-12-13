@@ -3,6 +3,7 @@
 	<div class="shape_v5">
 		<img src="{{ "/assets/images/shape/shape_12.png" | absolute_url }}" class="shape_12" alt="">
 		<img src="{{ "/assets/images/shape/shape_13.png" | absolute_url }}" class="shape_13" alt="">
+		<img src="{{ "/assets/images/shape/shape_14.png" | absolute_url }}" class="shape_14" alt="">
 	</div>
 	<div class="container">
 		<div class="row">
@@ -13,39 +14,11 @@
 				</div>
 			</div>
 		</div>
-		<div class="row1">
-			<div class="single_img">
-				<img src="{{ "/assets/images/1.png" | absolute_url }}" class="img-fluid" alt="">
-			</div>
-			<div class="single_img sm_img">
-				<img src="{{ "/assets/images/2.png" | absolute_url }}" class="img-fluid" alt="">
-			</div>
-			<div class="single_img sm_img">
-				<img src="{{ "/assets/images/3.png" | absolute_url }}" class="img-fluid" alt="">
-			</div>
-		</div>
-		<div class="row2">
-			<div class="single_img">
-				<img src="{{ "/assets/images/4.png" | absolute_url }}" class="img-fluid" alt="">
-			</div>
-			<div class="single_img sm_img">
-				<img src="{{ "/assets/images/5.png" | absolute_url }}" class="img-fluid" alt="">
-			</div>
-			<div class="single_img sm_img">
-				<img src="{{ "/assets/images/6.png" | absolute_url }}" class="img-fluid" alt="">
-			</div>
-			<div class="single_img">
-				<img src="{{ "/assets/images/7.png" | absolute_url }}" class="img-fluid" alt="">
-			</div>
-		</div>
 		<div class="testimonial_slide">
 			{% for list in page.testimonials.list %}
 			<div class="single_testimonial">
-				<div class="client_img">
-					<img src="{{ list.image | absolute_url }}" class="img-fluid" alt="">
-					<div class="qoute">
-						<i class="fas fa-quote-left"></i>
-					</div>
+				<div class="qoute">
+					<i class="fas fa-quote-left"></i>
 				</div>
 				<div class="client_info">
 					<h3>{{ list.name }}</h3>
