@@ -7,38 +7,47 @@ title: "What is Patient Access"
 # About
 about:
   heading: "What is International Patient Access?"
-  text: "International Patient Access (IPA) is the emerging global standard that allows patients and medical apps to easily access and share health information across countries. It builds upon existing FHIR (Fast Healthcare Interoperability Resources) standards but adds important improvements for secure, reliable, and consistent data exchange."
-  text2: "Why Do We Need IPA?
-  Many countries already use FHIR, but IPA addresses crucial limitations:
-  Secure Access: IPA ensures that only authorized users and apps can access health information, protecting patient privacy.  It defines how apps get permission to access data using standard methods (like OAuth 2.0).
-  Standardized Data: IPA creates a common set of data types and formats.  This means medical apps can work consistently across different systems worldwide, simplifying development and improving interoperability."
-  text3: "Key Features of IPA:
-  IPA uses FHIR profiles (specifications for how specific data is structured) to define a globally harmonized set of core health information. Countries can then expand on this base information to meet their unique needs:
-  Patient Profiles: Basic demographics and identifiers.
-  Allergies/Intolerances: A record of patient allergies and intolerances.
-  Conditions: Diagnoses and health problems.
-  Documents: Links to medical documents.
-  Immunizations: Vaccination records.
-  Medications: Information about prescribed and administered medications.
-  Observations: Results from tests, vital signs, etc.
-  Practitioners: Information about healthcare providers.
-  IPA also defines server capabilities to help medical apps easily access and use this information."
-  text4: "Benefits of IPA:
-  Global Interoperability: Medical apps can work consistently across various healthcare systems, reducing development costs and improving access to healthcare worldwide.
-  Improved Patient Care: Patients have better access to their health information, leading to better coordinated care.
-  Increased Efficiency: Streamlined data exchange reduces administrative overhead for healthcare providers.
-  Enhanced Data Security: Standardized access controls enhance the security and privacy of patient data."
-  text5: "IPA's Global Adoption:
-  Many countries and EHR (electronic health record) systems already support FHIR and are moving towards IPA-compliant systems.  Several nations are actively building their national health information standards based on IPA."
-  text6: "Who is driving the IPA project?
-  The IPA initiative is driven by HL7 International, a not-for-profit organization dedicated to developing standards for the exchange of electronic health information. As a global leader in health data interoperability, HL7's work is largely made possible through the contributions of volunteers from various sectors in the healthcare and technology industries.
-  Participating Organizations and Individuals:
-  Healthcare Providers: Hospitals, clinics, and healthcare networks around the globe contribute insights and testing environments.
-  Technology Companies: Leaders in health IT who provide expertise in software and systems integration.
-  Government Health Agencies: Ensuring regulations and standards are met across different countries.
-  Academic Institutions: Conducting research and providing expert analyses and recommendations.
-  Dedicated Individuals: Volunteers from all backgrounds, including doctors, nurses, IT professionals, and policymakers, who bring diverse perspectives and skills to the table.
-  The collaboration among these entities exemplifies the commitment to improving global health data interoperability and ensuring patients have greater access and control over their healthcare information."
+  text: |
+    International Patient Access (IPA) is the emerging global standard that allows patients and medical apps to easily access and share health information across countries. It builds upon existing FHIR (Fast Healthcare Interoperability Resources) standards but adds important improvements for secure, reliable, and consistent data exchange.
+
+    **Why Do We Need IPA?**
+
+    Many countries already use FHIR, but IPA addresses crucial limitations:
+    Secure Access: IPA ensures that only authorized users and apps can access health information, protecting patient privacy.  It defines how apps get permission to access data using standard methods (like OAuth 2.0).
+    Standardized Data: IPA creates a common set of data types and formats.  This means medical apps can work consistently across different systems worldwide, simplifying development and improving interoperability.
+    
+    **Key Features of IPA:**
+
+    IPA uses FHIR profiles (specifications for how specific data is structured) to define a globally harmonized set of core health information. Countries can then expand on this base information to meet their unique needs:
+    Patient Profiles: Basic demographics and identifiers.
+    - Allergies/Intolerances: A record of patient allergies and intolerances.
+    - Conditions: Diagnoses and health problems.
+    - Documents: Links to medical documents.
+    - Immunizations: Vaccination records.
+    - Medications: Information about prescribed and administered medications.
+    - Observations: Results from tests, vital signs, etc.
+    - Practitioners: Information about healthcare providers.
+
+    **IPA also defines server capabilities to help medical apps easily access and use this information.
+    Benefits of IPA:**
+    - Global Interoperability: Medical apps can work consistently across various healthcare systems, reducing development costs and improving access to healthcare worldwide.
+    Improved Patient Care: Patients have better access to their health information, leading to better coordinated care.
+    - Increased Efficiency: Streamlined data exchange reduces administrative overhead for healthcare providers.
+    - Enhanced Data Security: Standardized access controls enhance the security and privacy of patient data.
+    - IPA's Global Adoption:
+    Many countries and EHR (electronic health record) systems already support FHIR and are moving towards IPA-compliant systems.  Several nations are actively building their national health information standards based on IPA.
+
+    **Who is driving the IPA project?**
+
+    The IPA initiative is driven by HL7 International, a not-for-profit organization dedicated to developing standards for the exchange of electronic health information. As a global leader in health data interoperability, HL7's work is largely made possible through the contributions of volunteers from various sectors in the healthcare and technology industries.
+
+    **Participating Organizations and Individuals:**
+    - Healthcare Providers: Hospitals, clinics, and healthcare networks around the globe contribute insights and testing environments.
+    - Technology Companies: Leaders in health IT who provide expertise in software and systems integration.
+    - Government Health Agencies: Ensuring regulations and standards are met across different countries.
+    - Academic Institutions: Conducting research and providing expert analyses and recommendations.
+    - Dedicated Individuals: Volunteers from all backgrounds, including doctors, nurses, IT professionals, and policymakers, who bring diverse perspectives and skills to the table.
+    The collaboration among these entities exemplifies the commitment to improving global health data interoperability and ensuring patients have greater access and control over their healthcare information.
   button:
     name: "Learn More"
     link: "/resources-for-decision-makers"

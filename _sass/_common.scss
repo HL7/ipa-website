@@ -49,13 +49,6 @@ p{
 	margin: 0;
 	padding: 0;
 }
-ul{
-	margin: 0;
-	padding: 0;
-	li{
-		list-style: none;
-	}
-}
 input,
 select,
 textarea{
@@ -81,6 +74,9 @@ body{
 	color: $text;
 	font-weight: normal;
 	overflow-x: hidden;
+}
+body>section:first-of-type {
+	padding-top: 215px;
 }
 .bg_image{
 	position: relative;

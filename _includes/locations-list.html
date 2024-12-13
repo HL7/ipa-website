@@ -6,7 +6,7 @@
         <div class="section_title text-center">
           <h2>{{ page.locations_list.heading }}</h2>
           <p class="lead mb-3">{{ page.locations_list.subheading }}</p>
-          <p>{{ page.locations_list.description }}</p>
+          {{ page.locations_list.description | markdownify }}
         </div>
       </div>
     </div>
