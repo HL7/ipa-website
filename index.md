@@ -90,19 +90,17 @@ achivement:
 
 # Testimonials
 testimonials:
-  heading: "What People Say"
-  text: ""
   list:
     - name: "Celesto Anderson"
-      position: ""
+      position: "Sample text"
       image: "/assets/images/testimonial_3.jpg"
       text: "Donec condimentum vehicula iaculis. Maecenas in aliquet neque. Suspendisse viverra, ante eget pellentesque pulvinar, nunc nisi molestie ligula, vitae convallis orci justo vitae sem. Integer vitae imperdiet augue, sed accumsan diam. Etiam non quam commodo dolor convallis cursus. Duis tempus dolor eget gravida fringilla. In ultricies velit eget sem tempus egestas."
     - name: "John Doe"
-      position: ""
+      position: "Sample text"
       image: "/assets/images/testimonial_1.jpg"
       text: "Donec condimentum vehicula iaculis. Maecenas in aliquet neque. Suspendisse viverra, ante eget pellentesque pulvinar, nunc nisi molestie ligula, vitae convallis orci justo vitae sem. Integer vitae imperdiet augue, sed accumsan diam. Etiam non quam commodo dolor convallis cursus. Duis tempus dolor eget gravida fringilla. In ultricies velit eget sem tempus egestas."
     - name: "Jake Johnson"
-      position: ""
+      position: "Sample text"
       image: "/assets/images/testimonial_2.jpg"
       text: "Donec condimentum vehicula iaculis. Maecenas in aliquet neque. Suspendisse viverra, ante eget pellentesque pulvinar, nunc nisi molestie ligula, vitae convallis orci justo vitae sem. Integer vitae imperdiet augue, sed accumsan diam. Etiam non quam commodo dolor convallis cursus. Duis tempus dolor eget gravida fringilla. In ultricies velit eget sem tempus egestas."
 
