@@ -46,8 +46,24 @@ highlights:
 # About
 about:
   heading: "What is International Patient Access?"
-  text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-  text2:
+  text: | # This allows us to use markdown as long as the following content is indented
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+    A second paragraph can be added here to provide additional information about the topic.
+
+    Even a third paragraph can be added here to provide additional information about the topic.
+
+    - Or you can list
+    - Some key points
+    - About the topic
+
+    ### Or add a subheading
+
+    And then continue with more information about the topic.
+
+    ---
+
+    *How cool is this?*
   image: "/assets/images/what-is-patient-access.png"
   button:
     name: "Learn More"
@@ -75,7 +91,7 @@ achivement:
 # Testimonials
 testimonials:
   heading: "What People Say"
-  description: ""
+  text: ""
   list:
     - name: "Celesto Anderson"
       position: ""

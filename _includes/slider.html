@@ -12,8 +12,8 @@
 						<div class="banner_content wow fadeInLeft">
 							<h1>{{ slider.heading }}</h1>
 							<h5>{{ slider.heading2 }}</h5>
-							<p>{{ slider.text }}</p>
-							<a href="{{ slider.button.link }}" class="deneb_btn">{{ slider.button.name }}</a>
+							{{ slider.text | markdownify }}
+							<a href="{{ slider.button.link }}" class="deneb_btn" {% if slider.button.new_tab %}target="_blank"{% endif %}>{{ slider.button.name }}</a>
 						</div>
 					</div>
 					<div class="col-lg-6">

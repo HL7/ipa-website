@@ -10,7 +10,7 @@
 			<div class="col-lg-6">
 				<div class="section_title">
 					<h2>{{ page.contact_area.heading }}</h2>
-					<p>{{ page.contact_area.description }}</p>
+					{{ page.contact_area.description | markdownify }}
 				</div>
 				<div class="contact_form">
 					<form method="post" action="https://formsubmit.io/send/tortoizthemes@gmail.com">

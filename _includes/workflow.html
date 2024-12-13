@@ -5,7 +5,7 @@
 			<div class="col-lg-12">
 				<div class="section_title text-center">
 					<h2>{{ page.workflow.heading }}</h2>
-					<p>{{ page.workflow.text }}</p>
+					{{ page.workflow.text | markdownify }}
 				</div>
 			</div>
 		</div>
@@ -25,7 +25,7 @@
 							</div>
 							<div class="info">
 								<h3>{{ list.name }}</h3>
-								<p>{{ list.text }}</p>
+								{{ list.text | markdownify }}
 							</div>
 						</div>
 					</div>
