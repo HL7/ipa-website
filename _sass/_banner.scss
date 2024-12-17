@@ -106,11 +106,23 @@
 	.shape_12{
 		position: absolute;
 		left: 0;
-		top: 0px;
+		top: 50%;
+		max-width: 25vw;
+		height: auto;
+		transform: translateY(-50%);
 	}
 	.shape_13{
 		position: absolute;
-		left: 40px;
-		bottom: 60px;
+		left: 0;
+		bottom: 0;
+		max-width: 45vw;
+		height: auto;
+	}
+	.shape_14{
+		position: absolute;
+		right: 0;
+		bottom: 20px;
+		max-width: 30vw;
+		height: auto;
 	}
 }
