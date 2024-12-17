@@ -3,13 +3,6 @@ layout: home
 
 # Slider
 slider:
-  - image: "/assets/images/sliders/slider-image-1.png"
-    heading: "Portable <span>Health Data</span>"
-    heading2: "Health records. Anywhere. Everywhere."
-    text: "Accessing patient health records across borders improves care coordination and patient outcomes."
-    button:
-      name: "Learn More"
-      link: "/resources-for-patients"
   - image: "/assets/images/sliders/slider-image-2.png"
     heading: "Empowering <span>Patients</span>"
     heading2: "One standard to manage access."
@@ -17,6 +10,13 @@ slider:
     button:
       name: "Learn More"
       link: "/empower-patients"
+  - image: "/assets/images/sliders/slider-image-1.png"
+    heading: "Portable <span>Health Data</span>"
+    heading2: "Health records. Anywhere. Everywhere."
+    text: "Accessing patient health records across borders improves care coordination and patient outcomes."
+    button:
+      name: "Learn More"
+      link: "/resources-for-patients"
   - image: "/assets/images/sliders/slider-image-3.png"
     heading: "Your <span>Health Data!</span>"
     heading2: "Locations and apps adopting this standard."
@@ -47,23 +47,8 @@ highlights:
 about:
   heading: "What is International Patient Access?"
   text: | # This allows us to use markdown as long as the following content is indented
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    Using the HL7 FHIR standard, International Patient Access allows patients to securely access health data across borders, similar to how online banking or Open Banking in the UK provides seamless access to financial information. This global interoperability ensures timely, accurate care and empowers patients with control over their data, enhancing healthcare delivery through data-driven, patient-centered approaches.
 
-    A second paragraph can be added here to provide additional information about the topic.
-
-    Even a third paragraph can be added here to provide additional information about the topic.
-
-    - Or you can list
-    - Some key points
-    - About the topic
-
-    ### Or add a subheading
-
-    And then continue with more information about the topic.
-
-    ---
-
-    *How cool is this?*
   image: "/assets/images/what-is-patient-access.png"
   button:
     name: "Learn More"
