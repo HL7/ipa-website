@@ -90,21 +90,19 @@ achivement:
 
 # Testimonials
 testimonials:
-  heading: "What People Say"
-  text: ""
   list:
-    - name: "Celesto Anderson"
+    - name: "Digital Square"
       position: ""
       image: "/assets/images/testimonial_3.jpg"
-      text: "Donec condimentum vehicula iaculis. Maecenas in aliquet neque. Suspendisse viverra, ante eget pellentesque pulvinar, nunc nisi molestie ligula, vitae convallis orci justo vitae sem. Integer vitae imperdiet augue, sed accumsan diam. Etiam non quam commodo dolor convallis cursus. Duis tempus dolor eget gravida fringilla. In ultricies velit eget sem tempus egestas."
-    - name: "John Doe"
+      text: "Ultimately, we believe data standardization will lead to more equitable health care systems and better health outcomes for all."
+    - name: "UK Government"
       position: ""
       image: "/assets/images/testimonial_1.jpg"
-      text: "Donec condimentum vehicula iaculis. Maecenas in aliquet neque. Suspendisse viverra, ante eget pellentesque pulvinar, nunc nisi molestie ligula, vitae convallis orci justo vitae sem. Integer vitae imperdiet augue, sed accumsan diam. Etiam non quam commodo dolor convallis cursus. Duis tempus dolor eget gravida fringilla. In ultricies velit eget sem tempus egestas."
-    - name: "Jake Johnson"
-      position: ""
+      text: "G7 ministers have committed to developing internationally shared principles for enabling patient access to health data and promoting the use of open standards for health data for public health."
+    - name: "On Connected Care for Canadians Act"
+      position: "The Honourable Mark Holland, Minister of Health of Canada"
       image: "/assets/images/testimonial_2.jpg"
-      text: "Donec condimentum vehicula iaculis. Maecenas in aliquet neque. Suspendisse viverra, ante eget pellentesque pulvinar, nunc nisi molestie ligula, vitae convallis orci justo vitae sem. Integer vitae imperdiet augue, sed accumsan diam. Etiam non quam commodo dolor convallis cursus. Duis tempus dolor eget gravida fringilla. In ultricies velit eget sem tempus egestas."
+      text: "This legislation is about enabling Canadians to access their own health data and to use that information to make better decisions about their health care, no matter where they are receiving it. It will also allow health care professionals to deliver higher quality and coordinated care and make more informed patient decisions."
 
 # Blog Posts
 latest_blog_post:
