@@ -16,7 +16,7 @@ general_content:
 
     Learn More:
 
-    You can find more details on the IPA 1.0 specification and related resources [link to specification]. Stay updated on the latest IPA developments by visiting [our blog](https://blog.hl7.org/){: target="_blank"} and joining the HL7 community [link to HL7].
+    You can find more details on the IPA 1.0 specification and related resources [link to specification]. Stay updated on the latest IPA developments by visiting [our blog](https://blog.hl7.org/){: target="_blank"} and joining the [HL7 community](https://www.hl7.org/){: target="_blank"}.
 
 
     Who is driving the IPA project?
