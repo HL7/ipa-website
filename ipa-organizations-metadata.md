@@ -6,7 +6,7 @@
 
 | Attribute | Meaning |
 |-----------|---------|
-| `name` | Name of the organization.` |
+| `name` | Name of the organization. |
 | `label` | A representative label for the organization. Used when organization name may be too long, misrepresentative, or provides more common nomenclature. |
 | `website` | A public website for the organization. |
 | `fhir_base_url` | The base url of the organization's FHIR server that conforms to IPA. |
@@ -14,7 +14,7 @@
 | `locations` | A list of locations (see below for details) that the organization is associated with. |
 | `ipa_inferno_test_result` | A url to a publicly accessible test run result for the [IPA Inferno test kit](https://inferno.healthit.gov/test-kits/international-patient-access/). |
 
-## Organization Type Representation
+### Organization Type Representation
 
 The type of institution may be important for website visitors. This value set captures the currently permitted and participating [organization types in the IPA Directory]: clinical health systems and hospitals providing patient care, pharmacies, laboratory diagnostics providers, health insurance payors, and government and governmental agencies.
 
@@ -32,7 +32,7 @@ A simple hierarchy provides an easier means to segregate government and non-gove
 | `governmental.health_jurisdiction` | A jurisdiction or governmental agency issuing for a jurisdiction |
 | `governmental.agency` | A governmental agency |
 
-## Location Representation
+### Location Representation
 
 In order to best represent the reality of an institution spanning multiple locations, an organization can be associated to multiple country-state locations.
 
@@ -49,10 +49,12 @@ example, if an issuer has operations in the states of New York and New Jersey, e
 
 
 ```json
-locations: [
-  { "state": "NY", "country": "US" },
-  { "state": "NJ", "country": "US" }
-]
+{
+  "locations": [
+    { "state": "NY", "country": "US" },
+    { "state": "NJ", "country": "US" }
+  ]
+}
 ```
-
-[fhir-address-type]:https://www.hl7.org/fhir/datatypes.html#Address
+#### References:
+* fhir-address-type: https://www.hl7.org/fhir/datatypes.html#Address
