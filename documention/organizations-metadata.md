@@ -2,7 +2,7 @@
 
 ## Metadata Representation
 
-[ipa-organizations.json](vci-issuers-metadata.json) represents information about an Organization.
+[organizations.json](../organizations.json) contains information about each listed organization.
 
 | Attribute | Meaning |
 |-----------|---------|
