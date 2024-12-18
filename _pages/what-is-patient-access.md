@@ -7,24 +7,24 @@ title: "What is Patient Access"
 general_content:
   heading: "What is International Patient Access?"
   text: |
-    International Patient Access (IPA) is the emerging global standard that allows patients and medical apps to easily access and share health information across countries. It builds upon existing FHIR (Fast Healthcare Interoperability Resources) standards but adds important improvements for secure, reliable, and consistent data exchange.
+    [International Patient Access (IPA)](/faqs/){: target="_blank"} is the emerging global standard that allows patients and medical apps to easily access and share health information across countries. It builds upon existing FHIR (Fast Healthcare Interoperability Resources) standards but adds important improvements for secure, reliable, and consistent data exchange.
 
-    Key Features of IPA:
+    **Key Features of IPA:**
 
     IPA uses FHIR profiles (specifications for how specific data is structured) to define a globally harmonized set of core health information. Countries can then expand on this base information to meet their unique needs.
 
 
-    Learn More:
+    **Learn More:**
 
-    You can find more details on the IPA 1.0 specification and related resources [link to specification]. Stay updated on the latest IPA developments by visiting [our blog](https://blog.hl7.org/){: target="_blank"} and joining the HL7 community [link to HL7].
+    You can find more details on the IPA 1.0 specification and related resources. Stay updated on the latest IPA developments by visiting [our blog](https://blog.hl7.org/){: target="_blank"} and joining the HL7 community [link to HL7].
 
 
-    Who is driving the IPA project?
+    **Who is driving the IPA project?**
 
 
     The IPA initiative is driven by HL7 International, a not-for-profit organization dedicated to developing standards for the exchange of electronic health information. As a global leader in health data interoperability, HL7's work is largely made possible through the contributions of volunteers from various sectors in the healthcare and technology industries.
 
-    Participating Organizations and Individuals:
+    **Participating Organizations and Individuals:**
 
     - Healthcare Providers: Hospitals, clinics, and healthcare networks around the globe contribute insights and testing environments.
     - Technology Companies: Leaders in health IT who provide expertise in software and systems integration.
