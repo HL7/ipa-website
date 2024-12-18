@@ -4,15 +4,15 @@
 
 [organizations.json](../organizations.json) contains information about each listed organization.
 
-| Attribute | Meaning |
-|-----------|---------|
-| `name` | Name of the organization. |
-| `label` | A representative label for the organization. Used when organization name may be too long, misrepresentative, or provides more common nomenclature. |
-| `website` | A public website for the organization. |
-| `fhir_base_url` | The base url of the organization's FHIR server that conforms to IPA. |
-| `org_type` | The type of organization (see below for details). |
-| `locations` | A list of locations (see below for details) that the organization is associated with. |
-| `ipa_inferno_test_result` | A url to a publicly accessible test run result for the [IPA Inferno test kit](https://inferno.healthit.gov/test-kits/international-patient-access/). |
+| Attribute | Meaning | Optionality |
+|-----------|---------|--------|
+| `name` | Name of the organization. | Required |
+| `label` | A representative label for the organization. Used when organization name may be too long, misrepresentative, or provides more common nomenclature. | Required |
+| `website` | A public website for the organization. | Required |
+| `fhir_base_url` | The base url of the organization's FHIR server that conforms to IPA. | Optional |
+| `org_type` | The type of organization (see below for details). | Required |
+| `locations` | A list of locations (see below for details) that the organization is associated with. | Required |
+| `ipa_inferno_test_result` | A url to a publicly accessible test run result for the [IPA Inferno test kit](https://inferno.healthit.gov/test-kits/international-patient-access/). | Optional |
 
 ### Organization Type Representation
 
@@ -38,10 +38,10 @@ In order to best represent the reality of an institution spanning multiple locat
 
 This location representation is heavily inspired by the [FHIR `Address` type][fhir-address-type].
 
-| Attribute | Meaning |
-|-----------|---------|
-| `state` | The state, province, territory, or other administrative division within a country associated with the issuer |
-| `country` | The country associated with the issuer expressed as ISO 3166 2 or 3 letter code |
+| Attribute | Meaning |  Optionality |
+|-----------|---------|--------|
+| `state` | The state, province, territory, or other administrative division within a country associated with the issuer | Required |
+| `country` | The country associated with the issuer expressed as ISO 3166 2 or 3 letter code | Required |
 
 Each location within the list of `locations` should be independently-defined. For
 example, if an issuer has operations in the states of New York and New Jersey, each of its
