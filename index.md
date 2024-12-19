@@ -30,18 +30,27 @@ highlights:
   heading: "How Access Works"
   text: "This overview outlines three easy steps for patients to connect with their health data, allowing them to gain secure access and take control of their health information."
   items:
-    - path: "get-your-card.md"
-      heading: "Connect"
+    - heading: "Connect"
       text: Securely link patient health records across systems.
       icon: "/assets/images/highlight-image-1.png"
-    - path: "save-your-card.md"
-      heading: "Access"
+      link:
+        name: "Read More"
+        url: "/resources-for-patients"
+        new_tab: true
+    - heading: "Access"
       text: Authorize and retrieve necessary patient information.
       icon: "/assets/images/highlight-image-2.png"
-    - path: "share-your-card.md"
-      heading: "Share"
+      link:
+        name: "Read More"
+        url: "/resources-for-patients"
+        new_tab: true
+    - heading: "Share"
       text: Facilitate the secure exchange of health data for improved care.
       icon: "/assets/images/highlight-image-3.png"
+      link:
+        name: "Read More"
+        url: "/resources-for-patients"
+        new_tab: true
 
 # About
 about:

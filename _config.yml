@@ -64,9 +64,9 @@ site_preloader: true
 
 collections:
   highlights:
-    output: true
+    output: false
   services:
-    output: true
+    output: false
   pages:
     output: true
     permalink: "/:title"
