@@ -7,13 +7,14 @@ title: "Resources for Decision Makers"
 general_content:
   heading: "Technical Resources for Decision Makers"
   text: |
-    **Welcome Packet**
-
-    Resources:
+    **Resources:**
 
     - Successfully engaging individuals in digital health requires effort in areas such as governance, consumer digital literacy, individual enrollment, health record integration as well as the technical patient access enabled by IPA. The Global Digital Health Partnership’s [International Insights on Individual Engagement](https://gdhp.health/international-insights-on-individual-engagement/){: target="_blank"} contains a survey of efforts across the globe.
     - The [2024 State of FHIR Adoption Survey](https://interop.esante.gouv.fr/ig/doctrine/0.1.0-ballot/2024%20StateofFHIRSurveyResults_final.pdf){: target="_blank"} report summarizes and analyzes the use of HL7 FHIR across 29 countries.
-    - The below Request For Proposal can be used as a starting place to ensure that enterprise health it software supports IPA by HL7 FHIR as part of the tender process.
+    - The [WHO’s National eHealth Strategy Toolkit](https://www.who.int/publications/i/item/national-ehealth-strategy-toolkit){: target="blank"} may help jurisdictions develop and implement an eHealth strategy, including enabling greater digital patient access.
+    - The [Global Digital Health Monitor](https://monitor.digitalhealthmonitor.org/map){: target="blank"} provides potentially useful indicators for national digital health maturity.
+    
+    The below Request For Proposal can be used as a starting place to ensure that enterprise health it software supports IPA by HL7 FHIR as part of the tender process.
 
 
     **Sample Request for Proposal (RFP) Content for EHR or Enterprise Health IT Software with Support for HL7 FHIR International Patient Access (IPA)**
@@ -61,7 +62,7 @@ testimonials:
       position: ""
       image: "/assets/images/testimonial_1.jpg"
       text: "G7 ministers have committed to developing internationally shared principles for enabling patient access to health data and promoting the use of open standards for health data for public health."
-    - name: "On Connected Care for Canadians Act"
+    - name: "Connected Care for Canadians"
       position: "The Honourable Mark Holland, Minister of Health of Canada"
       image: "/assets/images/testimonial_2.jpg"
       text: "This legislation is about enabling Canadians to access their own health data and to use that information to make better decisions about their health care, no matter where they are receiving it. It will also allow health care professionals to deliver higher quality and coordinated care and make more informed patient decisions."

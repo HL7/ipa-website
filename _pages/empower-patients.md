@@ -34,7 +34,7 @@ general_content:
   button:
     name: "Learn More"
     link: "/resources-for-decision-makers/"
-  image: "/assets/images/adoption.png"
+  image: "/assets/images/Component 1.png"
 
 # Testimonials
 testimonials:
@@ -47,7 +47,7 @@ testimonials:
       position: ""
       image: "/assets/images/testimonial_1.jpg"
       text: "G7 ministers have committed to developing internationally shared principles for enabling patient access to health data and promoting the use of open standards for health data for public health."
-    - name: "On Connected Care for Canadians Act"
+    - name: "Connected Care for Canadians"
       position: "The Honourable Mark Holland, Minister of Health of Canada"
       image: "/assets/images/testimonial_2.jpg"
       text: "This legislation is about enabling Canadians to access their own health data and to use that information to make better decisions about their health care, no matter where they are receiving it. It will also allow health care professionals to deliver higher quality and coordinated care and make more informed patient decisions."
