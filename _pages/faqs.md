@@ -11,7 +11,8 @@ accordion:
   column1:
     - section: "General Questions"
       questions:
-        - question: "What is the International Patient Access (IPA) by HL7 FHIR project?"
+        - question: | 
+          **What is the International Patient Access (IPA) by HL7 FHIR project?**
           answer: |
             The International Patient Access (IPA) project is a free and open initiative aimed at empowering patients worldwide by enabling secure, selective sharing of their health data across different healthcare systems. 
             
@@ -21,8 +22,8 @@ accordion:
         - question: "Why Do We Need IPA?"
           answer: | 
             Many countries already use FHIR, but IPA addresses crucial limitations:
-            - Secure Access: IPA ensures that only authorized users and apps can access health information, protecting patient privacy.  It defines how apps get permission to access data using standard methods (like OAuth 2.0).
-            - Standardized Data: IPA creates a common set of data types and formats.  This means medical apps can work consistently across different systems worldwide, simplifying development, improving interoperability and patient access.
+              - Secure Access: IPA ensures that only authorized users and apps can access health information, protecting patient privacy.  It defines how apps get permission to access data using standard methods (like OAuth 2.0).
+              - Standardized Data: IPA creates a common set of data types and formats.  This means medical apps can work consistently across different systems worldwide, simplifying development, improving interoperability and patient access.
         - question: "How does the IPA project benefit patients?"
           answer: "IPA allows patients to easily access their health data from various healthcare providers. With easy access, patients become more informed and engaged in their healthcare decisions. This can lead to better health outcomes as patients can track their conditions, understand their treatments, and communicate more effectively with their healthcare providers."
     - section: "Data Sharing and Privacy"
@@ -45,23 +46,23 @@ accordion:
         - question: "How can I get involved with the IPA project?"
           answer: |
             There are several ways to get involved with the IPA project:
-            - Contact Your Government Representative: Advocate for the adoption of IPA standards in national healthcare policies.
-            - Engage in the IPA Community: Join discussions on the [chat.fhir.org](https://chat.fhir.org){: target="_blank"} chat server.
-            - Participate in Connectathons: Test and improve FHIR implementations in collaborative events.
-            - Join the HL7 Patient Empowerment Workgroup: Contribute to initiatives that enhance patient engagement and control over their health data.
-            - Spread the Word: Share information about the IPA project with your network.
-            - Provide Feedback: Your input is invaluable for improving IPA standards.
-            - Ask Questions: See if your Electronic Health Records (EHR) vendor supports IPA.
+              - Contact Your Government Representative: Advocate for the adoption of IPA standards in national healthcare policies.
+              - Engage in the IPA Community: Join discussions on the [chat.fhir.org](https://chat.fhir.org){: target="_blank"} chat server.
+              - Participate in Connectathons: Test and improve FHIR implementations in collaborative events.
+              - Join the HL7 Patient Empowerment Workgroup: Contribute to initiatives that enhance patient engagement and control over their health data.
+              - Spread the Word: Share information about the IPA project with your network.
+              - Provide Feedback: Your input is invaluable for improving IPA standards.
+              - Ask Questions: See if your Electronic Health Records (EHR) vendor supports IPA.
     - section: "Technical Information"
       questions:
         - question: "What are the technical requirements for IPA compliance?"
           answer: |
             At a high-level, to be compliant with IPA, systems must:
-            - Implement the FHIR RESTful API framework.
-            - Support FHIR Version 4.0.1 or later.
-            - Provide endpoints for patient data access and sharing.
-            - Utilize the Consent resource for managing patient permissions.
-            - Ensure robust security protocols, including OAuth 2.0 and SMART on FHIR.
+              - Implement the FHIR RESTful API framework.
+              - Support FHIR Version 4.0.1 or later.
+              - Provide endpoints for patient data access and sharing.
+              - Utilize the Consent resource for managing patient permissions.
+              - Ensure robust security protocols, including OAuth 2.0 and SMART on FHIR.
             For a full list of requirements and specifications, visit the [International Patient Access API Specification](https://hl7.org/fhir/uv/ipa/){: target="_blank"}
         - question: "How is security ensured for health data access APIs?"
           answer: "Millions of dollars have been invested to secure the SMART App Launch mechanisms within the International Patient Access (IPA) framework. Some jurisdictions have confidently opted to forgo app certification, allowing developers to innovate confidently while ensuring patient data is protected. No matter what level of certification frameworks for apps you’ve built, this robust security empowers reliable, efficient health information management."
