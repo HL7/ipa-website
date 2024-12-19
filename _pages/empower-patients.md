@@ -34,7 +34,7 @@ general_content:
   button:
     name: "Learn More"
     link: "/resources-for-decision-makers/"
-  image: "/assets/images/adoption.png"
+  image: "/assets/images/Component 1.png"
 
 # Testimonials
 testimonials:

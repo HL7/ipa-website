@@ -26,7 +26,7 @@ general_content:
     1. Talk to Your Healthcare Provider: Ask if they are using IPA-enabled systems and how you can access your health records.
     2. Use Secure Health Portals: Many healthcare providers offer patient portals where you can safely view your medical records, test results, treatment plans and connect this data to other apps.
     3. Stay Informed: Follow updates to health data access to ensure you're aware of your options.
-  image: "/assets/images/adoption.png"
+  image: "/assets/images/Group 28.png"
 
 # Testimonials
 testimonials:
