@@ -2,7 +2,10 @@
 .deneb_service{
 	position: relative;
 	.grid_item{
+		display: flex;
+		flex-direction: column;
 		max-width: 370px;
+		height: 100%;
 		margin: auto;
 		padding: 50px 45px 30px;
 		text-align: center;
@@ -17,6 +20,7 @@
 			margin-bottom: 30px;
 		}
 		.info{
+			margin-top: auto;
 			h4{
 				@media #{$lg}{
 					font-size: 18px;
