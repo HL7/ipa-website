@@ -13,28 +13,16 @@
 			</div>
 		</div>
 		<div class="row">
-			{% assign highlight_selection = page.highlights.items %}
-			{% for highlight in site.highlights %}
-				{% assign selected = false %}
-				{% for selection in highlight_selection %}
-					{% if highlight.path contains selection.path %}
-						{% assign selected = selection %}
-						{% break %}
-					{% endif %}
-				{% endfor %}
-
-				{% unless selected %}
-					{% continue %}
-				{% endunless %}
+			{% for highlight in page.highlights.items %}
 				<div class="col-lg-4 col-md-6 col-sm-12">
 					<div class="grid_item wow fadeInUp">
 						<div class="icon">
-							<img src="{{selected.icon}}" class="img-fluid" alt="">
+							<img src="{{highlight.icon}}" class="img-fluid" alt="">
 						</div>
 						<div class="info">
-							<h4><a href="{{highlight.url}}">{{selected.heading}}</a></h4>
-							{{ selected.text | markdownify }}
-							<a href="{{highlight.url}}" class="link_btn">Read More</a>
+							<h4><a href="{{ highlight.link.url | absolute_url }}" {% if highlight.link.new_tab %}target="_blank"{% endif %}>{{highlight.heading}}</a></h4>
+							{{ highlight.text | markdownify }}
+							<a href="{{ highlight.link.url | absolute_url }}" class="link_btn" {% if highlight.link.new_tab %}target="_blank"{% endif %}>{{highlight.link.name}}</a>
 						</div>
 					</div>
 				</div>
