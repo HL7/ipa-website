@@ -16,7 +16,7 @@ general_content:
 
     **Learn More:**
 
-    You can find more details on the IPA 1.0 specification and related resources. Stay updated on the latest IPA developments by visiting [our blog](https://blog.hl7.org/){: target="_blank"} and joining the HL7 community [link to HL7].
+    You can find more details on the IPA 1.0 specification and related resources. Stay updated on the latest IPA developments by visiting [our blog](https://blog.hl7.org/){: target="_blank"} and joining the HL7 community.
 
 
     **Who is driving the IPA project?**
@@ -35,7 +35,7 @@ general_content:
 
     The collaboration among these entities exemplifies the commitment to improving global health data interoperability and ensuring patients have greater access and control over their healthcare information.
   button:
-    name: "Learn More"
+    name: "FAQs"
     link: "/faqs/"
   image: "/assets/images/Component 2.png"
 
@@ -90,7 +90,7 @@ testimonials:
     - name: "Connected Care for Canadians"
       position: "The Honourable Mark Holland, Minister of Health of Canada"
       image: "/assets/images/testimonial_2.jpg"
-      text: "This legislation is about enabling Canadians to access their own health data and to use that information to make better decisions about their health care, no matter where they are receiving it. It will also allow health care professionals to deliver higher quality and coordinated care and make more informed patient decisions."
+      text: "The Connected Care for Canadians Act legislation is about enabling Canadians to access their own health data and to use that information to make better decisions about their health care, no matter where they are receiving it. It will also allow health care professionals to deliver higher quality and coordinated care and make more informed patient decisions."
 
 # Latest Blog Post
 latest_blog_post:
