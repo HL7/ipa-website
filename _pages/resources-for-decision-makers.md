@@ -33,17 +33,17 @@ general_content:
       - Data Exchange and API Requirements:
         - Implement the FHIR RESTful API framework.
         - Support FHIR Version 4.0.1 or later.
-        - Support SMART on FHIR 2.0, as defined in IPA
+        - Support SMART on FHIR 2.0, as defined in IPA.
       - Core FHIR Resources:
-        - Support for essential FHIR resources, including but not limited to:
-          - Patient
-          - Encounter
-          - Condition
-          - Observation
-          - Medication
-          - Procedure
-            - DiagnosticReport
-            - DocumentReference
+          - Support for essential FHIR resources, including but not limited to:
+            - Patient
+            - Encounter
+            - Condition
+            - Observation
+            - Medication
+            - Procedure
+              - DiagnosticReport
+              - DocumentReference
       - Interoperability:
         - Adhere to the HL7 FHIR standard for interoperability between different health systems and applications.
     4. Vendor Requirements\
