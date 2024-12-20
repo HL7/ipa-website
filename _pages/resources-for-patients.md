@@ -42,5 +42,5 @@ testimonials:
     - name: "Connected Care for Canadians"
       position: "The Honourable Mark Holland, Minister of Health of Canada"
       image: "/assets/images/testimonial_2.jpg"
-      text: "The Connected Care for Canadians Act legislation is about enabling Canadians to access their own health data and to use that information to make better decisions about their health care, no matter where they are receiving it. It will also allow health care professionals to deliver higher quality and coordinated care and make more informed patient decisions."
+      text: "This legislation is about enabling Canadians to access their own health data and to use that information to make better decisions about their health care, no matter where they are receiving it. It will also allow health care professionals to deliver higher quality and coordinated care and make more informed patient decisions."
 ---
