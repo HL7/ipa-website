@@ -56,25 +56,12 @@ highlights:
 about:
   heading: "What is International Patient Access?"
   text: | # This allows us to use markdown as long as the following content is indented
-    Using the [HL7 FHIR standard](/faqs/){: target="_blank"}, International Patient Access allows patients to securely access health data across borders, similar to how online banking or Open Banking in the UK provides seamless access to financial information. This global interoperability ensures timely, accurate care and empowers patients with control over their data, enhancing healthcare delivery through data-driven, patient-centered approaches.
+    Using the Health Level Seven Fast Health Interoperability Resources[HL7 FHIR standard](/faqs/){: target="_blank"}, the International Patient Access specification allows patients to securely access health data across borders, similar to how online banking or Open Banking in the UK provides seamless access to financial information. This global interoperability ensures timely, accurate care and empowers patients with control over their data, enhancing healthcare delivery through data-driven, patient-centered approaches.
 
   image: "/assets/images/what-is-patient-access.png"
   button:
     name: "Learn More"
     link: "/what-is-patient-access"
-
-# Achivement
-achivement:
-  heading: "29 Distinct countries"
-  text: "Reflects the [global commitment](/worldwide-adoption/) to interoperability and standardized data sharing. As the number of countries adopting HL7 FHIR continues to grow, it enhances patients' ability to seamlessly access their health information while improving collaboration among healthcare providers for better care delivery worldwide."
-  text2: ""
-  list:
-    - icon: "/assets/images/icon_4.svg"
-      name: "4000+"
-      description: "In the US"
-    - icon: "/assets/images/icon_4.svg"
-      name: "2000+"
-      description: "In Canada"
 
 # Testimonials
 testimonials:
@@ -90,7 +77,33 @@ testimonials:
     - name: "Connected Care for Canadians"
       position: "The Honourable Mark Holland, Minister of Health of Canada"
       image: "/assets/images/testimonial_2.jpg"
-      text: "This legislation is about enabling Canadians to access their own health data and to use that information to make better decisions about their health care, no matter where they are receiving it. It will also allow health care professionals to deliver higher quality and coordinated care and make more informed patient decisions."
+      text: "The Connected Care for Canadians Act legislation is about enabling Canadians to access their own health data and to use that information to make better decisions about their health care, no matter where they are receiving it. It will also allow health care professionals to deliver higher quality and coordinated care and make more informed patient decisions."
+
+# About
+about:
+  heading: "29 Countries Have Adopted HL7 FHIR"
+  text: | # This allows us to use markdown as long as the following content is indented
+    Reflects the [global commitment](/worldwide-adoption/) to interoperability and standardized data sharing. As the number of countries HL7 FHIR continues to grow, it enhances patients' ability to seamlessly access their health information while improving collaboration among healthcare providers for better care delivery worldwide.
+
+  image: "/assets/images/Group 29.png"
+  button:
+    name: "Learn More"
+    link: "/worldwide-adoption"
+
+# Achivement
+achivement:
+  heading: "29 Distinct Countries"
+  text: "Reflects the [global commitment](/worldwide-adoption/) to interoperability and standardized data sharing. As the number of countries adopting HL7 FHIR continues to grow, it enhances patients' ability to seamlessly access their health information while improving collaboration among healthcare providers for better care delivery worldwide."
+  text2: ""
+  list:
+    - icon: "/assets/images/icon_4.svg"
+      name: "4000+"
+      description: "In the US"
+    - icon: "/assets/images/icon_4.svg"
+      name: "2000+"
+      description: "In Canada"
+
+
 
 # Blog Posts
 latest_blog_post:
