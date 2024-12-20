@@ -56,7 +56,7 @@ highlights:
 about:
   heading: "What is International Patient Access?"
   text: | # This allows us to use markdown as long as the following content is indented
-    Using the [HL7 FHIR standard](/faqs/){: target="_blank"}, International Patient Access allows patients to securely access health data across borders, similar to how online banking or Open Banking in the UK provides seamless access to financial information. This global interoperability ensures timely, accurate care and empowers patients with control over their data, enhancing healthcare delivery through data-driven, patient-centered approaches.
+    Using the [Health Level Seven (HL7) Fast Healthcare Interoperability Resources (FHIR)](/faqs/){: target="_blank"} standard, International Patient Access (IPA) allows patients to securely access health data across borders, similar to how online banking or Open Banking in the UK provides seamless access to financial information. This global interoperability ensures timely, accurate care and empowers patients with control over their data, enhancing healthcare delivery through data-driven, patient-centered approaches.
 
   image: "/assets/images/what-is-patient-access.png"
   button:

@@ -28,9 +28,10 @@ accordion:
     - section: "Data Sharing and Privacy"
       questions:
         - question: "How can I share my health data using IPA?"
-          answer: "WWith IPA, you can share your health data by granting access to specific health apps. This is done through consent management features within IPA-compliant systems, allowing you to control who sees your information and for what purposes."
+          answer: "With IPA, you can share your health data by granting access to specific health apps. This is done through consent management features within IPA-compliant systems, allowing you to control who sees your information and for what purposes."
         - question: "How is my health data protected?"
-          answer: "Your health data is protected through robust security measures, including encryption, secure authentication, and compliance with international data protection regulations such as GDPR and HIPAA."
+          answer: |
+            Your health data is protected through robust security measures, including encryption, secure authentication, and compliance with data protection regulations such as the [General Data Protection Regulation](https://gdpr.eu/what-is-gdpr/){: target="_blank} (GDPR) and the [Health Insurance Portability and Accountability Act](https://www.cdc.gov/phlp/php/resources/health-insurance-portability-and-accountability-act-of-1996-hipaa.html){: target="_blank"} (HIPAA).
         - question: "Can I revoke access to my health data?"
           answer: "Yes, you can revoke access to your health data at any time, as patient-controlled consent is a key feature of our system. However, it's important to note that any data that was accessed prior to revocation will still be subject to the privacy policy of the app or health system that accessed the information. This means that you should review their policies to understand how your data will be handled after access is revoked."
   column2:
@@ -39,7 +40,7 @@ accordion:
         - question: "What hospitals or clinics allow me to share my data using IPA?"
           answer: "Many hospitals and clinics worldwide are adopting HL7 FHIR standards and participating in the IPA project. To find out if your local healthcare providers support IPA, check with them directly or visit our [official blog](https://blog.hl7.org/international-patient-access) for a list of participating institutions."
         - question: "What apps can I share my data with?"
-          answer: "There are numerous health apps that are integrating with IPA to provide seamless data sharing capabilities. These range from personal health management tools to specialized medical applications. For a comprehensive list of compatible apps, visit our [official blog](https://blog.hl7.org/international-patient-access)."
+          answer: "There are numerous health apps that are integrating with IPA to provide seamless data sharing capabilities. These range from personal health management tools to specialized medical applications. For a sample list of compatible apps, visit our [official blog](https://blog.hl7.org/international-patient-access)."
     - section: "Getting Involved"
       questions:
         - question: "How can I get involved with the IPA project?"
