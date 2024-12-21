@@ -69,12 +69,6 @@ achivement:
   text: "Reflects the [global commitment](/worldwide-adoption/) to interoperability and standardized data sharing. As the number of countries adopting HL7 FHIR continues to grow, it enhances patients' ability to seamlessly access their health information while improving collaboration among healthcare providers for better care delivery worldwide."
   text2: ""
   list:
-    - icon: "/assets/images/icon_4.svg"
-      name: "4000+"
-      description: "In the US"
-    - icon: "/assets/images/icon_4.svg"
-      name: "2000+"
-      description: "In Canada"
 
 # Testimonials
 testimonials:
