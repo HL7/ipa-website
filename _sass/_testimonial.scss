@@ -18,12 +18,31 @@
 			color: $white;
 			font-size: 40px;
 			background: $theme_color;
+			@media #{$xs}{
+				left: 5%;
+				width: 30px;
+				height: 30px;
+				line-height: 30px;
+				font-size: 12px;
+				opacity: 0.8;
+			}
 		}
 	}
 	.testimonial_slide{
 		max-width: 540px;
 		text-align: center;
 		margin: auto;
+		@media #{$xs}{
+			.slick-track {
+				display: flex;
+			}
+			.slick-track .slick-slide {
+				display: flex;
+				height: auto;
+				align-items: center;
+				justify-content: center;
+			}
+		}
 		.single_testimonial{
 			position: relative;
 			padding-top: 20px;
