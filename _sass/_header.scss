@@ -147,60 +147,68 @@
 			}
 		}
 	}
-	& .sidenav_menu{
+	& .sidenav_menu {
 		overflow: hidden;
-	    width: 80%;
-	    height: 100%;
-	    position: fixed;
-	    top: 0;
-	   	left: 0;
-	    padding: 50px 30px;
-	    z-index: 9999;
-	    background: #222d32;
-	    opacity: .9;
-	    overflow: auto;
-	    @include transform(translateX(-100%));
-	    @include transition(.5s);
-	    & .close_icon{
-	    	position: absolute;
-	    	top: 0;
-	    	right: 0;
-	    	.close_btn{
-	    		display: block;
-	    		width: 40px;
-	    		height: 40px;
-	    		line-height: 40px;
-	    		text-align:center;
-	    		background-color: $white;
-	    		color: $theme_color;
-	    	}
-	    }
-	    & .sidebar-menu{
-	    	& li{
-	    		display: block;
-	    		line-height: 40px;
-	    		& a{
-	    			text-transform: capitalize;
-	    			color: $white;
-	    			font-size: 16px;
-	    			font-weight: 500;
-	    			&:hover,
-	    			&:focus{
-	    				color: $white;
-	    			}
-	    			& .deneb_btn{
-		    			padding: 0;
-		    		}
-	    		}
-	    	}
-	    	& .active{
-				a{
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		top: 0;
+		left: 0;
+		padding: 50px 30px;
+		z-index: 9999;
+		background: #222d32;
+		opacity: .95;
+		overflow: auto;
+		@include transform(translateX(-100%));
+		@include transition(.5s);
+
+		& .close_icon {
+			position: absolute;
+			top: 0;
+			right: 0;
+
+			.close_btn {
+				display: block;
+				width: 40px;
+				height: 40px;
+				line-height: 40px;
+				text-align: center;
+				background-color: $white;
+				color: $theme_color;
+			}
+		}
+
+		& .sidebar-menu {
+			& li {
+				display: block;
+				line-height: 40px;
+
+				& a {
+					text-transform: capitalize;
+					color: $white;
+					font-size: 16px;
+					font-weight: 500;
+
+					&:hover,
+					&:focus {
+						color: $white;
+					}
+
+					&.deneb_btn,
+					& .deneb_btn {
+						padding: 0;
+					}
+				}
+			}
+
+			& .active {
+				a {
 					color: $theme_color;
 				}
 			}
-	    }
+		}
 	}
-	& .active{
+	& .active {
 		@include transform(translateX(0));
 	}
 }
