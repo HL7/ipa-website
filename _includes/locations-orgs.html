@@ -4,14 +4,17 @@
     <div class="row">
       <div class="col-lg-12">
         <div class="section_title text-center">
-          <h2>{{ page.locations_list.heading }}</h2>
-          <p class="lead mb-3">{{ page.locations_list.subheading }}</p>
-          {{ page.locations_list.description | markdownify }}
+          <h2>{{ page.locations_orgs.heading }}</h2>
+          <p class="lead mb-3">{{ page.locations_orgs.subheading }}</p>
+          {{ page.locations_orgs.description | markdownify }}
         </div>
       </div>
     </div>
   </div>
   <div class="container">
+    {% if page.locations_orgs.show_map %}
+      {% include locations-map.html %}
+    {% endif %}
     <div class="row">
       <div class="col-lg-12 grid-cols">
         {% assign organizations = site.data.organizations.organization_metadata | sort: 'label' %}
@@ -24,12 +27,17 @@
         {% endfor %}
         <div class="location_item">
           <a href="" target="_blank">
-            <p class="font-weight-bold">Issuer name</p>
+            <p class="font-weight-bold">Sample Org</p>
           </a>
         </div>
         <div class="location_item">
           <a href="" target="_blank">
-            <p class="font-weight-bold">Issuer name</p>
+            <p class="font-weight-bold">Sample Org</p>
+          </a>
+        </div>
+        <div class="location_item">
+          <a href="" target="_blank">
+            <p class="font-weight-bold">Sample Org</p>
           </a>
         </div>
       </div>
