@@ -1,7 +1,7 @@
 .deneb_locations_list {
   .grid-cols {
     display: block;
-    columns: 3;
+    columns: 2;
     column-gap: 2rem;
     @media #{$xs} {
       display: flex;
