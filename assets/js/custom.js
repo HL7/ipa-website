@@ -179,33 +179,40 @@
   }
 
   const data = window.mapData; // Get data from the global variable
-  let regions = {},
-    selectedRegions = [];
+  let selectedRegions = [];
 
   // Loop through data and create regions object
   data.forEach(function (org) {
     org.locations.forEach(function (location) {
-      regions[location.country] = {
-        link: org.website
-      };
       selectedRegions.push(location.country);
     });
   });
 
   // Create map
   const map = new jsVectorMap({
-    selector: "#map",
-    map: "world",
-    regions: regions,
-    selectedRegions: selectedRegions,
-    markersSelectableOne: true,
-    onRegionClick: function (event, code) {
-      // Open link if region is selected
-      if (this.params.selectedRegions.indexOf(code) !== -1) {
-        window.open(this.params.regions[code].link, '_blank');
+    regionStyle: {
+      initial: {
+        fill: 'lightgrey',
+        stroke: "#494949",
+      },
+      hover: {
+        fill: '#FE8D26'
+      },
+      selected: {
+        fill: '#FE6820'
+      },
+      selectedHover: {
+        fill: '#FE8D26'
       }
-    }
+    },
+    selector: '#map',
+    map: 'world',
+    selectedRegions: selectedRegions,
+    zoomButtons: false,
+    zoomOnScroll: false,
   });
+
+  console.log(map);
 
   // Language switcher
   function languageSwitcher() {

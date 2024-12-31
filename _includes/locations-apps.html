@@ -17,8 +17,8 @@
         {% assign apps = site.data.apps.ipa_app_metadata | sort: 'label' %}
         {% for app in apps %}
         <div class="location_item">
-          <a href="{{ app.app_metadata.website }}" target="_blank">
-            <p class="font-weight-bold">{{ app.app_metadata.name }}</p>
+          <a href="{{ app.app_metadata[0].website }}" target="_blank">
+            <p class="font-weight-bold">{{ app.app_metadata[0].name }}</p>
           </a>
         </div>
         {% endfor %}
