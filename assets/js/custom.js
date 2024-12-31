@@ -178,41 +178,43 @@
     });
   }
 
-  const data = window.mapData; // Get data from the global variable
-  let selectedRegions = [];
+  function locationsMap() {
+    const data = window.mapData; // Get data from the global variable
+    let selectedRegions = [];
 
-  // Loop through data and create regions object
-  data.forEach(function (org) {
-    org.locations.forEach(function (location) {
-      selectedRegions.push(location.country);
+    // Loop through data and create regions object
+    data.forEach(function (org) {
+      org.locations.forEach(function (location) {
+        selectedRegions.push(location.country);
+      });
     });
-  });
 
-  // Create map
-  const map = new jsVectorMap({
-    regionStyle: {
-      initial: {
-        fill: 'lightgrey',
-        stroke: "#494949",
+    // Create map
+    const map = new jsVectorMap({
+      regionStyle: {
+        initial: {
+          fill: 'lightgrey',
+          stroke: "#494949",
+        },
+        hover: {
+          fill: '#FE8D26'
+        },
+        selected: {
+          fill: '#FE6820'
+        },
+        selectedHover: {
+          fill: '#FE8D26'
+        }
       },
-      hover: {
-        fill: '#FE8D26'
-      },
-      selected: {
-        fill: '#FE6820'
-      },
-      selectedHover: {
-        fill: '#FE8D26'
-      }
-    },
-    selector: '#map',
-    map: 'world',
-    selectedRegions: selectedRegions,
-    zoomButtons: false,
-    zoomOnScroll: false,
-  });
+      selector: '#map',
+      map: 'world',
+      selectedRegions: selectedRegions,
+      zoomButtons: false,
+      zoomOnScroll: false,
+    });
+  }
 
-  console.log(map);
+  locationsMap();
 
   // Language switcher
   function languageSwitcher() {
