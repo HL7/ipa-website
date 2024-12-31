@@ -178,61 +178,48 @@
     });
   }
 
-  var map = new jsVectorMap({
-    selector: "#map",
-    map: "world",
-    selectedRegions: ['EG', 'US'],
-    regions: {
-      EG: {
-        name: "Egypt",
-        link: "https://www.google.com"
-      },
-      US: {
-        name: "United States",
-        link: "https://www.google.com"
-      }
-    },
-    onRegionClick: function (event, code) {
-      // Open link if region is selected
-      if (this.params.selectedRegions.indexOf(code) !== -1) {
-        window.open(this.params.regions[code].link, '_blank');
-      }
-    }
-  });
+  function locationsMap() {
+    const data = window.mapData; // Get data from the global variable
+    let selectedRegions = [];
 
-  // new svgMap({
-  //   targetElementID: 'svgMapExample',
-  //   noDataText: null,
-  //   touchLink: true,
-  //   data: {
-  //     data: {
-  //       gdp: {
-  //         name: 'GDP per capita',
-  //         format: '{0} USD',
-  //         thousandSeparator: ',',
-  //         thresholdMax: 50000,
-  //         thresholdMin: 1000
-  //       },
-  //       change: {
-  //         name: 'Change to year before',
-  //         format: '{0} %'
-  //       }
-  //     },
-  //     applyData: 'gdp',
-  //     values: {
-  //       AF: { gdp: 587, change: 4.73, link: 'https://www.google.com', linkTarget: '_blank' },
-  //       AL: { gdp: 4583, change: 11.09, link: 'https://www.google.com', linkTarget: '_blank' },
-  //       DZ: { gdp: 4293, change: 10.01, link: 'https://www.google.com', linkTarget: '_blank' },
-  //       NM: { gdp: 4293, change: 10.01, link: 'https://www.google.com', linkTarget: '_blank' },
-  //       // ...
-  //     }
-  //   }
-  // });
+    // Loop through data and create regions object
+    data.forEach(function (org) {
+      org.locations.forEach(function (location) {
+        selectedRegions.push(location.country);
+      });
+    });
+
+    // Create map
+    const map = new jsVectorMap({
+      regionStyle: {
+        initial: {
+          fill: 'lightgrey',
+          stroke: "#494949",
+        },
+        hover: {
+          fill: '#FE8D26'
+        },
+        selected: {
+          fill: '#FE6820'
+        },
+        selectedHover: {
+          fill: '#FE8D26'
+        }
+      },
+      selector: '#map',
+      map: 'world',
+      selectedRegions: selectedRegions,
+      zoomButtons: false,
+      zoomOnScroll: false,
+    });
+  }
+
+  locationsMap();
 
   // Language switcher
   function languageSwitcher() {
     const lang = document.getElementById('language_select'),
-          selectedLang = lang.options[lang.selectedIndex].value;
+      selectedLang = lang.options[lang.selectedIndex].value;
 
     window.location.href = selectedLang;
   }

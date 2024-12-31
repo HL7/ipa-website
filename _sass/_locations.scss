@@ -1,16 +1,25 @@
 .deneb_locations_list {
   .grid-cols {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    column-gap: 2.3rem;
-
-    @media #{$md} {
-      .grid-cols {
-        display: block;
-        columns: 3;
-        column-gap: 2rem;
-      }
+    display: block;
+    columns: 2;
+    column-gap: 2rem;
+    @media #{$xs} {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      column-gap: 2.3rem;
     }
   }
+}
+
+.deneb_map_box {
+  #map {
+    width: 100%;
+    min-height: 60vh;
+    max-height: 600px;
+  }
+}
+
+.jvm-tooltip {
+  background-color: $theme_color;
 }
