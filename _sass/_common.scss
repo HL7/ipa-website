@@ -45,10 +45,10 @@ h5{
 h6{
 	font-size: 16px;
 }
-p{
-	margin: 0;
-	padding: 0;
-}
+// p{
+// 	margin: 0;
+// 	padding: 0;
+// }
 input,
 select,
 textarea{
@@ -93,7 +93,7 @@ body>section:first-of-type {
 }
 
 .section_title{
-	max-width: 570px;
+	max-width: min(700px, 90%);
 	margin: auto;
 	margin-bottom: 45px;
 	h2{
