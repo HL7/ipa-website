@@ -32,7 +32,8 @@ general_content:
 
     Many countries and EHR (electronic health record) systems already support FHIR and are moving towards IPA-compliant systems.  Several nations are actively building their national health information standards based on IPA.
   button:
-    name: "Technical Resources"
+    name: |
+      Technical Resources
     link: "/resources-for-decision-makers/"
   image: "/assets/images/Component 1.png"
 
