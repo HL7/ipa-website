@@ -76,17 +76,6 @@ achivement:
       name: "2000+"
       description: "In Canada"
 
-# About 2
-about2:
-  heading: "Why International Patient Access Matters"
-  text: | # This allows us to use markdown as long as the following content is indented
-    International Patient Access is a global initiative that empowers patients to access their health data across borders. This standardization ensures that patients can securely access their health information, regardless of where they are receiving care. By providing patients with control over their health data, International Patient Access enhances care coordination, improves patient outcomes, and supports data-driven, patient-centered healthcare delivery.
-
-  image: "/assets/images/what-is-patient-access.png"
-  button:
-    name: "Sample Link"
-    link: "/what-is-patient-access"
-
 # Testimonials
 testimonials:
   list:
@@ -102,6 +91,18 @@ testimonials:
       position: "The Honourable Mark Holland, Minister of Health of Canada"
       image: "/assets/images/testimonial_2.jpg"
       text: "The Connected Care for Canadians Act legislation is about enabling Canadians to access their own health data and to use that information to make better decisions about their health care, no matter where they are receiving it. It will also allow health care professionals to deliver higher quality and coordinated care and make more informed patient decisions."
+      
+# About 2
+about2:
+  heading: "29 Countries Have Adopted HL7 FHIR"
+  text: | # This allows us to use markdown as long as the following content is indented
+    This reflects the [global commitment](/worldwide-adoption/) to interoperability and standardized data sharing. As the number of countries adopting HL7 FHIR continues to grow, it enhances patients' ability to seamlessly access their health information while improving collaboration among healthcare providers for better care delivery worldwide.
+
+  image: "/assets/images/Group 29.png"
+  button:
+    name: "Worldwide Adoption"
+    link: "/worldwide-adoption"
+
 
 # Blog Posts
 latest_blog_post:
