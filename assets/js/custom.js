@@ -32,7 +32,7 @@
       Slick slider js
   ------------------------*/
   $('.hero_slider').slick({
-    arrows: false,
+    arrows: true,
     dots: true,
     infinite: true,
     autoplay: true,
