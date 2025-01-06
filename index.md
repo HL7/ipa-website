@@ -96,7 +96,7 @@ testimonials:
 about2:
   heading: "29 Countries Have Adopted HL7 FHIR"
   text: | # This allows us to use markdown as long as the following content is indented
-    This reflects the [global commitment](/worldwide-adoption/) to interoperability and standardized data sharing. As the number of countries adopting HL7 FHIR continues to grow, it enhances patients' ability to seamlessly access their health information while improving collaboration among healthcare providers for better care delivery worldwide.
+    This reflects the [global commitment](https://www.hl7.org/documentcenter/public/white-papers/2024%20StateofFHIRSurveyResults_final.pdf){: target="_blank"} to interoperability and standardized data sharing. As the number of countries adopting HL7 FHIR continues to grow, it enhances patients' ability to seamlessly access their health information while improving collaboration among healthcare providers for better care delivery worldwide.
 
   image: "/assets/images/Group 29.png"
   button:
