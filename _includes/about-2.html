@@ -1,0 +1,22 @@
+<!-- Start deneb_about2 section -->
+<section class="deneb_about deneb_about2 {% if include.section_class %} {{include.section_class}} {% else %} about_v1 {% endif %}">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-lg-5">
+				<div class="deneb_img_box wow fadeInLeft">
+					<img src="{{ page.about2.image | absolute_url }}" class="img-fluid" alt="">
+				</div>
+			</div>
+			<div class="col-lg-7">
+				<div class="deneb_content_box wow fadeInRight">
+					<h2>{{ page.about2.heading }}</h2>
+					{{ page.about2.text | markdownify }}
+					{% if page.about2.button %}
+					<a href="{{ page.about2.button.link }}" class="deneb_btn" {% if page.about2.button.new_tab %}target="_blank"{% endif %}>{{ page.about2.button.name }}</a>
+					{% endif %}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- End deneb_about section -->

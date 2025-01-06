@@ -76,6 +76,17 @@ achivement:
       name: "2000+"
       description: "In Canada"
 
+# About 2
+about2:
+  heading: "Why International Patient Access Matters"
+  text: | # This allows us to use markdown as long as the following content is indented
+    International Patient Access is a global initiative that empowers patients to access their health data across borders. This standardization ensures that patients can securely access their health information, regardless of where they are receiving care. By providing patients with control over their health data, International Patient Access enhances care coordination, improves patient outcomes, and supports data-driven, patient-centered healthcare delivery.
+
+  image: "/assets/images/what-is-patient-access.png"
+  button:
+    name: "Sample Link"
+    link: "/what-is-patient-access"
+
 # Testimonials
 testimonials:
   list:

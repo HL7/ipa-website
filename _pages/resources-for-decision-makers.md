@@ -13,7 +13,7 @@ general_content:
     - The [2024 State of FHIR Adoption Survey](https://interop.esante.gouv.fr/ig/doctrine/0.1.0-ballot/2024%20StateofFHIRSurveyResults_final.pdf){: target="_blank"} report summarizes and analyzes the use of HL7 FHIR across 29 countries.
     - The [WHO’s National eHealth Strategy Toolkit](https://www.who.int/publications/i/item/national-ehealth-strategy-toolkit){: target="blank"} may help jurisdictions develop and implement an eHealth strategy, including enabling greater digital patient access.
     - The [Global Digital Health Monitor](https://monitor.digitalhealthmonitor.org/map){: target="blank"} provides potentially useful indicators for national digital health maturity.
-    
+
     The below Request For Proposal can be used as a starting place to ensure that enterprise health it software supports IPA by HL7 FHIR as part of the tender process.
 
 
@@ -22,34 +22,34 @@ general_content:
 
     1. Project Objectives\
     The primary objectives of IPA support are to:
-      - Enhance patient empowerment by enabling selective, patient-controlled consent for health data sharing.
-      - Ensure secure and interoperable health data exchange across various healthcare systems and providers.
-      - Comply with international standards and regulations for data protection and privacy.
+        - Enhance patient empowerment by enabling selective, patient-controlled consent for health data sharing.
+        - Ensure secure and interoperable health data exchange across various healthcare systems and providers.
+        - Comply with international standards and regulations for data protection and privacy.
     2. Scope of Work\
     The vendor must provide a comprehensive EHR or enterprise health IT software solution that includes:
-      - Support for HL7 FHIR IPA: Full integration and compliance with the HL7 FHIR International Patient Access project standards, allowing for seamless and secure data sharing with patient-controlled consent.
+        - Support for HL7 FHIR IPA: Full integration and compliance with the HL7 FHIR International Patient Access project standards, allowing for seamless and secure data sharing with patient-controlled consent.
     3. Technical Requirements\
     The proposed solution must meet the following technical requirements as defined in the HL7 FHIR IPA Implementation Guide:
-      - Data Exchange and API Requirements:
-        - Implement the FHIR RESTful API framework.
-        - Support FHIR Version 4.0.1 or later.
-        - Support SMART on FHIR 2.0, as defined in IPA
-      - Core FHIR Resources:
-        - Support for essential FHIR resources, including but not limited to:
-          - Patient
-          - Encounter
-          - Condition
-          - Observation
-          - Medication
-          - Procedure
-            - DiagnosticReport
-            - DocumentReference
-      - Interoperability:
-        - Adhere to the HL7 FHIR standard for interoperability between different health systems and applications.
+        - Data Exchange and API Requirements:
+            - Implement the FHIR RESTful API framework.
+            - Support FHIR Version 4.0.1 or later.
+            - Support SMART on FHIR 2.0, as defined in IPA
+        - Core FHIR Resources:
+            - Support for essential FHIR resources, including but not limited to:
+              - Patient
+              - Encounter
+              - Condition
+              - Observation
+              - Medication
+              - Procedure
+                    - DiagnosticReport
+                    - DocumentReference
+        - Interoperability:
+            - Adhere to the HL7 FHIR standard for interoperability between different health systems and applications.
     4. Vendor Requirements\
     Vendors must demonstrate the following qualifications:
-      - Proven experience in developing and implementing health IT solutions with HL7 FHIR standards.
-      - Expertise in data security and privacy, with a track record of compliance with and participation in international standards.
+        - Proven experience in developing and implementing health IT solutions with HL7 FHIR standards.
+        - Expertise in data security and privacy, with a track record of compliance with and participation in international standards.
 
 # Testimonials
 testimonials:
