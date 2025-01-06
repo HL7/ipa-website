@@ -32,12 +32,13 @@
       Slick slider js
   ------------------------*/
   $('.hero_slider').slick({
-    arrows: false,
+    arrows: true,
     dots: true,
     infinite: true,
     autoplay: true,
+    autoplaySpeed: 5000,
     slidesToShow: 1,
-    slidesToScroll: 1
+    slidesToScroll: 1,
   });
   $('.project_button button').on('click', function () {
     $('.project_button button').removeClass('active_btn');

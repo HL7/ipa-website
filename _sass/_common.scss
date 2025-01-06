@@ -115,6 +115,7 @@ body>section:first-of-type {
 	border-radius: 23px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
+	padding: 0 1rem;
 	@include transition(.5s);
 	&:hover,&:focus{
 		color: $white !important;

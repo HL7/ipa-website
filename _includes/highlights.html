@@ -16,14 +16,16 @@
 			{% for highlight in page.highlights.items %}
 				<div class="col-lg-4 col-md-6 col-sm-12">
 					<div class="grid_item wow fadeInUp">
-						<div class="icon">
-							<img src="{{highlight.icon}}" class="img-fluid" alt="">
-						</div>
-						<div class="info">
-							<h4><a href="{{ highlight.link.url | absolute_url }}" {% if highlight.link.new_tab %}target="_blank"{% endif %}>{{highlight.heading}}</a></h4>
-							{{ highlight.text | markdownify }}
-							<a href="{{ highlight.link.url | absolute_url }}" class="link_btn" {% if highlight.link.new_tab %}target="_blank"{% endif %}>{{highlight.link.name}}</a>
-						</div>
+						<a href="{{ highlight.link.url | absolute_url }}" {% if highlight.link.new_tab %}target="_blank"{% endif %}>
+							<div class="icon">
+								<img src="{{highlight.icon}}" class="img-fluid" alt="">
+							</div>
+							<div class="info">
+								<h4>{{highlight.heading}}</h4>
+								{{ highlight.text | markdownify }}
+								<span class="link_btn">{{highlight.link.name}}</span>
+							</div>
+						</a>
 					</div>
 				</div>
 			{% endfor %}
