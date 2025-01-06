@@ -47,12 +47,12 @@ accordion:
           answer: |
             There are several ways to get involved with the IPA project:
             - Contact Your Government Representative: Advocate for the adoption of IPA standards in national healthcare policies.
-            - Engage in the IPA Community: Join discussions on the [chat.fhir.org](https://chat.fhir.org){: target="_blank"} chat server.
+            - Engage in the IPA Community: Join discussions on the [chat.fhir.org](https://chat.fhir.org/#narrow/channel/261969-IPA){: target="_blank"} chat server.
             - Participate in Connectathons: Test and improve FHIR implementations in collaborative events.
             - Join the HL7 Patient Empowerment Workgroup: Contribute to initiatives that enhance patient engagement and control over their health data.
               - [Upcoming HL7 Events](https://www.hl7.org/events/index.cfm){: target="_blank"}
-              - [HL7 Patient Care Committee](https://www.hl7.org/Special/committees/patientcare/index.cfm){: target="_blank"}
-              - [HL7 Patient Empowerment Committee](https://www.hl7.org/Special/committees/patientempowerment/index.cfm){: target="_blank"}
+              - [HL7 Patient Care](https://confluence.hl7.org/display/PC){: target="_blank"}
+              - [HL7 Patient Empowerment](https://confluence.hl7.org/display/PE){: target="_blank"}
             - Spread the Word: Share information about the IPA project with your network.
             - Provide Feedback: Your input is invaluable for improving IPA standards.
             - Ask Questions: See if your Electronic Health Records (EHR) vendor supports IPA.
