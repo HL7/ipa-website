@@ -215,7 +215,7 @@
     });
   }
 
-  locationsMap();
+  // locationsMap();
 
   // Language switcher
   function languageSwitcher() {
