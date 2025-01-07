@@ -7,7 +7,7 @@ title: "In the News"
 general_content:
   heading: "In the News"
   text: |
-    This section features a curated collection of articles and press releases on International Patient Access, HL7 FHIR and health data interoperability. Discover insights from industry leaders, innovative practices, and advancements shaping the future of healthcare data sharing. Whether you're a healthcare professional or a patient, these resources will keep you informed about the latest developments in accessible and secure health information.
+    This section features a curated collection of articles and press releases on International Patient Access, HL7® FHIR® and health data interoperability. Discover insights from industry leaders, innovative practices, and advancements shaping the future of healthcare data sharing. Whether you're a healthcare professional or a patient, these resources will keep you informed about the latest developments in accessible and secure health information.
 
     [International Patient Access](https://blog.hl7.org/international-patient-access){: target="_blank"}\
     The HL7 International Patient Access project uses the FHIR standard to enable secure, global access to health information, empowering patients to manage their healthcare across systems.
@@ -32,6 +32,8 @@ general_content:
 
     [Mikael Rinnetmäki - Global Implementations with the International Patient Access | DevDays June 2022](https://www.youtube.com/watch?v=fn9nSh_yCCA&t=554s){: target="_blank"}\
     The video discusses the role of HL7 FHIR in improving patient access to their health information, showcasing how it enables interoperability and empowers users to manage their own health data more effectively.
+
+    HL7®, and FHIR® are the registered trademarks of Health Level Seven International and their use of these trademarks does not constitute an endorsement by HL7.
 
 
 # Testimonials

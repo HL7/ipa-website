@@ -11,11 +11,13 @@ accordion:
   column1:
     - section: "General Questions"
       questions:
-        - question: "What is the International Patient Access (IPA) by HL7 FHIR project?"
+        - question: "What is the International Patient Access (IPA) by HL7® FHIR® project?"
           answer: |
             The International Patient Access (IPA) project is a free and open initiative aimed at empowering patients worldwide by enabling secure, selective sharing of their health data across different healthcare systems. 
             
             By using Health Level Seven (HL7) Fast Healthcare Interoperability Resources (FHIR) standards, IPA ensures that patients can control who accesses their health information while maintaining the highest levels of data protection and privacy.
+
+            HL7®, and FHIR® are the registered trademarks of Health Level Seven International and their use of these trademarks does not constitute an endorsement by HL7.
         - question: "What are HL7 FHIR standards?"
           answer: "HL7 FHIR (Fast Healthcare Interoperability Resources) standards are a set of free and open guidelines developed by Health Level Seven International (HL7) to facilitate the exchange of healthcare information electronically. FHIR standards ensure that health data can be shared and understood across different systems and platforms, promoting interoperability and improved patient care."
         - question: "Why Do We Need IPA?"
