@@ -39,20 +39,5 @@ The HL7 IPA Project reviews each submission, verifies information contained in t
 * Developers offering IPA-compliant apps should complete the registration and [attestation form](https://forms.gle/oWdXck4by1yAFy4FA).
 
 
-# [IPA Website]() Deployment documentation
-
-## Serving site locally for development
-
-```sh
-gem install jekyll bundler
-bundle install
-bundle exec jekyll serve
-```
-
-## Deploying
-
-Commits to the `main` branch will be automatically deployed. To avoid conflicts in the `main` branch, please keep all changes in release candidate branches and deploy them to `main` only via a pull request.
-
-## License
-
-TBD.
+# Technical Website Deployment Documentation
+Unrelated to directory listings is the [IPA Website]() [Deployment documentation](site-build-instructions/index.md)
