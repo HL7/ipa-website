@@ -19,7 +19,7 @@ general_content:
     The Patient Access project aims to provide secure and seamless access to health information for patients globally, enhancing healthcare delivery and empowering individuals to manage their health records effectively.
 
     [Mikael Rinnetmäki - International Patient Access (IPA) specification | DevDays 2023 Amsterdam](https://www.youtube.com/watch?v=9BP_EELyOx4){: target="_blank"}\
-    A video discussion on the importance of International Patient Access, highlighting how it utilizes the FHIR standard to empower patients with secure access to their health data and emphasizes the project's role in improving healthcare delivery while fostering interoperability across different healthcare systems.
+    A video discussion on the importance of International Patient Access, highlighting how it utilizes the FHIR standard to Adopt IPA with secure access to their health data and emphasizes the project's role in improving healthcare delivery while fostering interoperability across different healthcare systems.
 
     [International Patient Access (IPA) - 5 Minute Intro](https://www.youtube.com/watch?v=4MuLsgz8LrI){: target="_blank"}\
     International Patient Access (IPA) is a healthcare standard that enables regulators, empowers patients, and guides health app developers toward greater patient access to health information through consistency across countries for multinational apps and Fast Healthcare Interoperability Resource (FHIR) servers. 

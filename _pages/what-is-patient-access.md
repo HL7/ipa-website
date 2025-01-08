@@ -1,7 +1,7 @@
 ---
 layout: about
-permalink: /what-is-patient-access/
-title: "What is Patient Access"
+permalink: /international-patient-access/
+title: "International Patient Access"
 
 # Content
 general_content:

@@ -9,7 +9,7 @@ slider:
     text: "Give patients control over their health data and facilitate efficient access to care regardless of location."
     button:
       name: "Learn More"
-      link: "/empower-patients"
+      link: "/adopt-ipa"
   - image: "/assets/images/sliders/slider-image-1.png"
     heading: "Portable <span>Health Data</span>"
     heading2: "Health records. Anywhere. Everywhere."
@@ -31,10 +31,10 @@ about:
   text: | # This allows us to use markdown as long as the following content is indented
     Using the [HL7 FHIR standard](/faqs/), the International Patient Access specification allows patients to securely access health data across borders, similar to how online banking or Open Banking in the UK provides seamless access to financial information. This global interoperability ensures timely, accurate care and empowers patients with control over their data, enhancing healthcare delivery through data-driven, patient-centered approaches.
 
-  image: "/assets/images/what-is-patient-access.png"
+  image: "/assets/images/international-patient-access.png"
   button:
     name: "Learn More"
-    link: "/what-is-patient-access"
+    link: "/international-patient-access"
 
 # Highlights
 highlights:
