@@ -1,11 +1,13 @@
 ---
 layout: home
+permalink: /
 page_id: home
+lang: de
 
 # Slider
 slider:
   - image: "/assets/images/sliders/slider-image-2.png"
-    heading: "Empowering <span>Patients</span>"
+    heading: "German <span>Patients</span>"
     heading2: "One standard to manage access."
     text: "Give patients control over their health data and facilitate efficient access to care regardless of location."
     button:
