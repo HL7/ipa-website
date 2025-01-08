@@ -10,7 +10,7 @@ general_content:
   text: |
     What is International Patient Access?
 
-    [International Patient Access (IPA)](/what-is-patient-access/){: target="_blank"} enables you to easily and securely access your health data across different healthcare systems and countries, much like how you would manage your bank accounts through online banking. This access is made possible by adhering to the HL7 FHIR (Fast Healthcare Interoperability Resources) standard, which ensures data is shared in a secure and standardized way.
+    [International Patient Access (IPA)](/international-patient-access/){: target="_blank"} enables you to easily and securely access your health data across different healthcare systems and countries, much like how you would manage your bank accounts through online banking. This access is made possible by adhering to the HL7 FHIR (Fast Healthcare Interoperability Resources) standard, which ensures data is shared in a secure and standardized way.
 
     Benefits of Accessing Your Healthcare Data:
 

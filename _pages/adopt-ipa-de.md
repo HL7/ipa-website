@@ -1,12 +1,12 @@
 ---
 layout: about
-permalink: /empower-patients/
+permalink: /adopt-ipa/
 lang: de
-title: "Empower Patients (German)"
+title: "Adopt IPA (German)"
 
 # Content
 general_content:
-  heading: "Empower Patients"
+  heading: "Adopt IPA"
   text: |
     International Patient Access (IPA) is the emerging global standard that allows patients and medical apps to easily access and share health information across countries. It builds upon existing FHIR (Fast Healthcare Interoperability Resources) standards but adds important improvements for secure, reliable, and consistent data exchange.
 
