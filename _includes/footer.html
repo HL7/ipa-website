@@ -6,9 +6,13 @@
 				<div class="col-lg-4 col-md-6 col-12">
 					<div class="widget widegt_about mb-md-4 mb-lg-0">
 						<div class="widget_title">
-							<img src="{{site.site_logo}}" class="img-fluid" alt="{{site.title}}"/>
+							<img src="{{site.site_logo}}" class="img-fluid" alt="{{site.title[site.active_lang]}}"/>
 						</div>
+						{% if site.active_lang == 'en' %}
 						<p><a href="https://hl7.org/fhir/uv/ipa/" target="_blank">International Patient Access</a> (IPA) is a FHIR implementation guide that attempts to establish a universal/global set of requirements for FHIR servers and apps that nations can use to kickstart the ability for their citizens to access their health information via APIs.</p>
+						{% elsif site.active_lang == 'de' %}
+						<p><a href="https://hl7.org/fhir/uv/ipa/" target="_blank">International Patient Access</a> (IPA) ist ein FHIR-Implementierungsleitfaden, der versucht, eine universelle/globale Reihe von Anforderungen für FHIR-Server und -Apps festzulegen, die Nationen verwenden können, um ihren Bürgern den Zugang zu ihren Gesundheitsinformationen über APIs zu ermöglichen.</p>
+						{% endif %}
 						<ul class="social">
 							{% if site.facebook_url %}
 							<li><a href="{{site.facebook_url}}" target="__blank"><i class="fab fa-facebook-f"></i></a></li>
@@ -23,21 +27,21 @@
 					</div>
 				</div>
 				<div class="col-md-3 col-sm-12 offset-md-3 offset-lg-5">
+					{% if site.data.footer-nav %}
+					{% assign footer_nav = site.data.footer-nav lang=site.active_lang  %}
 					<div class="widget widget_link">
 						<div class="widget_title">
-							<h4>Essential Links</h4>
+							<h4>{{ footer_nav.heading }}</h4>
 						</div>
+						{% if site.data.footer-nav.links %}
 						<ul>
-							<li><a href="/international-patient-access">International Patient Access </a></li>
-							<li><a href="/worldwide-adoption">Worldwide Adoption</a></li>
-							<li><a href="/faqs">FAQs</a></li>
-							<li><a href="/in-the-news">In the News</a></li>
-							<li><a href="/adopt-ipa">Adopt IPA</a></li>
-							<li><a href="/resources-for-patients">Resources for Patients</a></li>
-							<li><a href="/resources-for-decision-makers">Resources for Decision Makers</a></li>
-							<li><a href="https://www.hl7.org/legal/privacy.cfm" target="_blank">Privacy Policy</a></li>
+							{% for link in site.data.footer-nav.links %}
+							<li><a href="{{ link.url }}" {% if link.new_tab %}target="_blank"{% endif %}>{{ link.text }}</a></li>
+							{% endfor %}
 						</ul>
+						{% endif %}
 					</div>
+					{% endif %}
 				</div>
 			</div>
 		</div>
@@ -47,7 +51,7 @@
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="copyright_text">
-						<p>{{ site.copyright }}</p>
+						<p>{{ site.copyright[site.active_lang] }}</p>
 					</div>
 				</div>
 			</div>
