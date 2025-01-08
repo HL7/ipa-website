@@ -8,31 +8,31 @@ title: "In the News (German)"
 general_content:
   heading: "In the News"
   text: |
-    This section features a curated collection of articles and press releases on International Patient Access, HL7 FHIR and health data interoperability. Discover insights from industry leaders, innovative practices, and advancements shaping the future of healthcare data sharing. Whether you're a healthcare professional or a patient, these resources will keep you informed about the latest developments in accessible and secure health information.
+    Dieser Abschnitt enthält eine kuratierte Sammlung von Artikeln und Pressemitteilungen zum Thema „Internationaler Patientenzugang“, „HL7 FHIR“ und Interoperabilität von Gesundheitsdaten. Entdecken Sie Erkenntnisse von Branchenführern, innovative Praktiken und Fortschritte, die die Zukunft des Austauschs von Gesundheitsdaten prägen. Egal, ob Sie im Gesundheitswesen tätig sind oder selbst Patient, diese Ressourcen halten Sie über die neuesten Entwicklungen im Bereich zugänglicher und sicherer Gesundheitsinformationen auf dem Laufenden.
 
     [International Patient Access](https://blog.hl7.org/international-patient-access){: target="_blank"}\
-    The HL7 International Patient Access project uses the FHIR standard to enable secure, global access to health information, empowering patients to manage their healthcare across systems.
+    Das HL7 International Patient Access-Projekt verwendet den FHIR-Standard, um einen sicheren, globalen Zugriff auf Gesundheitsinformationen zu ermöglichen und Patienten die Möglichkeit zu geben, ihre Gesundheitsversorgung systemübergreifend zu verwalten.
 
-    [Karras, Vetter, Rahn & Vogt - IPA & IPS: Peanut Butter and Jelly, Better Together | DevDays Dec 2024](https://www.youtube.com/watch?v=xDuVr9bYwBE){: target="_blank"}\
-    Is global interop your jam? Join us for an introduction to two delectable FHIR projects-International Patient Access (IPA) defines a universal realm API for apps and International Patient Summary (IPS) enables cross-border care summary exchange.
+    [Karras, Vetter, Rahn & Vogt - IPA & IPS: Erdnussbutter und Gelee, zusammen besser | DevDays Dec 2024](https://www.youtube.com/watch?v=xDuVr9bYwBE){: target="_blank"}\
+    Ist globale Interoperabilität Ihr Ding? Nehmen Sie an unserer Einführung in zwei spannende FHIR-Projekte teil: International Patient Access (IPA) definiert eine universelle Realm-API für Apps und International Patient Summary (IPS) ermöglicht den grenzüberschreitenden Austausch von Behandlungszusammenfassungen.
 
-    [Home and Away - The International Patient Summary & Access](https://www.linkedin.com/pulse/home-away-international-patient-summary-access-andy-harrison-qceqf/){: target="_blank"}\
-    The Patient Access project aims to provide secure and seamless access to health information for patients globally, enhancing healthcare delivery and empowering individuals to manage their health records effectively.
+    [Home and Away - Die internationale Patientenübersicht und der Zugang](https://www.linkedin.com/pulse/home-away-international-patient-summary-access-andy-harrison-qceqf/){: target="_blank"}\
+    Das Ziel des Projekts „Patient Access“ besteht darin, Patienten auf der ganzen Welt einen sicheren und reibungslosen Zugriff auf Gesundheitsinformationen zu ermöglichen, die Gesundheitsversorgung zu verbessern und Einzelpersonen die Möglichkeit zu geben, ihre Gesundheitsakten effektiv zu verwalten.
 
     [Mikael Rinnetmäki - International Patient Access (IPA) specification | DevDays 2023 Amsterdam](https://www.youtube.com/watch?v=9BP_EELyOx4){: target="_blank"}\
-    A video discussion on the importance of International Patient Access, highlighting how it utilizes the FHIR standard to empower patients with secure access to their health data and emphasizes the project's role in improving healthcare delivery while fostering interoperability across different healthcare systems.
+    Eine Videodiskussion über die Bedeutung des internationalen Patientenzugangs. Dabei wird hervorgehoben, wie der FHIR-Standard genutzt wird, um Patienten einen sicheren Zugriff auf ihre Gesundheitsdaten zu ermöglichen. Außerdem wird die Rolle des Projekts bei der Verbesserung der Gesundheitsversorgung und der Förderung der Interoperabilität zwischen verschiedenen Gesundheitssystemen hervorgehoben.
 
     [International Patient Access (IPA) - 5 Minute Intro](https://www.youtube.com/watch?v=4MuLsgz8LrI){: target="_blank"}\
-    International Patient Access (IPA) is a healthcare standard that enables regulators, empowers patients, and guides health app developers toward greater patient access to health information through consistency across countries for multinational apps and Fast Healthcare Interoperability Resource (FHIR) servers. 
+    International Patient Access (IPA) ist ein Gesundheitsstandard, der Aufsichtsbehörden befähigt, Patienten stärkt und Entwicklern von Gesundheits-Apps dabei hilft, den Patientenzugang zu Gesundheitsinformationen zu verbessern, und zwar durch länderübergreifende Einheitlichkeit für multinationale Apps und Fast Healthcare Interoperability Resource (FHIR)-Server. 
 
     [Grahame Grieve on IPS and IPA](https://international-patient-summary.net/grahame-grieve-on-ips-and-ipa/){: target="_blank"}\
-    During the IHE Connectathon in Montreux, Switzerland, 13-16 September 2022, Grahame Grieve gave a talk focusing on the International Patient Summary (IPS) and International Patient Access (IPA) standards as part of the HL7 FHIR family within HL7 International.
+    Während des IHE Connectathon in Montreux, Schweiz, vom 13. bis 16. September 2022 hielt Grahame Grieve einen Vortrag mit Schwerpunkt auf den Standards International Patient Summary (IPS) und International Patient Access (IPA) als Teil der HL7 FHIR-Familie innerhalb von HL7 International.
 
     [Isaac Vetter - International Patient Access | DevDays June 2022](https://www.youtube.com/watch?v=Wo4NXmqF8Qc&t=39s){: target="_blank"}\
-    This video reviews the significance of the HL7 FHIR standard in enhancing international patient access to health information and how it enables secure data sharing and interoperability among healthcare systems. It emphasizes the benefits for patients, including greater control over their health data and improved care coordination.
+    In diesem Video wird die Bedeutung des HL7 FHIR-Standards für die Verbesserung des internationalen Patientenzugangs zu Gesundheitsinformationen erläutert und erläutert, wie dieser einen sicheren Datenaustausch und die Interoperabilität zwischen Gesundheitssystemen ermöglicht. Es betont die Vorteile für Patienten, darunter eine bessere Kontrolle über ihre Gesundheitsdaten und eine verbesserte Koordinierung der Behandlung.
 
-    [Mikael Rinnetmäki - Global Implementations with the International Patient Access | DevDays June 2022](https://www.youtube.com/watch?v=fn9nSh_yCCA&t=554s){: target="_blank"}\
-    The video discusses the role of HL7 FHIR in improving patient access to their health information, showcasing how it enables interoperability and empowers users to manage their own health data more effectively.
+    [Mikael Rinnetmäki - Globale Implementierungen mit dem International Patient Access | DevDays June 2022](https://www.youtube.com/watch?v=fn9nSh_yCCA&t=554s){: target="_blank"}\
+    Das Video erörtert die Rolle von HL7 FHIR bei der Verbesserung des Patientenzugriffs auf ihre Gesundheitsinformationen und zeigt, wie es die Interoperabilität ermöglicht und Benutzer in die Lage versetzt, ihre eigenen Gesundheitsdaten effektiver zu verwalten.
 
 
 # Testimonials
