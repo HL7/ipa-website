@@ -32,6 +32,8 @@ about:
   text: | # This allows us to use markdown as long as the following content is indented
     Using the [HL7® FHIR® standard](/faqs/), the International Patient Access specification allows patients to securely access health data across borders, similar to how online banking or Open Banking in the UK provides seamless access to financial information. This global interoperability ensures timely, accurate care and empowers patients with control over their data, enhancing healthcare delivery through data-driven, patient-centered approaches.
 
+    HL7®, and FHIR® are the registered trademarks of Health Level Seven International and their use of these trademarks does not constitute an endorsement by HL7.
+
   image: "/assets/images/what-is-patient-access.png"
   button:
     name: "Learn More"
