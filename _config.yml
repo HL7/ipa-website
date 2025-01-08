@@ -21,9 +21,7 @@
 title: Argonaut
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  International Patient Access empowers patients with secure, global access to their health records using 
-  the HL7 FHIR specification, enhancing healthcare delivery and interoperability across borders. Learn 
-  about best practices and steps to implement effective health data solutions.
+  International Patient Access empowers patients with secure, global access to their health records using the HL7 FHIR specification, enhancing healthcare delivery and interoperability across borders. Learn about best practices and steps to implement effective health data solutions.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
