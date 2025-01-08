@@ -30,7 +30,9 @@ slider:
 about:
   heading: "What is International Patient Access?"
   text: | # This allows us to use markdown as long as the following content is indented
-    Using the [HL7 FHIR standard](/faqs/), the International Patient Access specification allows patients to securely access health data across borders, similar to how online banking or Open Banking in the UK provides seamless access to financial information. This global interoperability ensures timely, accurate care and empowers patients with control over their data, enhancing healthcare delivery through data-driven, patient-centered approaches.
+    Using the [HL7® FHIR® standard](/faqs/), the International Patient Access specification allows patients to securely access health data across borders, similar to how online banking or Open Banking in the UK provides seamless access to financial information. This global interoperability ensures timely, accurate care and empowers patients with control over their data, enhancing healthcare delivery through data-driven, patient-centered approaches.
+
+    HL7®, and FHIR® are the registered trademarks of Health Level Seven International and their use of these trademarks does not constitute an endorsement by HL7.
 
   image: "/assets/images/what-is-patient-access.png"
   button:
@@ -66,7 +68,7 @@ highlights:
 
 # Achivement
 achivement:
-  heading: "29 Countries Have Adopted HL7 FHIR"
+  heading: "29 Countries Have Adopted HL7® FHIR®"
   text: "This reflects the [global commitment](/worldwide-adoption/) to interoperability and standardized data sharing. As the number of countries adopting HL7 FHIR continues to grow, it enhances patients' ability to seamlessly access their health information while improving collaboration among healthcare providers for better care delivery worldwide."
   text2: ""
   list:
@@ -80,7 +82,7 @@ achivement:
       
 # About 2
 about2:
-  heading: "29 Countries Have Adopted HL7 FHIR"
+  heading: "29 Countries Have Adopted HL7® FHIR®"
   text: | # This allows us to use markdown as long as the following content is indented
     This reflects the [global commitment](https://www.hl7.org/documentcenter/public/white-papers/2024%20StateofFHIRSurveyResults_final.pdf){: target="_blank"} to interoperability and standardized data sharing. As the number of countries adopting HL7 FHIR continues to grow, it enhances patients' ability to seamlessly access their health information while improving collaboration among healthcare providers for better care delivery worldwide.
 

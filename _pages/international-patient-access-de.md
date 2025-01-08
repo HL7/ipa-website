@@ -1,8 +1,8 @@
 ---
 layout: about
-permalink: /what-is-patient-access/
+permalink: /international-patient-access/
 lang: de
-title: "What is Patient Access (German)"
+title: "International Patient Access (German)"
 
 # Content
 general_content:
