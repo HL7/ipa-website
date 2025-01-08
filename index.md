@@ -10,7 +10,7 @@ slider:
     text: "Give patients control over their health data and facilitate efficient access to care regardless of location."
     button:
       name: "Learn More"
-      link: "/empower-patients"
+      link: "/adopt-ipa"
   - image: "/assets/images/sliders/slider-image-1.png"
     heading: "Portable <span>Health Data</span>"
     heading2: "Health records. Anywhere. Everywhere."
@@ -35,7 +35,7 @@ about:
   image: "/assets/images/what-is-patient-access.png"
   button:
     name: "Learn More"
-    link: "/what-is-patient-access"
+    link: "/international-patient-access"
 
 # Highlights
 highlights:
