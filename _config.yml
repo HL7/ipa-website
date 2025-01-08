@@ -21,15 +21,15 @@
 title: Argonaut
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  International Patient Access empowers patients with secure, global access to their health records using 
+  the HL7 FHIR specification, enhancing healthcare delivery and interoperability across borders. Learn 
+  about best practices and steps to implement effective health data solutions.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 github_username:
 site_logo: "/assets/images/logo.png"
-copyright: "Copyright © 2024 International Patient Access. All rights reserved."
+copyright: "Copyright © 2025 International Patient Access. All rights reserved."
 
 permalink: "/:title"
 
