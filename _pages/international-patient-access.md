@@ -1,13 +1,13 @@
 ---
 layout: about
-permalink: /what-is-patient-access/
-title: "What is Patient Access"
+permalink: /international-patient-access/
+title: "International Patient Access"
 
 # Content
 general_content:
   heading: "What is the International Patient Access Standard?"
   text: |
-    The [International Patient Access (IPA)](/faqs/) standard is the emerging global specification that allows patients and medical apps to easily access and share health information across countries. It builds upon existing FHIR (Fast Healthcare Interoperability Resources) standards but adds important improvements for secure, reliable, and consistent data exchange.
+    The [International Patient Access (IPA)](/faqs/) standard is the emerging global specification that empowers patients by allowing medical apps to easily access and share health information across countries. It builds upon existing FHIR (Fast Healthcare Interoperability Resources) standards but adds important improvements for secure, reliable, and consistent data exchange.
 
     **Key Features of IPA:**
 
