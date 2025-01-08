@@ -7,7 +7,7 @@ title: "Adopt IPA"
 general_content:
   heading: "Adopt IPA"
   text: |
-    International Patient Access (IPA) is the emerging global standard that empowers patients by allowing medical apps to easily access and share health information across countries. It builds upon existing FHIR (Fast Healthcare Interoperability Resources) standards but adds important improvements for secure, reliable, and consistent data exchange.
+    [International Patient Access (IPA)](/faqs/) is the emerging global standard that empowers patients by allowing medical apps to easily access and share health information across countries. It builds upon existing FHIR® (Fast Healthcare Interoperability Resources) standards but adds important improvements for secure, reliable, and consistent data exchange.
 
 
     Many countries already use FHIR, but IPA addresses crucial limitations:

@@ -25,23 +25,24 @@ accordion:
             Many countries already use FHIR, but IPA addresses crucial limitations:
             - Secure Access: IPA ensures that only authorized users and apps can access health information, protecting patient privacy.  It defines how apps get permission to access data using standard methods (like OAuth 2.0).
             - Standardized Data: IPA creates a common set of data types and formats.  This means medical apps can work consistently across different systems worldwide, simplifying development, improving interoperability and patient access.
+            - Consistent Global Standard: IPA enables individual regions and nations to reuse a proven FHIR standard to further a digital health it economy, and improve interoperability.
         - question: "How does the IPA project benefit patients?"
           answer: "IPA allows patients to easily access their health data from various healthcare providers. With easy access, patients become more informed and engaged in their healthcare decisions. This can lead to better health outcomes as patients can track their conditions, understand their treatments, and communicate more effectively with their healthcare providers."
     - section: "Data Sharing and Privacy"
       questions:
-        - question: "How can I share my health data using IPA?"
-          answer: "With IPA, you can share your health data by granting access to specific health apps. This is done through consent management features within IPA-compliant systems, allowing you to control who sees your information and for what purposes."
-        - question: "How is my health data protected?"
+        - question: "How can a patient share their health data using IPA?"
+          answer: "With IPA, patients can share health data by granting access to specific health apps. This is done through consent management features within IPA-compliant systems, allowing the patient to control who sees their information and for what purposes."
+        - question: "How is the patients’ health data protected?"
           answer: |
-            Your health data is protected through robust security measures, including encryption, secure authentication, and compliance with data protection regulations such as the [General Data Protection Regulation](https://gdpr.eu/what-is-gdpr/){: target="_blank} (GDPR) and the [Health Insurance Portability and Accountability Act](https://www.cdc.gov/phlp/php/resources/health-insurance-portability-and-accountability-act-of-1996-hipaa.html){: target="_blank"} (HIPAA).
-        - question: "Can I revoke access to my health data?"
-          answer: "Yes, you can revoke access to your health data at any time, as patient-controlled consent is a key feature of our system. However, it's important to note that any data that was accessed prior to revocation will still be subject to the privacy policy of the app or health system that accessed the information. This means that you should review their policies to understand how your data will be handled after access is revoked."
+            The patients’ health data is protected through robust security measures, including encryption, secure authentication, and compliance with data protection regulations such as the [General Data Protection Regulation](https://gdpr.eu/what-is-gdpr/){: target="_blank} (GDPR) and the [Health Insurance Portability and Accountability Act](https://www.cdc.gov/phlp/php/resources/health-insurance-portability-and-accountability-act-of-1996-hipaa.html){: target="_blank"} (HIPAA).
+        - question: "Can the patient revoke access to their health data?"
+          answer: "Yes, patients can revoke access to your health data at any time, as patient-controlled consent is a key feature of our system. However, it's important to note that any data that was accessed prior to revocation will still be subject to the privacy policy of the app or health system that accessed the information. This means that the patient should review their policies to understand how your data will be handled after access is revoked."
   column2:
     - section: "Participating Institutions and Applications"
       questions:
-        - question: "What hospitals or clinics allow me to share my data using IPA?"
+        - question: "What hospitals or clinics allow a patient to share their data using IPA?"
           answer: "Many hospitals and clinics worldwide are adopting HL7 FHIR standards and participating in the IPA project. To find out if your local healthcare providers support IPA, check with them directly or visit our [official blog](https://blog.hl7.org/international-patient-access) for a list of participating institutions."
-        - question: "What apps can I share my data with?"
+        - question: "What apps can a patient share their data with?"
           answer: "There are numerous health apps that are integrating with IPA to provide seamless data sharing capabilities. These range from personal health management tools to specialized medical applications. For a sample list of compatible apps, visit our [official blog](https://blog.hl7.org/international-patient-access)."
     - section: "Getting Involved"
       questions:
