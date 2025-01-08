@@ -1,7 +1,8 @@
 ---
 layout: about
 permalink: /resources-for-patients/
-title: "Resources for Patients"
+lang: de
+title: "Resources for Patients (German)"
 
 # Content
 general_content:
@@ -9,7 +10,7 @@ general_content:
   text: |
     What is International Patient Access?
 
-    [International Patient Access (IPA)](/international-patient-access/) enables you to easily and securely access your health data across different healthcare systems and countries, much like how you would manage your bank accounts through online banking. This access is made possible by adhering to the HL7 FHIR (Fast Healthcare Interoperability Resources) standard, which ensures data is shared in a secure and standardized way.
+    [International Patient Access (IPA)](/what-is-patient-access/){: target="_blank"} enables you to easily and securely access your health data across different healthcare systems and countries, much like how you would manage your bank accounts through online banking. This access is made possible by adhering to the HL7 FHIR (Fast Healthcare Interoperability Resources) standard, which ensures data is shared in a secure and standardized way.
 
     Benefits of Accessing Your Healthcare Data:
 
@@ -26,8 +27,6 @@ general_content:
     1. Talk to Your Healthcare Provider: Ask if they are using IPA-enabled systems and how you can access your health records.
     2. Use Secure Health Portals: Many healthcare providers offer patient portals where you can safely view your medical records, test results, treatment plans and connect this data to other apps.
     3. Stay Informed: Follow updates to health data access to ensure you're aware of your options.
-
-    HL7®, and FHIR® are the registered trademarks of Health Level Seven International and their use of these trademarks does not constitute an endorsement by HL7.
   image: "/assets/images/Group 28.png"
 
 # Testimonials

@@ -1,13 +1,14 @@
 ---
 layout: about
-permalink: /adopt-ipa/
-title: "Adopt IPA"
+permalink: /empower-patients/
+lang: de
+title: "Empower Patients (German)"
 
 # Content
 general_content:
-  heading: "Adopt IPA"
+  heading: "Empower Patients"
   text: |
-    International Patient Access (IPA) is the emerging global standard that empowers patients by allowing medical apps to easily access and share health information across countries. It builds upon existing FHIR (Fast Healthcare Interoperability Resources) standards but adds important improvements for secure, reliable, and consistent data exchange.
+    International Patient Access (IPA) is the emerging global standard that allows patients and medical apps to easily access and share health information across countries. It builds upon existing FHIR (Fast Healthcare Interoperability Resources) standards but adds important improvements for secure, reliable, and consistent data exchange.
 
 
     Many countries already use FHIR, but IPA addresses crucial limitations:
@@ -31,9 +32,6 @@ general_content:
 
 
     Many countries and EHR (electronic health record) systems already support FHIR and are moving towards IPA-compliant systems.  Several nations are actively building their national health information standards based on IPA.
-
-    HL7®, and FHIR® are the registered trademarks of Health Level Seven International and their use of these trademarks does not constitute an endorsement by HL7.
-    
   button:
     name: "Technical Resources"
     link: "/resources-for-decision-makers/"

@@ -215,7 +215,9 @@
     });
   }
 
-  locationsMap();
+  if (document.getElementById('map')) {
+    locationsMap();
+  }
 
   // Language switcher
   function languageSwitcher() {

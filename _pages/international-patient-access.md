@@ -16,7 +16,7 @@ general_content:
 
     **Learn More:**
 
-    You can find more details on the IPA 1.0 specification and related resources. Stay updated on the latest IPA developments by visiting [our blog](https://blog.hl7.org/international-patient-access){: target="_blank"} and joining the HL7 community.
+    You can find more details on the IPA 1.0 specification and related resources. Stay updated on the latest IPA developments by visiting [our blog](https://blog.hl7.org/international-patient-access){: target="_blank"} and joining the HL7® community.
 
 
     **Who is driving the IPA project?**
@@ -34,6 +34,8 @@ general_content:
 
 
     The collaboration among these entities exemplifies the commitment to improving global health data interoperability and ensuring patients have greater access and control over their healthcare information.
+
+    HL7®, and FHIR® are the registered trademarks of Health Level Seven International and their use of these trademarks does not constitute an endorsement by HL7.
   button:
     name: "FAQs"
     link: "/faqs/"

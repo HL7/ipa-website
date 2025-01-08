@@ -1,7 +1,8 @@
 ---
 layout: resources-for-decision-makers
 permalink: /resources-for-decision-makers/
-title: "Resources for Decision Makers"
+lang: de
+title: "Resources for Decision Makers (German)"
 
 # Content
 general_content:
@@ -10,7 +11,7 @@ general_content:
     **Resources:**
 
     - Successfully engaging individuals in digital health requires effort in areas such as governance, consumer digital literacy, individual enrollment, health record integration as well as the technical patient access enabled by IPA. The Global Digital Health Partnership’s [International Insights on Individual Engagement](https://gdhp.health/international-insights-on-individual-engagement/){: target="_blank"} contains a survey of efforts across the globe.
-    - The [2024 State of FHIR® Adoption Survey](https://interop.esante.gouv.fr/ig/doctrine/0.1.0-ballot/2024%20StateofFHIRSurveyResults_final.pdf){: target="_blank"} report summarizes and analyzes the use of the HL7® FHIR® standard across 29 countries.
+    - The [2024 State of FHIR Adoption Survey](https://interop.esante.gouv.fr/ig/doctrine/0.1.0-ballot/2024%20StateofFHIRSurveyResults_final.pdf){: target="_blank"} report summarizes and analyzes the use of HL7 FHIR across 29 countries.
     - The [WHO’s National eHealth Strategy Toolkit](https://www.who.int/publications/i/item/national-ehealth-strategy-toolkit){: target="blank"} may help jurisdictions develop and implement an eHealth strategy, including enabling greater digital patient access.
     - The [Global Digital Health Monitor](https://monitor.digitalhealthmonitor.org/map){: target="blank"} provides potentially useful indicators for national digital health maturity.
 
@@ -50,8 +51,6 @@ general_content:
     Vendors must demonstrate the following qualifications:
         - Proven experience in developing and implementing health IT solutions with HL7 FHIR standards.
         - Expertise in data security and privacy, with a track record of compliance with and participation in international standards.
-
-    HL7®, and FHIR® are the registered trademarks of Health Level Seven International and their use of these trademarks does not constitute an endorsement by HL7.
 
 # Testimonials
 testimonials:

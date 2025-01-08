@@ -37,7 +37,8 @@ permalink: "/:title"
 languages: ["en", "de"]
 default_lang: "en"
 exclude_from_localization: ["assets"]
-parallel_localization: true
+parallel_localization: false
+lang_from_path: true
 language_names:
   en: "English"
   de: "Deutsch"
