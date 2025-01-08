@@ -47,21 +47,21 @@ highlights:
       link:
         name: "Read More"
         url: "/resources-for-patients"
-        new_tab: true
+        new_tab: false
     - heading: "Access"
       text: Authorize and retrieve necessary patient information.
       icon: "/assets/images/highlight-image-2.png"
       link:
         name: "Read More"
         url: "/resources-for-patients"
-        new_tab: true
+        new_tab: false
     - heading: "Share"
       text: Facilitate the secure exchange of health data for improved care.
       icon: "/assets/images/highlight-image-3.png"
       link:
         name: "Read More"
         url: "/resources-for-patients"
-        new_tab: true
+        new_tab: false
 
 # Achivement
 achivement:
