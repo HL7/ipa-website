@@ -60,7 +60,11 @@
 						{% endif %}
 					</li>
 					{% endfor %}
+					{% if site.active_lang == 'en' %}
 					<li class="menu-item"><a href="{{ '/adopt-ipa' | absolute_url }}" class="deneb_btn">Adopt IPA</a></li>
+					{% elsif site.active_lang == 'de' %}
+					<li class="menu-item"><a href="{{ '/adopt-ipa' | absolute_url }}" class="deneb_btn">IPA annehmen</a></li>
+					{% endif %}
 					<li class="menu-item">
 						<select name="language_select" class="language_select">
 							{% for lang in site.languages %}
