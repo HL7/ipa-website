@@ -1,0 +1,37 @@
+<!-- Start deneb_testimonial section -->
+<section class="deneb_testimonial testimonial_v1">
+	<div class="shape_v5">
+		<img src="{{ "/assets/images/shape/shape_12.png" | absolute_url }}" class="shape_12" alt="">
+		<img src="{{ "/assets/images/shape/shape_13.png" | absolute_url }}" class="shape_13" alt="">
+		<img src="{{ "/assets/images/shape/shape_14.png" | absolute_url }}" class="shape_14" alt="">
+	</div>
+	<div class="container">
+		<div class="quote">
+			<i class="fas fa-quote-left"></i>
+		</div>
+		<div class="row">
+			<div class="col-lg-12">
+				{% if page.testimonials.text or page.testimonials.heading %}
+				<div class="section_title text-center">
+					{% if page.testimonials.heading %}
+					<h2>{{ page.testimonials.heading }}</h2>
+					{% endif %}
+					{{ page.testimonials.text | markdownify }}
+				</div>
+				{% endif %}
+			</div>
+		</div>
+		<div class="testimonial_slide">
+			{% for list in page.testimonials.list %}
+			<div class="single_testimonial">
+				<div class="client_info">
+					<h3>{{ list.name }}</h3>
+					<h5>{{ list.position }}</h5>
+					{{ list.text | markdownify }}
+				</div>
+			</div>			
+			{% endfor %}
+		</div>
+	</div>
+</section>
+<!-- End deneb_testimonial section -->

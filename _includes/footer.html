@@ -1,29 +1,61 @@
-<footer>
-  <div class="footer-columns">
-    <div class="footer-column">
-      <img src="/assets/images/argonauts-logo.png" alt="Argonauts logo">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    </div>
-    <div class="footer-column">
-      <h3>Column Title</h3>
-      <ul>
-        <li><a href="#">Link</a></li>
-        <li><a href="#">Link</a></li>
-        <li><a href="#">Link</a></li>
-        <li><a href="#">Link</a></li>
-      </ul>
-    </div>
-    <div class="footer-column">
-      <h3>Contact Us</h3>
-      <ul>
-        <li><img src="/assets/icons/phone-icon.png" alt="Phone icon">+1 (555) 123-4567</li>
-        <li><img src="/assets/icons/email-icon.png" alt="Email icon">contact@argonauts.com</li>
-        <li><img src="/assets/icons/location-icon.png" alt="Location icon">123 Argonauts St, Atlantis</li>
-      </ul>
-    </div>
-  </div>
-  <p class="copyright">&copy; 2024 Argonauts. All rights reserved.</p>
+<!-- Start footer -->
+<footer class="deneb_footer">
+	<div class="widget_wrapper" style="background-image: url(/assets/images/footer_bg.png);">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-6 col-12">
+					<div class="widget widegt_about mb-md-4 mb-lg-0">
+						<div class="widget_title">
+							<img src="{{site.site_logo}}" class="img-fluid" alt="{{site.title[site.active_lang]}}"/>
+						</div>
+						{% if site.active_lang == 'en' %}
+						<p><a href="https://hl7.org/fhir/uv/ipa/" target="_blank">International Patient Access</a> (IPA) is a FHIR implementation guide that attempts to establish a universal/global set of requirements for FHIR servers and apps that nations can use to kickstart the ability for their citizens to access their health information via APIs.</p>
+						{% elsif site.active_lang == 'de' %}
+						<p><a href="https://hl7.org/fhir/uv/ipa/" target="_blank">International Patient Access</a> (IPA) ist ein FHIR-Implementierungsleitfaden, der versucht, eine universelle/globale Reihe von Anforderungen für FHIR-Server und -Apps festzulegen, die Nationen verwenden können, um ihren Bürgern den Zugang zu ihren Gesundheitsinformationen über APIs zu ermöglichen.</p>
+						{% endif %}
+						<ul class="social">
+							{% if site.facebook_url %}
+							<li><a href="{{site.facebook_url}}" target="__blank"><i class="fab fa-facebook-f"></i></a></li>
+							{% endif %}
+							{% if site.twitter_url %}
+							<li><a href="{{site.twitter_url}}" target="__blank"><i class="fab fa-twitter"></i></a></li>
+							{% endif %}
+							{% if site.instagram_url %}
+							<li><a href="{{site.instagram_url}}" target="__blank"><i class="fab fa-instagram"></i></a></li>
+							{% endif %}
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-12 offset-md-3 offset-lg-5">
+					{% if site.data.footer-nav %}
+					{% assign footer_nav = site.data.footer-nav lang=site.active_lang  %}
+					<div class="widget widget_link">
+						<div class="widget_title">
+							<h4>{{ footer_nav.heading }}</h4>
+						</div>
+						{% if site.data.footer-nav.links %}
+						<ul>
+							{% for link in site.data.footer-nav.links %}
+							<li><a href="{{ link.url }}" {% if link.new_tab %}target="_blank"{% endif %}>{{ link.text }}</a></li>
+							{% endfor %}
+						</ul>
+						{% endif %}
+					</div>
+					{% endif %}
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="copyright_area">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="copyright_text">
+						<p>{{ site.copyright[site.active_lang] }}</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </footer>
-
-<script src="/lib/jQuery/jquery-3.7.1.min.js"></script>
-<script src="/assets/js/main.js"></script>
+<!-- End footer -->

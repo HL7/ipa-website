@@ -1,0 +1,35 @@
+<!-- Start deneb_service section -->
+<section class="deneb_service highlight_v1">
+	<div class="shape_v2">
+		<img src="{{ "/assets/images/shape/shape_7.png" | absolute_url }}" class="shape_7" alt="">
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="section_title text-center">
+					<h2>{{ page.highlights.heading }}</h2>
+					{{ page.highlights.text | markdownify }}
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			{% for highlight in page.highlights.items %}
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<div class="grid_item wow fadeInUp">
+						<a href="{{ highlight.link.url | absolute_url }}" {% if highlight.link.new_tab %}target="_blank"{% endif %}>
+							<div class="icon">
+								<img src="{{highlight.icon}}" class="img-fluid" alt="">
+							</div>
+							<div class="info">
+								<h4>{{highlight.heading}}</h4>
+								{{ highlight.text | markdownify }}
+								<span class="link_btn">{{highlight.link.name}}</span>
+							</div>
+						</a>
+					</div>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+</section>
+<!-- End deneb_service section -->

@@ -1,0 +1,20 @@
+{
+    "organization_metadata": [
+        {
+            "name": "Example Hospital A, Physician Group B practicing across 3 provinces and the central capitol city",
+            "label": "Example Hospital A",
+            "website": "https://website.example.com/",
+            "fhir_base_url": "https://fhir.example.com/fhir/R4",
+            "locations": [
+                {
+                    "country": "FI",
+                    "city": ""
+                }
+            ],
+            "org_type": [
+                "organizational.health_system"
+            ],
+            "ipa_inferno_test_result": "https://simple.example.com/ipa/inferno_result"
+        }
+    ]
+}
