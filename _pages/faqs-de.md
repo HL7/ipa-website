@@ -82,14 +82,14 @@ accordion:
             Eine vollständige Liste der Anforderungen und Spezifikationen finden Sie in der [International Patient Access API Specification](https://hl7.org/fhir/uv/ipa/){: target="_blank"}
         - question: "Wie wird die Sicherheit von APIs für den Zugriff auf Gesundheitsdaten gewährleistet?"
           answer: |
-          Es wurden Millionen von Dollar investiert, um die SMART App Launch-Mechanismen im Rahmen des International Patient Access (IPA) zu sichern. 
-          
-          Einige Gerichtsbarkeiten haben sich bewusst dafür entschieden, auf eine App-Zertifizierung zu verzichten, sodass Entwickler selbstbewusst Innovationen entwickeln und gleichzeitig sicherstellen können, dass die Patientendaten geschützt sind.  
-          
-          No matter what level of certification frameworks for apps you’ve Unabhängig davon, welche Zertifizierungsrahmen Sie für Ihre Apps erstellt haben, ermöglicht diese robuste Sicherheit ein zuverlässiges und effizientes Gesundheitsinformationsmanagement.
+            Es wurden Millionen von Dollar investiert, um die SMART App Launch-Mechanismen im Rahmen des International Patient Access (IPA) zu sichern. 
+            
+            Einige Gerichtsbarkeiten haben sich bewusst dafür entschieden, auf eine App-Zertifizierung zu verzichten, sodass Entwickler selbstbewusst Innovationen entwickeln und gleichzeitig sicherstellen können, dass die Patientendaten geschützt sind.  
+            
+            No matter what level of certification frameworks for apps you’ve Unabhängig davon, welche Zertifizierungsrahmen Sie für Ihre Apps erstellt haben, ermöglicht diese robuste Sicherheit ein zuverlässiges und effizientes Gesundheitsinformationsmanagement.
         - question: "Wie erfahre ich, ob mein Gesundheitssystem oder meine elektronische Patientenakte IPA unterstützt?"
           answer: |
-          Erkundigen Sie sich bei Ihrem Anbieter von EHR- oder Gesundheits-IT-Systemen, ob dieser die HL7 FHIR IPA-Standards unterstützt. Sie können auch in unserem [offiziellen Blog](https://blog.hl7.org/international-patient-access){: target="_blank"} nach einer Liste kompatibler Systeme und Anbieter suchen.
+            Erkundigen Sie sich bei Ihrem Anbieter von EHR- oder Gesundheits-IT-Systemen, ob dieser die HL7 FHIR IPA-Standards unterstützt. Sie können auch in unserem [offiziellen Blog](https://blog.hl7.org/international-patient-access){: target="_blank"} nach einer Liste kompatibler Systeme und Anbieter suchen.
 
 # Contact Area
 contact_area:
