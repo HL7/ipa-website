@@ -14,20 +14,25 @@
 #
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# you will see them accessed via {{ site.title[site.active_lang] }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Argonaut
+title:
+  en: Argonaut
+  de: Argonaut (DE)
 email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  International Patient Access empowers patients with secure, global access to their health records using the HL7 FHIR specification, enhancing healthcare delivery and interoperability across borders. Learn about best practices and steps to implement effective health data solutions.
+description:
+  en: International Patient Access empowers patients with secure, global access to their health records using the HL7 FHIR specification, enhancing healthcare delivery and interoperability across borders. Learn about best practices and steps to implement effective health data solutions.
+  de: International Patient Access ermöglicht Patienten den sicheren, globalen Zugriff auf ihre Gesundheitsdaten unter Verwendung der HL7 FHIR-Spezifikation und verbessert die Gesundheitsversorgung und Interoperabilität über Grenzen hinweg. Erfahren Sie mehr über bewährte Verfahren und Schritte zur Implementierung effektiver Gesundheitsdatenlösungen.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 github_username:
 site_logo: "/assets/images/logo.png"
-copyright: "Copyright © 2025 International Patient Access. All rights reserved."
+copyright:
+  en: "Copyright © 2025 International Patient Access. All rights reserved."
+  de: "Copyright © 2025 International Patient Access. Alle Rechte vorbehalten."
 
 permalink: "/:title"
 
