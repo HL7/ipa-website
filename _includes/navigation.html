@@ -1,27 +1,13 @@
-<nav class="main_menu">
+<nav>
+  <img src="/assets/images/argonauts-logo.png" alt="Argonauts logo">
   <ul>
-    {% for menu in site.data.navigation %}
-    <li class="menu-item {% if page.url contains menu.url %} active_link {% endif %}"><a href="{{menu.url}}">{{menu.text}}</a>
-      {% if menu.submenu %}
-      <ul class="sub-menu">
-        {% for submenu_item in menu.submenu %}
-        <li class="menu-item"><a href="{{submenu_item.url}}">{{submenu_item.text}}</a></li>
-        {% endfor %}
-      </ul>
-    </li>
-    {% endif %}
-    {% endfor %}
-    {% if site.active_lang == 'en' %}
-    <li class="menu-item"><a href="{{ '/adopt-ipa' | absolute_url }}" class="deneb_btn">Adopt IPA</a></li>
-    {% elsif site.active_lang == 'de' %}
-    <li class="menu-item"><a href="{{ '/adopt-ipa' | absolute_url }}" class="deneb_btn">IPA annehmen</a></li>
-    {% endif %}
-    <li class="menu-item">
-      <select name="language_select" class="language_select">
-        {% for lang in site.languages %}
-        <option value="{% if lang == site.default_lang %}{{ page.url | absolute_url }}{% else %}{{ site.baseurl | absolute_url }}{{ lang }}{{page.url}}{% endif %}" {% if lang == site.active_lang %}selected{% endif %}>{{ site.language_names[lang] }}</option>
-        {% endfor %}
-      </select>
-    </li>
+    <li><a href="{{ site.path }}">Home</a></li>
+    <li><a href="/about">About Us</a></li>
+    <li><a href="/find-my-issuer">Find My Issuer</a></li>
+    <li><a href="/how-they-work">How They Work</a></li>
+    <li><a href="/faq">FAQ</a></li>
+    <li><a href="/blog">Blog</a></li>
+    <li><a href="/contact-us">Contact Us</a></li>
+    <li><a class="button" href="/hire-us">Hire Us</a></li>
   </ul>
 </nav>
