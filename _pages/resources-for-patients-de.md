@@ -8,25 +8,31 @@ title: "Resources for Patients (German)"
 general_content:
   heading: "Resources for Patients"
   text: |
-    What is International Patient Access?
+    Was ist International Patient Access?
 
-    [International Patient Access (IPA)](/international-patient-access/){: target="_blank"} enables you to easily and securely access your health data across different healthcare systems and countries, much like how you would manage your bank accounts through online banking. This access is made possible by adhering to the HL7 FHIR (Fast Healthcare Interoperability Resources) standard, which ensures data is shared in a secure and standardized way.
+    [International Patient Access (IPA)](/international-patient-access/) ermöglicht Ihnen den einfachen und sicheren Zugriff auf Ihre Gesundheitsdaten in verschiedenen Gesundheitssystemen und Ländern, ähnlich wie Sie Ihre Bankkonten über Online-Banking verwalten würden. Dieser Zugriff wird durch die Einhaltung des HL7® und FHIR®-Standards (Fast Healthcare Interoperability Resources) ermöglicht, der sicherstellt, dass Daten auf sichere und standardisierte Weise geteilt werden.
 
-    Benefits of Accessing Your Healthcare Data:
 
-    - Empowerment and Control: By having access to your health data, you can make informed decisions about your care and treatment options. This empowers you to be an active participant in your healthcare journey.
+    Vorteile des Zugriffs auf Ihre Gesundheitsdaten:
 
-    - Improved Care Coordination: With your data readily available, healthcare providers can better coordinate your care, leading to improved outcomes and a more streamlined healthcare experience.
+    - Befugnis und Kontrolle: Durch den Zugriff auf Ihre Gesundheitsdaten können Sie fundierte Entscheidungen über Ihre Pflege- und Behandlungsoptionen treffen. Dies befähigt Sie, ein aktiver Teilnehmer an Ihrem Gesundheitsweg zu sein.
 
-    - Access Anywhere, Anytime: Regardless of where you are in the world, you can access your vital health information, ensuring you receive accurate and timely care when traveling or relocating.
+    - Verbesserte Pflegekoordination: Wenn Ihre Daten leicht verfügbar sind, können Gesundheitsdienstleister Ihre Pflege besser koordinieren, was zu besseren Ergebnissen und einer optimierten Gesundheitsversorgung führt.
 
-    - Privacy and Security: The use of international standards like HL7 FHIR ensures that your health data is shared securely, protecting your privacy while allowing necessary access for healthcare providers.
+    - Überall und jederzeit Zugriff: Unabhängig davon, wo Sie sich auf der Welt befinden, können Sie auf Ihre wichtigen Gesundheitsinformationen zugreifen und so sicherstellen, dass Sie auf Reisen oder bei einem Umzug eine genaue und rechtzeitige Pflege erhalten.
 
-    How to Get Started
+    - Datenschutz und Sicherheit: Die Verwendung internationaler Standards wie HL7 FHIR stellt sicher, dass Ihre Gesundheitsdaten sicher weitergegeben werden, Ihre Privatsphäre geschützt ist und Gesundheitsdienstleistern gleichzeitig der erforderliche Zugriff gewährt wird.
 
-    1. Talk to Your Healthcare Provider: Ask if they are using IPA-enabled systems and how you can access your health records.
-    2. Use Secure Health Portals: Many healthcare providers offer patient portals where you can safely view your medical records, test results, treatment plans and connect this data to other apps.
-    3. Stay Informed: Follow updates to health data access to ensure you're aware of your options.
+    Erste Schritte
+
+    1. Sprechen Sie mit Ihrem Gesundheitsdienstleister: Fragen Sie, ob er IPA-fähige Systeme verwendet und wie Sie auf Ihre Gesundheitsakten zugreifen können.
+    2. Verwenden Sie sichere Gesundheitsportale: Viele Gesundheitsdienstleister bieten Patientenportale an, auf denen Sie Ihre Krankenakten, Testergebnisse und Behandlungspläne sicher einsehen und diese Daten mit anderen Apps verbinden können.
+    3. Bleiben Sie informiert: Verfolgen Sie Aktualisierungen zum Zugriff auf Gesundheitsdaten, um sicherzustellen, dass Sie über Ihre Optionen informiert sind.
+
+    HL7® und FHIR® sind eingetragene Marken von Health Level Seven International und die Verwendung dieser Marken stellt keine Billigung durch HL7 dar.
+  button:
+    name: "FAQs"
+    link: "/faqs/"
   image: "/assets/images/Group 28.png"
 
 # Testimonials

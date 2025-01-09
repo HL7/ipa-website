@@ -6,35 +6,36 @@ title: "International Patient Access (German)"
 
 # Content
 general_content:
-  heading: "What is the International Patient Access Standard?"
+  heading: "Was ist der International Patient Access Standard?"
   text: |
-    The [International Patient Access (IPA)](/faqs/){: target="_blank"} standard is the emerging global specification that allows patients and medical apps to easily access and share health information across countries. It builds upon existing FHIR (Fast Healthcare Interoperability Resources) standards but adds important improvements for secure, reliable, and consistent data exchange.
+    Der [International Patient Access (IPA)](/faqs/) Standard ist die neue globale Spezifikation, die Patienten stärkt, indem sie es medizinischen Apps ermöglicht, problemlos auf Gesundheitsinformationen zuzugreifen und diese länderübergreifend zu teilen. Er baut auf bestehenden FHIR®-Standards (Fast Healthcare Interoperability Resources) auf, fügt aber wichtige Verbesserungen für einen sicheren, zuverlässigen und konsistenten Datenaustausch hinzu.
 
-    **Key Features of IPA:**
+    **Hauptmerkmale von IPA:**
 
-    IPA uses FHIR profiles (specifications for how specific data is structured) to define a globally harmonized set of core health information. Countries can then expand on this base information to meet their unique needs.
-
-
-    **Learn More:**
-
-    You can find more details on the IPA 1.0 specification and related resources. Stay updated on the latest IPA developments by visiting [our blog](https://blog.hl7.org/international-patient-access){: target="_blank"} and joining the HL7 community.
+    HL7® und FHIR®-Profile (Standard für die Strukturierung bestimmter Daten), um einen global harmonisierten Satz grundlegender Gesundheitsinformationen zu definieren. Länder können diese Basisinformationen dann erweitern, um ihre individuellen Anforderungen zu erfüllen.
 
 
-    **Who is driving the IPA project?**
+    **Weitere Informationen:**
+
+    Weitere Einzelheiten zur IPA 1.0-Spezifikation und zugehörigen Ressourcen finden Sie hier. Bleiben Sie über die neuesten IPA-Entwicklungen auf dem Laufenden, indem Sie [unseren Blog besuchen](https://blog.hl7.org/international-patient-access){: target="_blank"} und der HL7-Community beitreten.
 
 
-    The IPA initiative is driven by HL7 International, a not-for-profit organization dedicated to developing standards for the exchange of electronic health information. As a global leader in health data interoperability, HL7's work is largely made possible through the contributions of volunteers from various sectors in the healthcare and technology industries.
-
-    **Participating Organizations and Individuals:**
-
-    - Healthcare Providers: Hospitals, clinics, and healthcare networks around the globe contribute insights and testing environments.
-    - Technology Companies: Leaders in health IT who provide expertise in software and systems integration.
-    Government Health Agencies: Ensuring regulations and standards are met across different countries.
-    - Academic Institutions: Conducting research and providing expert analyses and recommendations.
-    - Dedicated Individuals: Volunteers from all backgrounds, including doctors, nurses, IT professionals, and policymakers, who bring diverse perspectives and skills to the table.
+    **Wer treibt das IPA-Projekt voran?**
 
 
-    The collaboration among these entities exemplifies the commitment to improving global health data interoperability and ensuring patients have greater access and control over their healthcare information.
+    Die IPA-Initiative wird von HL7 International vorangetrieben, einer gemeinnützigen Organisation, die sich der Entwicklung von Standards für den Austausch elektronischer Gesundheitsinformationen widmet. Als weltweit führender Anbieter von Interoperabilität für Gesundheitsdaten wird die Arbeit von HL7 größtenteils durch die Beiträge von Freiwilligen aus verschiedenen Sektoren der Gesundheits- und Technologiebranche ermöglicht.
+
+    **Teilnehmende Organisationen und Einzelpersonen:**
+
+    - Gesundheitsdienstleister: Krankenhäuser, Kliniken und Gesundheitsnetzwerke auf der ganzen Welt tragen Erkenntnisse und Testumgebungen bei.
+    - Technologieunternehmen: Führende Unternehmen im Bereich Gesundheits-IT, die Fachwissen in den Bereichen Software- und Systemintegration bereitstellen. 
+    - Staatliche Gesundheitsbehörden: Stellen sicher, dass Vorschriften und Standards in verschiedenen Ländern eingehalten werden.
+    - Akademische Einrichtungen: Führen Forschungen durch und stellen Expertenanalysen und -empfehlungen bereit.
+    - Engagierte Einzelpersonen: Freiwillige aus allen Bereichen, darunter Ärzte, Krankenschwestern, IT-Experten und politische Entscheidungsträger, die unterschiedliche Perspektiven und Fähigkeiten einbringen.
+
+    Die Zusammenarbeit dieser Unternehmen ist ein Beispiel für das Engagement, die globale Interoperabilität von Gesundheitsdaten zu verbessern und Patienten einen besseren Zugang zu ihren Gesundheitsinformationen und mehr Kontrolle darüber zu gewährleisten.
+
+    HL7® und FHIR® sind eingetragene Marken von Health Level Seven International und die Verwendung dieser Marken stellt keine Billigung durch HL7 dar.
   button:
     name: "FAQs"
     link: "/faqs/"

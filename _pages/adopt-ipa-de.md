@@ -6,32 +6,36 @@ title: "Adopt IPA (German)"
 
 # Content
 general_content:
-  heading: "Adopt IPA"
+  heading: "Nehmen Sie IPA an, um Patienten zu stärken"
   text: |
-    International Patient Access (IPA) is the emerging global standard that allows patients and medical apps to easily access and share health information across countries. It builds upon existing FHIR (Fast Healthcare Interoperability Resources) standards but adds important improvements for secure, reliable, and consistent data exchange.
+    International Patient Access (IPA) ist der neue globale Standard, der Patienten stärkt, indem er medizinischen Apps ermöglicht, problemlos auf Gesundheitsinformationen zuzugreifen und diese länderübergreifend auszutauschen. Er baut auf bestehenden FHIR-Standards (Fast Healthcare Interoperability Resources) auf, bietet aber wichtige Verbesserungen für einen sicheren, zuverlässigen und konsistenten Datenaustausch.
 
 
-    Many countries already use FHIR, but IPA addresses crucial limitations:
+    Viele Länder verwenden bereits FHIR®, aber IPA behebt entscheidende Einschränkungen:
 
-    - Secure Access: IPA ensures that only authorized users and apps can access health information, protecting patient privacy.  It defines how apps get permission to access data using standard methods (like OAuth 2.0).
-    - Standardized Data: IPA creates a common set of data types and formats.  This means medical apps can work consistently across different systems worldwide, simplifying development and improving interoperability.
+    - Sicherer Zugriff: IPA stellt sicher, dass nur autorisierte Benutzer und Apps auf Gesundheitsinformationen zugreifen können, wodurch die Privatsphäre der Patienten geschützt wird. Es definiert, wie Apps mithilfe von Standardmethoden (wie OAuth 2.0) die Berechtigung zum Zugriff auf Daten erhalten
+    - Standardisierte Daten: IPA erstellt einen gemeinsamen Satz von Datentypen und -formaten. Dies bedeutet, dass medizinische Apps weltweit auf verschiedenen Systemen konsistent funktionieren können, was die Entwicklung vereinfacht und die Interoperabilität verbessert.
 
-    IPA enables the authorized access and exchange of the following data types:
+    IPA ermöglicht den autorisierten Zugriff und Austausch der folgenden Datentypen:
 
-    - Patient Profiles: Basic demographics and identifiers.
-    - Allergies/Intolerances: A record of patient allergies and intolerances.
-    - Conditions: Diagnoses and health problems.
-    - Documents: Links to medical documents.
-    - Immunizations: Vaccination records.
-    - Medications: Information about prescribed and administered medications.
-    - Observations: Results from tests, vital signs, etc.
-    - Practitioners: Information about healthcare providers.
-
-
-    IPA's Global Adoption:
+    - Patientenprofile: Grundlegende demografische Daten und Kennungen.
+    - Allergien/Unverträglichkeiten: Eine Aufzeichnung der Allergien und Unverträglichkeiten des Patienten.
+    - Krankheiten: Diagnosen und gesundheitliche Probleme.
+    - Dokumente: Links zu medizinischen Dokumenten.
+    - Impfungen: Impfaufzeichnungen.
+    - Medikamente: Informationen zu verschriebenen und verabreichten Medikamenten.
+    - Beobachtungen: Ergebnisse von Tests, Vitalzeichen usw.
+    Ärzte: Informationen zu Gesundheitsdienstleistern.
 
 
-    Many countries and EHR (electronic health record) systems already support FHIR and are moving towards IPA-compliant systems.  Several nations are actively building their national health information standards based on IPA.
+
+    Weltweite Einführung von IPA:
+
+
+    Viele Länder und EHR-Systeme (elektronische Gesundheitsakten) unterstützen bereits FHIR und bewegen sich in Richtung IPA-konformer Systeme. Mehrere Länder entwickeln aktiv ihre nationalen Gesundheitsinformationsstandards auf der Grundlage von IPA.
+    
+    HL7® und FHIR® sind eingetragene Marken von Health Level Seven International und die Verwendung dieser Marken stellt keine Billigung durch HL7 dar.
+
   button:
     name: "Technical Resources"
     link: "/resources-for-decision-makers/"
