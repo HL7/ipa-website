@@ -7,63 +7,65 @@ lang: de
 # Slider
 slider:
   - image: "/assets/images/sliders/slider-image-2.png"
-    heading: "German <span>Patients</span>"
-    heading2: "One standard to manage access."
-    text: "Give patients control over their health data and facilitate efficient access to care regardless of location."
+    heading: "Stärkung <span>der Patienten</span>"
+    heading2: "Ein Standard zur Verwaltung des Zugriffs."
+    text: "Geben Sie Patienten die Kontrolle über ihre Gesundheitsdaten und ermöglichen Sie einen effizienten Zugang zur Versorgung unabhängig vom Standort."
     button:
-      name: "Learn More"
+      name: "Mehr erfahren"
       link: "/adopt-ipa"
   - image: "/assets/images/sliders/slider-image-1.png"
-    heading: "Portable <span>Health Data</span>"
-    heading2: "Health records. Anywhere. Everywhere."
-    text: "Accessing patient health records across borders improves care coordination and patient outcomes."
+    heading: "Tragbare <span>Gesundheitsdaten</span>"
+    heading2: "Gesundheitsakten. Überall. Überall."
+    text: "Der grenzübergreifende Zugriff auf Patientenakten verbessert die Koordinierung der Behandlung und die Behandlungsergebnisse."
     button:
-      name: "Learn More"
+      name: "Mehr erfahren"
       link: "/resources-for-patients"
   - image: "/assets/images/sliders/slider-image-3.png"
-    heading: "Your <span>Health Data!</span>"
-    heading2: "Locations and apps adopting this standard."
-    text: "Discover the growing network using this system for secure and efficient patient data exchange."
+    heading: "Ihre <span>Gesundheitsdaten!</span>"
+    heading2: "Länder und Apps, die diesen Standard übernehmen."
+    text: "Entdecken Sie das wachsende Netzwerk, das dieses System für den sicheren und effizienten Austausch von Patientendaten verwendet."
     button:
-      name: "Learn More"
+      name: "Mehr erfahren"
       link: "/worldwide-adoption"
 
 # Highlights
 highlights:
-  heading: "How Access Works"
-  text: "This overview outlines three easy steps for patients to connect with their health data, allowing them to gain secure access and take control of their health information."
+  heading: "So funktioniert Access"
+  text: "In dieser Übersicht werden drei einfache Schritte beschrieben, mit denen Patienten auf ihre Gesundheitsdaten zugreifen können. So erhalten sie sicheren Zugriff und die Kontrolle über ihre Gesundheitsinformationen."
   items:
-    - heading: "Connect"
-      text: Securely link patient health records across systems.
+    - heading: "Verbinden"
+      text: Patientenakten systemübergreifend sicher verknüpfen.
       icon: "/assets/images/highlight-image-1.png"
       link:
-        name: "Read More"
+        name: "Mehr lesen"
         url: "/resources-for-patients"
         new_tab: true
-    - heading: "Access"
-      text: Authorize and retrieve necessary patient information.
+    - heading: "Zugang"
+      text: Autorisieren und Abrufen der erforderlichen Patienteninformationen.
       icon: "/assets/images/highlight-image-2.png"
       link:
-        name: "Read More"
+        name: "Mehr lesen"
         url: "/resources-for-patients"
         new_tab: true
-    - heading: "Share"
-      text: Facilitate the secure exchange of health data for improved care.
+    - heading: "Teilen"
+      text: Ermöglichen Sie den sicheren Austausch von Gesundheitsdaten für eine verbesserte Versorgung.
       icon: "/assets/images/highlight-image-3.png"
       link:
-        name: "Read More"
+        name: "Mehr lesen"
         url: "/resources-for-patients"
         new_tab: true
 
 # About
 about:
-  heading: "What is International Patient Access?"
+  heading: "Was ist Patientenzugang?"
   text: | # This allows us to use markdown as long as the following content is indented
-    Using the [HL7® FHIR® standard](/faqs/){: target="_blank"}, the International Patient Access specification allows patients to securely access health data across borders, similar to how online banking or Open Banking in the UK provides seamless access to financial information. This global interoperability ensures timely, accurate care and empowers patients with control over their data, enhancing healthcare delivery through data-driven, patient-centered approaches.
+    Mithilfe des [HL7® FHIR® standard](/faqs/) ermöglicht International Patient Access Patienten den sicheren grenzüberschreitenden Zugriff auf Gesundheitsdaten, ähnlich wie Online-Banking oder Open Banking in Großbritannien einen nahtlosen Zugriff auf Finanzinformationen ermöglichen. Diese globale Interoperabilität gewährleistet eine zeitnahe, genaue Versorgung und gibt Patienten die Kontrolle über ihre Daten, wodurch die Gesundheitsversorgung durch datengesteuerte, patientenzentrierte Ansätze verbessert wird.
+
+    HL7® und FHIR® sind eingetragene Marken von Health Level Seven International und die Verwendung dieser Marken stellt keine Billigung durch HL7 dar.
 
   image: "/assets/images/what-is-patient-access.png"
   button:
-    name: "Learn More"
+    name: "Mehr erfahren"
     link: "/international-patient-access"
 
 # Achivement
@@ -85,25 +87,25 @@ testimonials:
     - name: "Digital Square"
       position: ""
       image: "/assets/images/testimonial_3.jpg"
-      text: "Ultimately, we believe data standardization will lead to more equitable health care systems and better health outcomes for all."
+      text: "Letztendlich glauben wir, dass die Datenstandardisierung zu gerechteren Gesundheitssystemen und besseren Gesundheitsergebnissen für alle führen wird."
     - name: "UK Government"
       position: ""
       image: "/assets/images/testimonial_1.jpg"
-      text: "G7 ministers have committed to developing internationally shared principles for enabling patient access to health data and promoting the use of open standards for health data for public health."
+      text: "Die Minister der G7 haben sich verpflichtet, international gemeinsame Grundsätze zu entwickeln, um Patienten den Zugang zu Gesundheitsdaten zu ermöglichen und die Verwendung offener Standards für Gesundheitsdaten im Interesse der öffentlichen Gesundheit zu fördern."
     - name: "Connected Care for Canadians"
       position: "The Honourable Mark Holland, Minister of Health of Canada"
       image: "/assets/images/testimonial_2.jpg"
-      text: "The Connected Care for Canadians Act legislation is about enabling Canadians to access their own health data and to use that information to make better decisions about their health care, no matter where they are receiving it. It will also allow health care professionals to deliver higher quality and coordinated care and make more informed patient decisions."
+      text: "Das Gesetz „Connected Care for Canadians Act“ soll es Kanadiern ermöglichen, auf ihre eigenen Gesundheitsdaten zuzugreifen und diese Informationen zu nutzen, um bessere Entscheidungen über ihre Gesundheitsversorgung zu treffen, egal wo sie diese erhalten. Es wird es auch den Gesundheitsfachkräften ermöglichen, eine qualitativ hochwertigere und koordiniertere Versorgung zu bieten und fundiertere Entscheidungen für die Patienten zu treffen."
       
 # About 2
 about2:
-  heading: "29 Countries Have Adopted HL7 FHIR"
+  heading: "29 Länder haben HL7® FHIR® übernommen"
   text: | # This allows us to use markdown as long as the following content is indented
-    This reflects the [global commitment](https://www.hl7.org/documentcenter/public/white-papers/2024%20StateofFHIRSurveyResults_final.pdf){: target="_blank"} to interoperability and standardized data sharing. As the number of countries adopting HL7 FHIR continues to grow, it enhances patients' ability to seamlessly access their health information while improving collaboration among healthcare providers for better care delivery worldwide.
+    Dies spiegelt das [globale Engagement](https://www.hl7.org/documentcenter/public/white-papers/2024%20StateofFHIRSurveyResults_final.pdf){: target="_blank"} für Interoperabilität und standardisierten Datenaustausch wider. Da die Zahl der Länder, die HL7 FHIR einführen, weiter wächst, verbessert es die Fähigkeit der Patienten, nahtlos auf ihre Gesundheitsinformationen zuzugreifen, und verbessert gleichzeitig die Zusammenarbeit zwischen Gesundheitsdienstleistern für eine bessere weltweite Gesundheitsversorgung.
 
   image: "/assets/images/Group 29.png"
   button:
-    name: "Worldwide Adoption"
+    name: "Weltweite Akzeptanz"
     link: "/worldwide-adoption"
 
 
