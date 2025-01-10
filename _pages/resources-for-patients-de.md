@@ -2,11 +2,11 @@
 layout: about
 permalink: /resources-for-patients/
 lang: de
-title: "Resources for Patients (German)"
+title: "Ressourcen für Patienten"
 
 # Content
 general_content:
-  heading: "Resources for Patients"
+  heading: "Ressourcen für Patienten"
   text: |
     Was ist International Patient Access?
 

@@ -2,7 +2,7 @@
 layout: resources-for-decision-makers
 permalink: /resources-for-decision-makers/
 lang: de
-title: "Resources for Decision Makers (German)"
+title: "Ressourcen für Entscheidungsträger"
 
 # Content
 general_content:

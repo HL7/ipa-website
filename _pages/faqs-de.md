@@ -3,7 +3,7 @@ layout: faq
 permalink: /faqs/
 lang: de
 page_header_image: "/assets/images/page_header.jpg"
-title: "FAQs (German)"
+title: "FAQs"
 
 # FAQ Accordions
 accordion:

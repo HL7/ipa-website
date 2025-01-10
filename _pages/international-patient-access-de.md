@@ -2,7 +2,7 @@
 layout: about
 permalink: /international-patient-access/
 lang: de
-title: "International Patient Access (German)"
+title: "International Patient Access"
 
 # Content
 general_content:

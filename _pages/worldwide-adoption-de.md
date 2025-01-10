@@ -2,7 +2,7 @@
 layout: locations
 permalink: /worldwide-adoption/
 lang: de
-title: "Worldwide Adoption (German)"
+title: "Weltweite Akzeptanz"
 
 # Organizations List
 locations_orgs:
