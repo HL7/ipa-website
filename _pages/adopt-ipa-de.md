@@ -2,7 +2,7 @@
 layout: about
 permalink: /adopt-ipa/
 lang: de
-title: "Adopt IPA (German)"
+title: "IPA Annehmen"
 
 # Content
 general_content:
@@ -37,7 +37,7 @@ general_content:
     HL7® und FHIR® sind eingetragene Marken von Health Level Seven International und die Verwendung dieser Marken stellt keine Billigung durch HL7 dar.
 
   button:
-    name: "Technical Resources"
+    name: "Technische Ressourcen"
     link: "/resources-for-decision-makers/"
   image: "/assets/images/Component 1.png"
 
