@@ -71,7 +71,7 @@ accordion:
             - Ensure robust security protocols, including OAuth 2.0 and SMART on FHIR.
             For a full list of requirements and specifications, visit the [International Patient Access API Specification](https://hl7.org/fhir/uv/ipa/){: target="_blank"}
         - question: "How is security ensured for health data access APIs?"
-          answer: "Millions of dollars have been invested to secure the SMART App Launch mechanisms within the International Patient Access (IPA) framework. Some jurisdictions have confidently opted to forgo app certification, allowing developers to innovate confidently while ensuring patient data is protected. No matter what level of certification frameworks for apps you’ve built, this robust security empowers reliable, efficient health information management."
+          answer: "Millions of dollars have been invested to secure the SMART App Launch mechanisms within the International Patient Access (IPA) framework. Some jurisdictions have confidently opted to forgo app certification, allowing developers to innovate confidently while ensuring patient data is protected. Regardless of the certification framework in use within a jurisdiction, IPA enables robust security and empowers reliable, efficient health information management."
         - question: "How do I know if my EHR or health IT system supports IPA?"
           answer: "Check with your EHR or health IT system provider to confirm their support for HL7 FHIR IPA standards. You can also refer to our [official blog](https://blog.hl7.org/international-patient-access) for a list of compliant systems and providers."
 
