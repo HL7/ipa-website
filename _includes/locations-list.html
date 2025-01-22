@@ -1,0 +1,38 @@
+<!-- Start deneb_locations section -->
+<section class="deneb_locations_list">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="section_title text-center">
+          <h2>{{ page.locations_list.heading }}</h2>
+          <p class="lead mb-3">{{ page.locations_list.subheading }}</p>
+          {{ page.locations_list.description | markdownify }}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 grid-cols">
+        {% assign organizations = site.data.organizations.organization_metadata | sort: 'label' %}
+        {% for organization in organizations %}
+        <div class="location_item">
+          <a href="{{ organization.website }}" target="_blank">
+            <p class="font-weight-bold">{{ organization.label }}</p>
+          </a>
+        </div>
+        {% endfor %}
+        <div class="location_item">
+          <a href="" target="_blank">
+            <p class="font-weight-bold">Issuer name</p>
+          </a>
+        </div>
+        <div class="location_item">
+          <a href="" target="_blank">
+            <p class="font-weight-bold">Issuer name</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

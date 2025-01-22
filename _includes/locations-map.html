@@ -1,0 +1,11 @@
+<!-- Start deneb_map_box -->
+<div class="row">
+  <div class="col-12">
+    <div class="deneb_map_box">
+      <div id="map"></div>
+    </div>
+  </div>
+</div>
+<script>
+  window.mapData = {{ site.data.organizations.organization_metadata | jsonify }}; // Pass data to global variable
+</script>
