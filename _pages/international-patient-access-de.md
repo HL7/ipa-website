@@ -12,12 +12,12 @@ general_content:
 
     **Hauptmerkmale von IPA:**
 
-    HL7® und FHIR®-Profile (Standard für die Strukturierung bestimmter Daten), um einen global harmonisierten Satz grundlegender Gesundheitsinformationen zu definieren. Länder können diese Basisinformationen dann erweitern, um ihre individuellen Anforderungen zu erfüllen.
+    IPA verwendet FHIR-Profile (Spezifikationen für die Strukturierung bestimmter Daten), um einen global harmonisierten Satz grundlegender Gesundheitsinformationen zu definieren. Länder können diese Basisinformationen dann erweitern, um ihre individuellen Anforderungen zu erfüllen.
 
 
     **Weitere Informationen:**
 
-    Weitere Einzelheiten zur IPA 1.0-Spezifikation und zugehörigen Ressourcen finden Sie hier. Bleiben Sie über die neuesten IPA-Entwicklungen auf dem Laufenden, indem Sie [unseren Blog besuchen](https://blog.hl7.org/international-patient-access){: target="_blank"} und der HL7-Community beitreten.
+    Weitere Einzelheiten zur IPA 1.0-Spezifikation und zugehörigen Ressourcen finden Sie hier. Bleiben Sie über die neuesten IPA-Entwicklungen auf dem Laufenden, indem Sie unseren [Blog besuchen](https://blog.hl7.org/international-patient-access){: target="_blank"} und der HL7®-Community beitreten.
 
 
     **Wer treibt das IPA-Projekt voran?**
@@ -28,10 +28,12 @@ general_content:
     **Teilnehmende Organisationen und Einzelpersonen:**
 
     - Gesundheitsdienstleister: Krankenhäuser, Kliniken und Gesundheitsnetzwerke auf der ganzen Welt tragen Erkenntnisse und Testumgebungen bei.
-    - Technologieunternehmen: Führende Unternehmen im Bereich Gesundheits-IT, die Fachwissen in den Bereichen Software- und Systemintegration bereitstellen. 
+    - Technologieunternehmen: Führende Unternehmen im Bereich Gesundheits-IT, die Fachwissen in den Bereichen Software- und Systemintegration bereitstellen.
     - Staatliche Gesundheitsbehörden: Stellen sicher, dass Vorschriften und Standards in verschiedenen Ländern eingehalten werden.
     - Akademische Einrichtungen: Führen Forschungen durch und stellen Expertenanalysen und -empfehlungen bereit.
     - Engagierte Einzelpersonen: Freiwillige aus allen Bereichen, darunter Ärzte, Krankenschwestern, IT-Experten und politische Entscheidungsträger, die unterschiedliche Perspektiven und Fähigkeiten einbringen.
+
+    Die Zusammenarbeit dieser Unternehmen ist ein Beispiel für das Engagement, die globale Interoperabilität von Gesundheitsdaten zu verbessern und Patienten einen besseren Zugang zu ihren Gesundheitsinformationen und mehr Kontrolle darüber zu gewährleisten.
 
     Die Zusammenarbeit dieser Unternehmen ist ein Beispiel für das Engagement, die globale Interoperabilität von Gesundheitsdaten zu verbessern und Patienten einen besseren Zugang zu ihren Gesundheitsinformationen und mehr Kontrolle darüber zu gewährleisten.
 
