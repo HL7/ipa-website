@@ -1,11 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ site.active_lang }}">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<!-- All Meta -->
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
 		<meta name="description" content="{{site.description[site.active_lang]}}">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- language -->
+		{% for lang in site.languages %}
+			{% capture lang_href %}{{site.baseurl}}/{% unless lang == site.default_lang %}{{ lang }}/{% endunless %}{% endcapture %}
+			<link rel="alternate" hreflang="{{ lang }}" {% static_href %}href="{{ lang_href }}"{% endstatic_href %} />
+		{% endfor %}
 		<!-- page title -->
 		<title>{% if page.title %} {{ page.title }} {% else %} {{ site.title[site.active_lang] }} {% endif %}</title>
 		<!-- Favicon Icon -->
@@ -38,6 +43,11 @@
 		</div>
 		{% endif %}
 		{% include header.html %}
+
+		<!-- Main content -->
+		{% if page.title %}
+		<h1 class="sr-only">{{ page.title }}</h1>
+		{% endif %}
 
 		{{content}}
 
