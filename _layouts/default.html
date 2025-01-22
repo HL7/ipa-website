@@ -1,18 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ site.title }} | {{ page.title }}</title>
-  <link rel="stylesheet" href="/assets/css/style.css">
-</head>
-<body>
-  {% include navigation.html %}
+<html lang="{{ site.active_lang }}">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<!-- All Meta -->
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="description" content="{{site.description[site.active_lang]}}">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- language -->
+		{% for lang in site.languages %}
+			{% capture lang_href %}{{site.baseurl}}/{% unless lang == site.default_lang %}{{ lang }}/{% endunless %}{% endcapture %}
+			<link rel="alternate" hreflang="{{ lang }}" {% static_href %}href="{{ lang_href }}"{% endstatic_href %} />
+		{% endfor %}
+		<!-- page title -->
+		<title>{% if page.title %} {{ page.title }} {% else %} {{ site.title[site.active_lang] }} {% endif %}</title>
+		<!-- Favicon Icon -->
+		<link rel="shortcut icon" href="{{ "/assets/images/favicon.ico" | absolute_url }}" type="image/png">
+		<!-- All css -->
+		<!--Bootstrap css-->
+		<link rel="stylesheet" href="{{ "/assets/css/bootstrap.min.css" | absolute_url }}">
+		<!-- Fontawesome css -->
+		<link rel="stylesheet" href="{{ "/assets/fonts/fontawesome/css/all.css" | absolute_url }}">
+		<!-- slick fader css -->
+		<link rel="stylesheet" href="{{ "/assets/css/slick.css" | absolute_url }}">
+		<link rel="stylesheet" href="{{ "/assets/css/slick-theme.css" | absolute_url }}">
+		<!-- sidebar-menu -->
+		<link rel="stylesheet" href="{{ "/assets/css/sidebar-menu.css" | absolute_url }}">
+		<!--animate css-->
+		<link rel="stylesheet" href="{{ "/assets/css/animate.css" | absolute_url }}">
+		<!-- jsvectormap css -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jsvectormap/dist/css/jsvectormap.min.css" />
+		<!--style css-->
+		<link rel="stylesheet" href="{{ "/assets/css/style.css" | absolute_url }}">
+	</head>
+	<body>
+		<!-- Preloader -->
+		{% if site.site_preloader %}
+		<div class="preloader">
+			<div class="lds-ripple">
+				<div></div>
+				<div></div>
+			</div>
+		</div>
+		{% endif %}
+		{% include header.html %}
 
-  <main>
-    {{ content }}
-  </main>
+		<!-- Main content -->
+		{% if page.title %}
+		<h1 class="sr-only">{{ page.title }}</h1>
+		{% endif %}
 
-  {% include footer.html %}
-</body>
+		{{content}}
+
+		{% include footer.html %}
+		<!-- jquery  -->
+		<script src="{{ "/assets/js/vendor/jquery-3.7.1.min.js" | absolute_url }}"></script>
+		<!--modernizr js-->
+		<script src="{{ "/assets/js/vendor/modernizr-3.6.0.min.js" | absolute_url }}"></script>
+		<!-- Bootstrap js  -->
+		<script src="{{ "/assets/js/vendor/bootstrap.min.js" | absolute_url }}"></script>
+		<script src="{{ "/assets/js/vendor/popper.min.js" | absolute_url }}"></script>
+		<!-- slick fader js  -->
+		<script src="{{ "/assets/js/vendor/slick.min.js" | absolute_url }}"></script>
+		<!-- isotope js  -->
+		<script src="{{ "/assets/js/vendor/isotope.min.js" | absolute_url }}"></script>
+		<!-- imageloaded js-->
+		<script src="{{ "/assets/js/vendor/imagesloaded.min.js" | absolute_url }}"></script>
+		<!--sidebar js-->
+		<script src="{{ "/assets/js/vendor/sidebar-menu.js" | absolute_url }}"></script>
+		<!--wow js-->
+		<script src="{{ "/assets/js/vendor/wow.min.js" | absolute_url }}"></script>
+		<!-- Disqus Comments js-->
+		{% if site.disqus.shortname %}
+		<script id="dsq-count-scr" src="//deneb-1.disqus.com/count.js" async></script>
+		{% endif %}
+		<!-- Simple Jekyll Search js-->
+		<script src="{{ "/assets/js/simple-jekyll-search.min.js" | absolute_url }}"></script>
+		<!-- jsvectormap js -->
+		<script src="https://cdn.jsdelivr.net/npm/jsvectormap"></script>
+		<script src="https://cdn.jsdelivr.net/npm/jsvectormap/dist/maps/world.js"></script>
+		<script src="{{ "/assets/js/vendor/us-mill-en.js" | absolute_url }}"></script>
+		<!-- custom js  -->
+		<script src="{{ "/assets/js/custom.js" | absolute_url }}"></script>
+		<!-- cookie consent -->
+		{% include cookie-consent.html %}
+		<!-- analytics scripts -->
+		{% include analytics-scripts.html %}
+	</body>
 </html>
