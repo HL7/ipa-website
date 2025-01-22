@@ -86,7 +86,7 @@ accordion:
             
             Einige Gerichtsbarkeiten haben sich bewusst dafür entschieden, auf eine App-Zertifizierung zu verzichten, sodass Entwickler selbstbewusst Innovationen entwickeln und gleichzeitig sicherstellen können, dass die Patientendaten geschützt sind.  
             
-            No matter what level of certification frameworks for apps you’ve Unabhängig davon, welche Zertifizierungsrahmen Sie für Ihre Apps erstellt haben, ermöglicht diese robuste Sicherheit ein zuverlässiges und effizientes Gesundheitsinformationsmanagement.
+            Unabhängig vom verwendeten Zertifizierungsrahmen innerhalb einer Gerichtsbarkeit ermöglicht IPA eine robuste Sicherheit und unterstützt ein zuverlässiges, effizientes Gesundheitsinformationsmanagement.
         - question: "Wie erfahre ich, ob mein Gesundheitssystem oder meine elektronische Patientenakte IPA unterstützt?"
           answer: |
             Erkundigen Sie sich bei Ihrem Anbieter von EHR- oder Gesundheits-IT-Systemen, ob dieser die HL7 FHIR IPA-Standards unterstützt. Sie können auch in unserem [offiziellen Blog](https://blog.hl7.org/international-patient-access){: target="_blank"} nach einer Liste kompatibler Systeme und Anbieter suchen.

@@ -14,8 +14,8 @@ slider:
       name: "Mehr erfahren"
       link: "/adopt-ipa"
   - image: "/assets/images/sliders/slider-image-1.png"
-    heading: "Tragbare <span>Gesundheitsdaten</span>"
-    heading2: "Gesundheitsakten. Überall. Überall."
+    heading: "Mobile <span>Gesundheitsdaten</span>"
+    heading2: "Gesundheitsakten. Überall. Jederzeit."
     text: "Der grenzübergreifende Zugriff auf Patientenakten verbessert die Koordinierung der Behandlung und die Behandlungsergebnisse."
     button:
       name: "Mehr erfahren"
@@ -30,7 +30,7 @@ slider:
 
 # Highlights
 highlights:
-  heading: "So funktioniert Access"
+  heading: "So funktioniert IPA"
   text: "In dieser Übersicht werden drei einfache Schritte beschrieben, mit denen Patienten auf ihre Gesundheitsdaten zugreifen können. So erhalten sie sicheren Zugriff und die Kontrolle über ihre Gesundheitsinformationen."
   items:
     - heading: "Verbinden"
@@ -59,7 +59,8 @@ highlights:
 about:
   heading: "Was ist Patientenzugang?"
   text: | # This allows us to use markdown as long as the following content is indented
-    Mithilfe des [HL7® FHIR® standard](/faqs/) ermöglicht International Patient Access Patienten den sicheren grenzüberschreitenden Zugriff auf Gesundheitsdaten, ähnlich wie Online-Banking oder Open Banking in Großbritannien einen nahtlosen Zugriff auf Finanzinformationen ermöglichen. Diese globale Interoperabilität gewährleistet eine zeitnahe, genaue Versorgung und gibt Patienten die Kontrolle über ihre Daten, wodurch die Gesundheitsversorgung durch datengesteuerte, patientenzentrierte Ansätze verbessert wird.
+    Auf Basis des [internationalen HL7® FHIR® Standards](/faqs/) ermöglicht IPA Patienten den sicheren Zugriff auf ihre Gesundheitsdaten, ähnlich wie Online-Banking einen sicheren und nahtlosen Zugang zu Finanzinformationen bietet.
+    Diese globale Interoperabilität gewährleistet eine schnelle, akkurate, datengetriebene und patientenzentrierte Gesundheitsversorgung und gibt Patienten die Kontrolle über ihre Daten zurück.
 
     HL7® und FHIR® sind eingetragene Marken von Health Level Seven International und die Verwendung dieser Marken stellt keine Billigung durch HL7 dar.
 
@@ -87,7 +88,7 @@ testimonials:
     - name: "Digital Square"
       position: ""
       image: "/assets/images/testimonial_3.jpg"
-      text: "Letztendlich glauben wir, dass die Datenstandardisierung zu gerechteren Gesundheitssystemen und besseren Gesundheitsergebnissen für alle führen wird."
+      text: "\"Letztendlich glauben wir, dass die Datenstandardisierung zu gerechteren Gesundheitssystemen und besseren Gesundheitsergebnissen für alle führen wird.\""
     - name: "UK Government"
       position: ""
       image: "/assets/images/testimonial_1.jpg"
@@ -101,7 +102,7 @@ testimonials:
 about2:
   heading: "29 Länder haben HL7® FHIR® übernommen"
   text: | # This allows us to use markdown as long as the following content is indented
-    Dies spiegelt das [globale Engagement](https://www.hl7.org/documentcenter/public/white-papers/2024%20StateofFHIRSurveyResults_final.pdf){: target="_blank"} für Interoperabilität und standardisierten Datenaustausch wider. Da die Zahl der Länder, die HL7 FHIR einführen, weiter wächst, verbessert es die Fähigkeit der Patienten, nahtlos auf ihre Gesundheitsinformationen zuzugreifen, und verbessert gleichzeitig die Zusammenarbeit zwischen Gesundheitsdienstleistern für eine bessere weltweite Gesundheitsversorgung.
+    Dies spiegelt das [globale Engagement](https://www.hl7.org/documentcenter/public/white-papers/2024%20StateofFHIRSurveyResults_final.pdf){: target="_blank"} für Interoperabilität und standardisierten Datenaustausch wider. Die Zahl der Länder, die HL7 FHIR einführen, wächst stetig. Damit verbessert sich die Fähigkeit der Patienten, nahtlos auf ihre Gesundheitsinformationen zuzugreifen. Gleichzeitig vereinfacht sich die Zusammenarbeit zwischen Gesundheitsdienstleistern für eine bessere weltweite Gesundheitsversorgung.
 
   image: "/assets/images/Group 29.png"
   button:

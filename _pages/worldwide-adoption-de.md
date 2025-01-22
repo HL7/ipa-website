@@ -7,7 +7,7 @@ title: "Weltweite Akzeptanz"
 # Organizations List
 locations_orgs:
   heading: "Weltweite Standorte"
-  subheading: "Discover global progress in health data interoperability."
+  subheading: "Entdecken Sie den globalen Fortschritt beim interoperablen Austausch von Gesundheitsdaten"
   description: |
     Entdecken Sie den globalen Fortschritt bei der Interoperabilität von Gesundheitsdaten.
     Diese Länder und Regionen haben den International Patient Access (IPA) unter Verwendung des HL7 FHIR-Standards implementiert und ermöglichen so den grenzüberschreitenden Zugriff auf Gesundheitsdaten.
