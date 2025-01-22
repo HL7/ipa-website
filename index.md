@@ -97,15 +97,15 @@ testimonials:
     - name: "Digital Square"
       position: ""
       image: "/assets/images/testimonial_3.jpg"
-      text: "Ultimately, we believe data standardization will lead to more equitable health care systems and better health outcomes for all."
+      text: "\"Ultimately, we believe data standardization will lead to more equitable health care systems and better health outcomes for all.\""
     - name: "UK Government"
       position: ""
       image: "/assets/images/testimonial_1.jpg"
-      text: "G7 ministers have committed to developing internationally shared principles for enabling patient access to health data and promoting the use of open standards for health data for public health."
+      text: "\"G7 ministers have committed to developing internationally shared principles for enabling patient access to health data and promoting the use of open standards for health data for public health.\""
     - name: "Connected Care for Canadians"
       position: "The Honourable Mark Holland, Minister of Health of Canada"
       image: "/assets/images/testimonial_2.jpg"
-      text: "The Connected Care for Canadians Act legislation is about enabling Canadians to access their own health data and to use that information to make better decisions about their health care, no matter where they are receiving it. It will also allow health care professionals to deliver higher quality and coordinated care and make more informed patient decisions."
+      text: "\"The Connected Care for Canadians Act legislation is about enabling Canadians to access their own health data and to use that information to make better decisions about their health care, no matter where they are receiving it. It will also allow health care professionals to deliver higher quality and coordinated care and make more informed patient decisions.\""
 
 # Blog Posts
 latest_blog_post:

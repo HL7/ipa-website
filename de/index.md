@@ -92,11 +92,11 @@ testimonials:
     - name: "UK Government"
       position: ""
       image: "/assets/images/testimonial_1.jpg"
-      text: "Die Minister der G7 haben sich verpflichtet, international gemeinsame Grundsätze zu entwickeln, um Patienten den Zugang zu Gesundheitsdaten zu ermöglichen und die Verwendung offener Standards für Gesundheitsdaten im Interesse der öffentlichen Gesundheit zu fördern."
+      text: "\"Die Minister der G7 haben sich verpflichtet, international gemeinsame Grundsätze zu entwickeln, um Patienten den Zugang zu Gesundheitsdaten zu ermöglichen und die Verwendung offener Standards für Gesundheitsdaten im Interesse der öffentlichen Gesundheit zu fördern.\""
     - name: "Connected Care for Canadians"
       position: "The Honourable Mark Holland, Minister of Health of Canada"
       image: "/assets/images/testimonial_2.jpg"
-      text: "Das Gesetz „Connected Care for Canadians Act“ soll es Kanadiern ermöglichen, auf ihre eigenen Gesundheitsdaten zuzugreifen und diese Informationen zu nutzen, um bessere Entscheidungen über ihre Gesundheitsversorgung zu treffen, egal wo sie diese erhalten. Es wird es auch den Gesundheitsfachkräften ermöglichen, eine qualitativ hochwertigere und koordiniertere Versorgung zu bieten und fundiertere Entscheidungen für die Patienten zu treffen."
+      text: "\"Das Gesetz „Connected Care for Canadians Act“ soll es Kanadiern ermöglichen, auf ihre eigenen Gesundheitsdaten zuzugreifen und diese Informationen zu nutzen, um bessere Entscheidungen über ihre Gesundheitsversorgung zu treffen, egal wo sie diese erhalten. Es wird es auch den Gesundheitsfachkräften ermöglichen, eine qualitativ hochwertigere und koordiniertere Versorgung zu bieten und fundiertere Entscheidungen für die Patienten zu treffen.\""
       
 # About 2
 about2:
