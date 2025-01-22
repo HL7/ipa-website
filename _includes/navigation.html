@@ -11,9 +11,14 @@
     </li>
     {% endif %}
     {% endfor %}
+    {% if site.active_lang == 'en' %}
     <li class="menu-item"><a href="{{ '/adopt-ipa' | absolute_url }}" class="deneb_btn">Adopt IPA</a></li>
+    {% elsif site.active_lang == 'de' %}
+    <li class="menu-item"><a href="{{ '/adopt-ipa' | absolute_url }}" class="deneb_btn">IPA annehmen</a></li>
+    {% endif %}
     <li class="menu-item">
-      <select name="language_select" id="language_select">
+      <label for="language_select1" class="language_label sr-only">Language:</label>
+      <select name="language_select" id="language_select1" class="language_select custom-select">
         {% for lang in site.languages %}
         <option value="{% if lang == site.default_lang %}{{ page.url | absolute_url }}{% else %}{{ site.baseurl | absolute_url }}{{ lang }}{{page.url}}{% endif %}" {% if lang == site.active_lang %}selected{% endif %}>{{ site.language_names[lang] }}</option>
         {% endfor %}

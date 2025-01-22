@@ -2,7 +2,7 @@
 layout: about
 permalink: /international-patient-access/
 lang: de
-title: "International Patient Access (German)"
+title: "International Patient Access"
 
 # Content
 general_content:
@@ -33,6 +33,7 @@ general_content:
     - Akademische Einrichtungen: Führen Forschungen durch und stellen Expertenanalysen und -empfehlungen bereit.
     - Engagierte Einzelpersonen: Freiwillige aus allen Bereichen, darunter Ärzte, Krankenschwestern, IT-Experten und politische Entscheidungsträger, die unterschiedliche Perspektiven und Fähigkeiten einbringen.
 
+    Die Zusammenarbeit dieser Unternehmen ist ein Beispiel für das Engagement, die globale Interoperabilität von Gesundheitsdaten zu verbessern und Patienten einen besseren Zugang zu ihren Gesundheitsinformationen und mehr Kontrolle darüber zu gewährleisten.
 
     Die Zusammenarbeit dieser Unternehmen ist ein Beispiel für das Engagement, die globale Interoperabilität von Gesundheitsdaten zu verbessern und Patienten einen besseren Zugang zu ihren Gesundheitsinformationen und mehr Kontrolle darüber zu gewährleisten.
 

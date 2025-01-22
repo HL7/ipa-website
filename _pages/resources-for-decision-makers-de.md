@@ -2,55 +2,57 @@
 layout: resources-for-decision-makers
 permalink: /resources-for-decision-makers/
 lang: de
-title: "Resources for Decision Makers (German)"
+title: "Ressourcen für Entscheidungsträger"
 
 # Content
 general_content:
-  heading: "Technical Resources for Decision Makers"
+  heading: "Technische Ressourcen für Entscheidungsträger"
   text: |
-    **Resources:**
+    **Ressourcen:**
 
-    - Successfully engaging individuals in digital health requires effort in areas such as governance, consumer digital literacy, individual enrollment, health record integration as well as the technical patient access enabled by IPA. The Global Digital Health Partnership’s [International Insights on Individual Engagement](https://gdhp.health/international-insights-on-individual-engagement/){: target="_blank"} contains a survey of efforts across the globe.
-    - The [2024 State of FHIR Adoption Survey](https://interop.esante.gouv.fr/ig/doctrine/0.1.0-ballot/2024%20StateofFHIRSurveyResults_final.pdf){: target="_blank"} report summarizes and analyzes the use of HL7 FHIR across 29 countries.
-    - The [WHO’s National eHealth Strategy Toolkit](https://www.who.int/publications/i/item/national-ehealth-strategy-toolkit){: target="blank"} may help jurisdictions develop and implement an eHealth strategy, including enabling greater digital patient access.
-    - The [Global Digital Health Monitor](https://monitor.digitalhealthmonitor.org/map){: target="blank"} provides potentially useful indicators for national digital health maturity.
+    - Um Einzelpersonen erfolgreich in die digitale Gesundheit einzubinden, sind Anstrengungen in Bereichen wie Governance, digitale Kompetenz der Verbraucher, individuelle Registrierung, Integration von Gesundheitsakten sowie der durch IPA ermöglichte technische Patientenzugang erforderlich. Der Global Digital Health Partnership [International Insights on Individual Engagement](https://gdhp.health/international-insights-on-individual-engagement/){: target="_blank"} enthalten eine Umfrage zu den Bemühungen auf der ganzen Welt.
+    - Der Bericht [2024 State of FHIR® Adoption Survey](https://interop.esante.gouv.fr/ig/doctrine/0.1.0-ballot/2024%20StateofFHIRSurveyResults_final.pdf){: target="_blank"} fasst die Verwendung des HL7® FHIR®-Standards in 29 Ländern zusammen und analysiert sie.
+    - Das [National eHealth Strategy Toolkit der WHO](https://www.who.int/publications/i/item/national-ehealth-strategy-toolkit){: target="blank"} kann Gerichtsbarkeiten dabei helfen, eine eHealth-Strategie zu entwickeln und umzusetzen, einschließlich der Ermöglichung eines besseren digitalen Patientenzugangs.
+    - Der [Global Digital Health Monitor](https://monitor.digitalhealthmonitor.org/map){: target="blank"} bietet potenziell nützliche Indikatoren für die nationale digitale Gesundheitsreife.
 
-    The below Request For Proposal can be used as a starting place to ensure that enterprise health it software supports IPA by HL7 FHIR as part of the tender process.
-
-
-    **Sample Request for Proposal (RFP) Content for EHR or Enterprise Health IT Software with Support for HL7 FHIR International Patient Access (IPA)**
+    Die folgende Angebotsanfrage kann als Ausgangspunkt verwendet werden, um sicherzustellen, dass die Enterprise-Health-IT-Software im Rahmen des Ausschreibungsverfahrens IPA von HL7 FHIR unterstützt.
 
 
-    1. Project Objectives\
-    The primary objectives of IPA support are to:
-        - Enhance patient empowerment by enabling selective, patient-controlled consent for health data sharing.
-        - Ensure secure and interoperable health data exchange across various healthcare systems and providers.
-        - Comply with international standards and regulations for data protection and privacy.
-    2. Scope of Work\
-    The vendor must provide a comprehensive EHR or enterprise health IT software solution that includes:
-        - Support for HL7 FHIR IPA: Full integration and compliance with the HL7 FHIR International Patient Access project standards, allowing for seamless and secure data sharing with patient-controlled consent.
-    3. Technical Requirements\
-    The proposed solution must meet the following technical requirements as defined in the HL7 FHIR IPA Implementation Guide:
-        - Data Exchange and API Requirements:
-            - Implement the FHIR RESTful API framework.
-            - Support FHIR Version 4.0.1 or later.
-            - Support SMART on FHIR 2.0, as defined in IPA
-        - Core FHIR Resources:
-            - Support for essential FHIR resources, including but not limited to:
-              - Patient
-              - Encounter
-              - Condition
-              - Observation
-              - Medication
-              - Procedure
-                    - DiagnosticReport
-                    - DocumentReference
-        - Interoperability:
-            - Adhere to the HL7 FHIR standard for interoperability between different health systems and applications.
-    4. Vendor Requirements\
-    Vendors must demonstrate the following qualifications:
-        - Proven experience in developing and implementing health IT solutions with HL7 FHIR standards.
-        - Expertise in data security and privacy, with a track record of compliance with and participation in international standards.
+    **Beispielinhalt einer Angebotsanfrage (RFP) für EHR- oder Enterprise-Health-IT-Software mit Unterstützung für HL7 FHIR International Patient Access (IPA)**
+
+
+    1. Projektziele\
+    Die Hauptziele der IPA-Unterstützung sind:
+        - Stärkung der Patientenkompetenz durch Ermöglichung selektiver, patientengesteuerter Zustimmung zur Weitergabe von Gesundheitsdaten.
+        - Gewährleistung eines sicheren und interoperablen Austauschs von Gesundheitsdaten zwischen verschiedenen Gesundheitssystemen und -anbietern.
+        - Einhaltung internationaler Standards und Vorschriften für Datenschutz und Privatsphäre.
+    2. Arbeitsumfang\
+    Der Anbieter muss eine umfassende EHR- oder unternehmensweite IT-Softwarelösung für das Gesundheitswesen bereitstellen, die Folgendes umfasst:
+        - Unterstützung für HL7 FHIR IPA: Vollständige Integration und Einhaltung der Projektstandards für den internationalen Patientenzugriff von HL7 FHIR, die einen nahtlosen und sicheren Datenaustausch mit patientengesteuerter Zustimmung ermöglichen.
+    3. Technische Anforderungen\
+    Die vorgeschlagene Lösung muss die folgenden technischen Anforderungen erfüllen, wie sie im HL7 FHIR IPA-Implementierungshandbuch definiert sind:
+        - Datenaustausch- und API-Anforderungen:
+            - Implementieren Sie das FHIR RESTful API-Framework.
+            - Unterstützen Sie FHIR Version 4.0.1 oder höher.
+            - Unterstützen Sie SMART auf FHIR 2.0, wie in IPA definiert.
+        - Kernressourcen von FHIR:
+            - Unterstützung für wesentliche FHIR-Ressourcen, einschließlich, aber nicht beschränkt auf:
+              - Patienten
+              - Begegnung
+              - Zustand
+              - Beobachtung
+              - Medikamente
+              - Verfahren
+                    - Diagnosebericht
+                    - Dokumentreferenz
+        - Interoperabilität:
+            - Halten Sie sich an den HL7 FHIR-Standard für die Interoperabilität zwischen verschiedenen Gesundheitssystemen und Anwendungen.
+    4. Anforderungen an Anbieter\
+    Anbieter müssen die folgenden Qualifikationen nachweisen:
+        - Nachgewiesene Erfahrung in der Entwicklung und Implementierung von IT-Lösungen im Gesundheitswesen gemäß HL7 FHIR-Standards.
+        - Expertise in Datensicherheit und Datenschutz sowie nachweisliche Einhaltung und Teilnahme an internationalen Standards.
+
+    HL7® und FHIR® sind eingetragene Marken von Health Level Seven International und ihre Verwendung dieser Marken stellt keine Billigung durch HL7 dar.
 
 # Testimonials
 testimonials:

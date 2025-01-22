@@ -2,28 +2,30 @@
 layout: locations
 permalink: /worldwide-adoption/
 lang: de
-title: "Worldwide Adoption (German)"
+title: "Weltweite Akzeptanz"
 
 # Organizations List
 locations_orgs:
-  heading: "Worldwide Locations"
+  heading: "Weltweite Standorte"
   subheading: "Discover global progress in health data interoperability."
   description: |
-    These countries and regions have implemented International Patient Access (IPA) using the HL7 FHIR standard, enabling cross-border health data access.
+    Entdecken Sie den globalen Fortschritt bei der Interoperabilität von Gesundheitsdaten.
+    Diese Länder und Regionen haben den International Patient Access (IPA) unter Verwendung des HL7 FHIR-Standards implementiert und ermöglichen so den grenzüberschreitenden Zugriff auf Gesundheitsdaten.
 
-    **Submit Your Location**\
-    Do you represent a health care organization, government agency, laboratory, pharmacy or payor? Learn more about [listing your organization](https://github.com/HL7/ipa-website/blob/main/README.md){: target="_blank"} and filling out a [submission form](https://docs.google.com/forms/d/e/1FAIpQLSddDFt9G5dLr6emaNNBSosc4oHpJqA5ZBKmOY58-buILMZ8nw/viewform){: target="_blank}.
+
+    **Standort eintragen**\
+    Vertreten Sie eine Einrichtung des Gesundheitswesens, eine Regierungsbehörde, ein Labor, eine Apotheke oder einen Kostenträger? Erfahren Sie mehr über die [Listung Ihrer Organisation](https://github.com/HL7/ipa-website/blob/main/README.md){: target="_blank"} und das [Ausfüllen eines Formulars](https://docs.google.com/forms/d/e/1FAIpQLSddDFt9G5dLr6emaNNBSosc4oHpJqA5ZBKmOY58-buILMZ8nw/viewform){: target="_blank}.
   show_map: true
 
 # Apps List
 locations_apps:
-  heading: "Participating Apps"
-  subheading: "Health IT patient-facing apps supporting IPA standards."
+  heading: "Teilnehmende Apps"
+  subheading: "Patientenorientierte Gesundheits-IT-Apps, die IPA-Standards unterstützen."
   description: |
-    **Submit your App**\
-    Are you a developer of a patient-facing health IT app that supports HL7 FHIR International Patient Access (IPA) standards? Submit your application to be featured in our directory by [understanding the requirements](https://github.com/HL7/ipa-website/blob/main/README.md){: target="_blank"} and filling out our [submission form](https://docs.google.com/forms/d/e/1FAIpQLSeGGNNW8zItp5-uapxCA3RIDWJefHCfWuUTaRmHUWRgh4q2Mg/viewform){: target="_blank}.
+    **Ihre App einreichen**\
+    Sind Sie Entwickler einer patientenorientierten Gesundheits-IT-App, die die HL7 FHIR International Patient Access (IPA)-Standards unterstützt? Reichen Sie Ihre Anwendung für unser Verzeichnis ein, indem [Sie die Anforderungen verstehen](https://github.com/HL7/ipa-website/blob/main/README.md){: target="_blank"} und unser [Formular ausfüllen](https://docs.google.com/forms/d/e/1FAIpQLSeGGNNW8zItp5-uapxCA3RIDWJefHCfWuUTaRmHUWRgh4q2Mg/viewform){: target="_blank}.
 
-    Disclaimer: The inclusion of apps in this directory is not an endorsement by Health Level Seven International (HL7). Users should verify the suitability of each app for their specific needs.
+    **Haftungsausschluss:** HL7® und FHIR® sind eingetragene Marken von Health Level Seven International und ihre Verwendung dieser Marken stellt keine Billigung durch HL7 dar. Benutzer sollten die Eignung jeder App für ihre spezifischen Anforderungen überprüfen.
 
 
 ---

@@ -2,11 +2,11 @@
 layout: blog
 permalink: /in-the-news/
 lang: de
-title: "In the News (German)"
+title: "In den Nachrichten"
 
 # Content
 general_content:
-  heading: "In the News"
+  heading: "In den Nachrichten"
   text: |
     Dieser Abschnitt enthält eine kuratierte Sammlung von Artikeln und Pressemitteilungen zum Thema „Internationaler Patientenzugang“, „HL7 FHIR“ und Interoperabilität von Gesundheitsdaten. Entdecken Sie Erkenntnisse von Branchenführern, innovative Praktiken und Fortschritte, die die Zukunft des Austauschs von Gesundheitsdaten prägen. Egal, ob Sie im Gesundheitswesen tätig sind oder selbst Patient, diese Ressourcen halten Sie über die neuesten Entwicklungen im Bereich zugänglicher und sicherer Gesundheitsinformationen auf dem Laufenden.
 

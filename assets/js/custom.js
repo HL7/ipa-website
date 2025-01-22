@@ -220,12 +220,18 @@
   }
 
   // Language switcher
-  function languageSwitcher() {
-    const lang = document.getElementById('language_select'),
+  function languageSwitcher(target) {
+    const lang = target,
       selectedLang = lang.options[lang.selectedIndex].value;
+
+    console.log(lang);
 
     window.location.href = selectedLang;
   }
   // Init language switcher
-  document.getElementById('language_select').addEventListener('change', languageSwitcher);
+  document.querySelectorAll('.language_select').forEach(function(element) {
+    element.addEventListener('change', function() {
+      languageSwitcher(this);
+    });
+  });
 })(window.jQuery);

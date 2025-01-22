@@ -4,10 +4,10 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<!-- All Meta -->
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
-		<meta name="description" content="{{site.description}}">
+		<meta name="description" content="{{site.description[site.active_lang]}}">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- page title -->
-		<title>{% if page.title %} {{ page.title }} {% else %} {{ site.title }} {% endif %}</title>
+		<title>{% if page.title %} {{ page.title }} {% else %} {{ site.title[site.active_lang] }} {% endif %}</title>
 		<!-- Favicon Icon -->
 		<link rel="shortcut icon" href="{{ "/assets/images/favicon.ico" | absolute_url }}" type="image/png">
 		<!-- All css -->
