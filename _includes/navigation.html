@@ -5,7 +5,7 @@
       {% if menu.submenu %}
       <ul class="sub-menu">
         {% for submenu_item in menu.submenu %}
-        <li class="menu-item"><a href="{{ submenu_item.url }}">{{submenu_item.text}}</a></li>
+        <li class="menu-item"><a href="{{ submenu_item.url | relative_url }}">{{submenu_item.text}}</a></li>
         {% endfor %}
       </ul>
     </li>
