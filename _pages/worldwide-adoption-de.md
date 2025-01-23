@@ -15,7 +15,7 @@ locations_orgs:
 
     **Standort eintragen**\
     Vertreten Sie eine Einrichtung des Gesundheitswesens, eine Regierungsbehörde, ein Labor, eine Apotheke oder einen Kostenträger? Erfahren Sie mehr über die [Listung Ihrer Organisation](https://github.com/HL7/ipa-website/blob/main/README.md){: target="_blank"} und das [Ausfüllen eines Formulars](https://docs.google.com/forms/d/e/1FAIpQLSddDFt9G5dLr6emaNNBSosc4oHpJqA5ZBKmOY58-buILMZ8nw/viewform){: target="_blank}.
-  show_map: true
+  show_map: false
 
 # Apps List
 locations_apps:
