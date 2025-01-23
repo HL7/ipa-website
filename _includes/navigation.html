@@ -1,11 +1,11 @@
 <nav class="main_menu">
   <ul>
     {% for menu in site.data.navigation %}
-    <li class="menu-item {% if page.url contains menu.url %} active_link {% endif %}"><a href="{{menu.url}}">{{menu.text}}</a>
+    <li class="menu-item {% if page.url contains menu.url %} active_link {% endif %}"><a href="{{ site.baseurl | absolute_url }}{{ menu.url }}">{{menu.text}}</a>
       {% if menu.submenu %}
       <ul class="sub-menu">
         {% for submenu_item in menu.submenu %}
-        <li class="menu-item"><a href="{{submenu_item.url}}">{{submenu_item.text}}</a></li>
+        <li class="menu-item"><a href="{{ site.baseurl | absolute_url }}{{ submenu_item.url }}">{{submenu_item.text}}</a></li>
         {% endfor %}
       </ul>
     </li>
