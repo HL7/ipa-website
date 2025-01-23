@@ -12,7 +12,7 @@ locations_orgs:
 
     **Submit Your Location**\
     Do you represent a health care organization, government agency, laboratory, pharmacy or payor? Learn more about [listing your organization](https://github.com/HL7/ipa-website/blob/main/README.md){: target="_blank"} and filling out a [submission form](https://docs.google.com/forms/d/e/1FAIpQLSddDFt9G5dLr6emaNNBSosc4oHpJqA5ZBKmOY58-buILMZ8nw/viewform){: target="_blank}.
-  show_map: true
+  show_map: false
 
 # Apps List
 locations_apps:
