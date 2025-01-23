@@ -67,7 +67,6 @@ accordion:
             - Implement the FHIR RESTful API framework.
             - Support FHIR Version 4.0.1 or later.
             - Provide endpoints for patient data access and sharing.
-            - Utilize the Consent resource for managing patient permissions.
             - Ensure robust security protocols, including OAuth 2.0 and SMART on FHIR.
             For a full list of requirements and specifications, visit the [International Patient Access API Specification](https://hl7.org/fhir/uv/ipa/){: target="_blank"}
         - question: "How is security ensured for health data access APIs?"

@@ -76,7 +76,6 @@ accordion:
             - Das FHIR RESTful API-Framework implementieren.
             - FHIR Version 4.0.1 oder höher unterstützen.
             - Endpunkte für den Zugriff und die Freigabe von Patientendaten bereitstellen.
-            - Die Einwilligungsressource zur Verwaltung von Patientenberechtigungen nutzen.
             - Robuste Sicherheitsprotokolle sicherstellen, einschließlich OAuth 2.0 und SMART auf FHIR.
              
             Eine vollständige Liste der Anforderungen und Spezifikationen finden Sie in der [International Patient Access API Specification](https://hl7.org/fhir/uv/ipa/){: target="_blank"}

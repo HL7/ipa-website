@@ -28,7 +28,7 @@ general_content:
 
     - Healthcare Providers: Hospitals, clinics, and healthcare networks around the globe contribute insights and testing environments.
     - Technology Companies: Leaders in health IT who provide expertise in software and systems integration.
-    Government Health Agencies: Ensuring regulations and standards are met across different countries.
+    - Government Health Agencies: Ensuring regulations and standards are met across different countries.
     - Academic Institutions: Conducting research and providing expert analyses and recommendations.
     - Dedicated Individuals: Volunteers from all backgrounds, including doctors, nurses, IT professionals, and policymakers, who bring diverse perspectives and skills to the table.
 
