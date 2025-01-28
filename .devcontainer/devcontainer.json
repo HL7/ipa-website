@@ -44,9 +44,6 @@
 					"other": true,
 					"comments": true,
 					"strings": true
-				},
-				"workbench.editorAssociations": {
-					"*.md": "vscode.markdown.preview.editor"
 				}
 			}
 		}

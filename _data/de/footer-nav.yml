@@ -1,0 +1,19 @@
+heading: Wichtige Links
+links:
+  - text: Internationaler Patientenzugang
+    url: /de/international-patient-access
+  - text: Weltweite Akzeptanz
+    url: /de/worldwide-adoption
+  - text: FAQs
+    url: /de/faqs
+  - text: In den Nachrichten
+    url: /de/in-the-news
+  - text: IPA übernehmen
+    url: /de/adopt-ipa
+  - text: Ressourcen für Patienten
+    url: /de/resources-for-patients
+  - text: Ressourcen für Entscheidungsträger
+    url: /de/resources-for-decision-makers
+  - text: Datenschutzrichtlinie
+    url: https://www.hl7.org/legal/privacy.cfm
+    new_tab: true
