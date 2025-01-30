@@ -9,7 +9,7 @@
 		<!-- language -->
 		{% for lang in site.languages %}
 			{% capture lang_href %}{{site.baseurl}}/{% unless lang == site.default_lang %}{{ lang }}/{% endunless %}{% endcapture %}
-			<link rel="alternate" hreflang="{{ lang }}" {% static_href %}href="{{ lang_href }}"{% endstatic_href %} />
+			<link rel="alternate" hreflang="{{ lang }}" href="{{ lang_href | absolute_url }}" />
 		{% endfor %}
 		<!-- page title -->
 		<title>{% if page.title %} {{ page.title }} {% else %} {{ site.title[site.active_lang] }} {% endif %}</title>
