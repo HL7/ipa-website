@@ -39,7 +39,7 @@ permalink: "/:title"
 # Localization/language settings
 languages: ["en", "de"]
 default_lang: "en"
-exclude_from_localization: ["assets"]
+exclude_from_localization: ["assets", "_sass"]
 parallel_localization: false
 lang_from_path: true
 language_names:
