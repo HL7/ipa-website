@@ -5,7 +5,7 @@
 			<div class="row align-items-center">
 				<div class="col-lg-2">
 					<div class="brand">
-					  <a href="{% if site.active_lang == site.default_lang %}{{ site.baseurl | absolute_url }}{% else %}{{ site.baseurl | absolute_url }}{{ site.active_lang  }}{% endif %}" class="logo"><img src="{{site.site_logo}}" class="img-fluid" alt="{{site.title[site.active_lang]}}"/></a>
+					  <a href="{% if site.active_lang == site.default_lang %}{{ site.baseurl | absolute_url }}/{% else %}{{ site.baseurl | absolute_url }}/{{ site.active_lang  }}{% endif %}" class="logo"><img src="{{site.site_logo}}" class="img-fluid" alt="{{site.title[site.active_lang]}}"/></a>
 					</div>
 				</div>
 				<div class="col-lg-10">
@@ -22,7 +22,7 @@
 				<div class="row align-items-center">
 					<div class="col-6">
 						<div class="brand_logo">
-							<a href="{% if site.active_lang == site.default_lang %}{{ site.baseurl | absolute_url }}{% else %}{{ site.baseurl | absolute_url }}{{ site.active_lang  }}{% endif %}"><img src="{{site.site_logo}}" class="img-fluid" alt="{{site.title[site.active_lang]}}"/></a>
+							<a href="{% if site.active_lang == site.default_lang %}{{ site.baseurl | absolute_url }}/{% else %}{{ site.baseurl | absolute_url }}/{{ site.active_lang  }}{% endif %}"><img src="{{site.site_logo}}" class="img-fluid" alt="{{site.title[site.active_lang]}}"/></a>
 						</div>
 					</div>
 					<div class="col-6">
