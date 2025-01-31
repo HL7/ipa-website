@@ -5,7 +5,11 @@
 			<div class="row align-items-center">
 				<div class="col-lg-2">
 					<div class="brand">
-					  <a {% static_href %}href="/{% unless site.active_lang == site.default_lang %}{{ site.active_lang }}{% endunless %}"{% endstatic_href %} class="logo"><img src="{{site.site_logo}}" class="img-fluid" alt="{{site.title[site.active_lang]}}"/></a>
+						{% if site.active_lang == site.default_lang %}
+					  <a {% static_href %}href="/"{% endstatic_href %} class="logo"><img src="{{site.site_logo}}" class="img-fluid" alt="{{site.title[site.active_lang]}}"/></a>
+						{% else %}
+					  <a {% static_href %}href="/{{ site.active_lang }}"{% endstatic_href %} class="logo"><img src="{{site.site_logo}}" class="img-fluid" alt="{{site.title[site.active_lang]}}"/></a>
+						{% endif %}
 					</div>
 				</div>
 				<div class="col-lg-10">
