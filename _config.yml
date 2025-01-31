@@ -26,7 +26,7 @@ description:
   en: International Patient Access empowers patients with secure, global access to their health records using the HL7 FHIR specification, enhancing healthcare delivery and interoperability across borders. Learn about best practices and steps to implement effective health data solutions.
   de: International Patient Access ermöglicht Patienten den sicheren, globalen Zugriff auf ihre Gesundheitsdaten unter Verwendung der HL7 FHIR-Spezifikation und verbessert die Gesundheitsversorgung und Interoperabilität über Grenzen hinweg. Erfahren Sie mehr über bewährte Verfahren und Schritte zur Implementierung effektiver Gesundheitsdatenlösungen.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://ipa.hl7.org" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://ipa.mightyrhino.net" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 github_username:
 site_logo: "/assets/images/logo.png"
