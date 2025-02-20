@@ -19,8 +19,8 @@
 # in the templates via {{ site.myvariable }}.
 
 title:
-  en: Argonaut
-  de: Argonaut (DE)
+  en: International Patient Access - IPA
+  de: International Patient Access - IPA (DE)
 email: your-email@example.com
 description:
   en: International Patient Access empowers patients with secure, global access to their health records using the HL7 FHIR specification, enhancing healthcare delivery and interoperability across borders. Learn about best practices and steps to implement effective health data solutions.
